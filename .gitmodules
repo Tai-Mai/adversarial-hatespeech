@@ -1,0 +1,3 @@
+[submodule "bert-base-uncased-hatexplain-rationale-two"]
+	path = bert-base-uncased-hatexplain-rationale-two
+	url = https://huggingface.co/Hate-speech-CNERG/bert-base-uncased-hatexplain-rationale-two
