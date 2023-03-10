@@ -2,10 +2,11 @@
 
 ## Installation
 ```bash
-$ pip install transformers
+$ pip install transformers nltk
 $ pip install --no-cache-dir torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
 $ git clone https://huggingface.co/Hate-speech-CNERG/bert-base-uncased-hatexplain-rationale-two
 ```
+* `nltk` for detokenizin
 
 
 
