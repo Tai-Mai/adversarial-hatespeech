@@ -40,7 +40,7 @@ def eval(text, model, tokenizer):
     model = model.to(device)
 
     inputs = tokenizer(
-        detokenized, 
+        text, 
         return_tensors="pt", 
         padding=True
     ).to(device)

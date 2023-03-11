@@ -44,9 +44,12 @@ for post in dataset(test_ids):
     # counter += 1
 
     detokenized = TreebankWordDetokenizer().detokenize(post["post_tokens"])
+    # batch = attack(detokenized)
 
-    probabilities = eval(detokenized, model, tokenizer)
-    print(f"Normal: {probabilities[0][0]}\nHatespeech: {probabilities[0][1]}\n\n")
+    # probabilities = eval(detokenized, model, tokenizer)
+    probabilities = eval(["this is a test", "this is a tast"], model, tokenizer)
+    print(probabilities)
+    # print(f"Normal: {probabilities[0][0]}\nHatespeech: {probabilities[0][1]}\n\n")
     # print(f"Normal: {probabilities[1][0]}\nHatespeech: {probabilities[1][1]}\n\n")
     
     # ATTACK HERE
