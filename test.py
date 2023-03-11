@@ -45,8 +45,9 @@ for post in dataset(test_ids):
     detokenized = TreebankWordDetokenizer().detokenize(post["post_tokens"])
     
     # ATTACK HERE
+    batch = attack(detokenized)
 
-    inputs = tokenizer(detokenized, return_tensors="pt", padding=True).to(device)
+    inputs = tokenizer(batch, return_tensors="pt", padding=True).to(device)
     prediction_logits, _ = model(input_ids=inputs['input_ids'],attention_mask=inputs['attention_mask'])
     softmax = torch.nn.Softmax(dim=1)
     probs = softmax(prediction_logits)
