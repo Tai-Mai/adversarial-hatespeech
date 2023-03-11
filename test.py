@@ -6,13 +6,14 @@ from nltk.tokenize.treebank import TreebankWordDetokenizer
 from utils.eval import eval
 from utils.attack import attack
 
-device = 'cuda' if torch.cuda.is_available() else 'cpu'
+device = "cuda" if torch.cuda.is_available() else "cpu"
 
-tokenizer = AutoTokenizer.from_pretrained("Hate-speech-CNERG/bert-base-uncased-hatexplain-rationale-two")
-model = \
-    Model_Rational_Label.from_pretrained(
-        "Hate-speech-CNERG/bert-base-uncased-hatexplain-rationale-two"
-    )
+tokenizer = AutoTokenizer.from_pretrained(
+    "Hate-speech-CNERG/bert-base-uncased-hatexplain-rationale-two"
+)
+model = Model_Rational_Label.from_pretrained(
+    "Hate-speech-CNERG/bert-base-uncased-hatexplain-rationale-two"
+)
 model = model.to(device)
 
 
@@ -26,15 +27,17 @@ model = model.to(device)
 # print(f"Normal: {probs[1][0]}\nHatespeech: {probs[1][1]}")
 
 # Load test dataset
-with open('data/post_id_divisions.json') as splits:
+with open("data/post_id_divisions.json") as splits:
     data = json.load(splits)
-    test_ids = data['test']
+    test_ids = data["test"]
+
 
 def dataset(ids):
-    with open('data/dataset.json') as data_file:
+    with open("data/dataset.json") as data_file:
         data = json.load(data_file)
     for i in ids:
         yield data[i]
+
 
 counter = 0
 batchsize = 8
@@ -43,15 +46,17 @@ for post in dataset(test_ids):
     #     break
     # counter += 1
 
-    detokenized = TreebankWordDetokenizer().detokenize(post["post_tokens"])
-    # batch = attack(detokenized)
+    text = TreebankWordDetokenizer().detokenize(post["post_tokens"])
 
-    # probabilities = eval(detokenized, model, tokenizer)
-    probabilities = eval(["this is a test", "this is a tast"], model, tokenizer)
+    attacks = attack(text, model, tokenizer)
+    print(attacks)
+
+    probabilities = eval(attacks, model, tokenizer)
+    # probabilities = eval(["this is a test", "this is a tast"], model, tokenizer)
     print(probabilities)
     # print(f"Normal: {probabilities[0][0]}\nHatespeech: {probabilities[0][1]}\n\n")
     # print(f"Normal: {probabilities[1][0]}\nHatespeech: {probabilities[1][1]}\n\n")
-    
+
     # ATTACK HERE
     # batch = attack(detokenized)
 
@@ -68,4 +73,3 @@ for post in dataset(test_ids):
     # print(post["post_id"])
     # print(post["annotators"][0]["label"])
     # print(TreebankWordDetokenizer().detokenize(post["post_tokens"]))
-
