@@ -1,9 +1,10 @@
 import torch
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
-### from models.py
 from pretrained.models import *
 import json
 from nltk.tokenize.treebank import TreebankWordDetokenizer
+from utils.eval import eval
+from utils.attack import attack
 
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
@@ -43,17 +44,21 @@ for post in dataset(test_ids):
     # counter += 1
 
     detokenized = TreebankWordDetokenizer().detokenize(post["post_tokens"])
+
+    probabilities = eval(detokenized, model, tokenizer)
+    print(f"Normal: {probabilities[0][0]}\nHatespeech: {probabilities[0][1]}\n\n")
+    # print(f"Normal: {probabilities[1][0]}\nHatespeech: {probabilities[1][1]}\n\n")
     
     # ATTACK HERE
-    batch = attack(detokenized)
+    # batch = attack(detokenized)
 
-    inputs = tokenizer(batch, return_tensors="pt", padding=True).to(device)
-    prediction_logits, _ = model(input_ids=inputs['input_ids'],attention_mask=inputs['attention_mask'])
-    softmax = torch.nn.Softmax(dim=1)
-    probs = softmax(prediction_logits)
-    print(f"Normal: {probs[0][0]}\nHatespeech: {probs[0][1]}\n\n")
-    print(f"Normal: {probs[1][0]}\nHatespeech: {probs[1][1]}\n\n")
-
+    # inputs = tokenizer(detokenized, return_tensors="pt", padding=True).to(device)
+    # prediction_logits, _ = model(input_ids=inputs['input_ids'],attention_mask=inputs['attention_mask'])
+    # softmax = torch.nn.Softmax(dim=1)
+    # probs = softmax(prediction_logits)
+    # print(f"Normal: {probs[0][0]}\nHatespeech: {probs[0][1]}\n\n")
+    # print(f"Normal: {probs[1][0]}\nHatespeech: {probs[1][1]}\n\n")
+    #
     break
 
     # print("------------------")
