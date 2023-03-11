@@ -1,6 +1,8 @@
 from typing import Union
 import transformers
 import string
+import torch
+from utils.eval import evaluate
 
 def attack(text, model, tokenizer, subs=1, top_k=5):
     """
@@ -44,26 +46,37 @@ def attack(text, model, tokenizer, subs=1, top_k=5):
     # prior_probabilities = softmax(prediction_logits)
     # prior_hatespeech_probability = prior_probabilities[0][1]
 
-    prior_hatespeech_probability = eval(text, model, tokenizer)[0][1]
+    prior_hatespeech_probability = evaluate(text, model, tokenizer)[0][1]
 
     # Generate attacks
     candidate_scores = {}
     for i, char in enumerate(text):
+        print("")
         for candidate in generate_candidates(text, i, model, tokenizer):
-            candidate_probability = eval(candidate, model, tokenizer)[0][1]
+            candidate_probability = evaluate(candidate, model, tokenizer)[0][1]
             
             candidate_score = prior_hatespeech_probability - candidate_probability
             # higher score is better
             candidate_scores[candidate] = candidate_score
+            # print("----------------------------------")
+            # print(f"i: {i}")
+            # print(f"char: {char}")
+            # print(f"candidate: {candidate}")
+            # print(f"score: {candidate_score}")
+            # print("----------------------------------")
+
 
     sorted_candidate_scores = dict(sorted(candidate_scores.items(), 
                                    key=lambda item: item[1], 
                                    reverse=True))
     attacks = list(sorted_candidate_scores)[:top_k]
+    attacks_scores = list(sorted_candidate_scores.values())[:top_k]
+    print(f"ATTACKS: {attacks}")
+    print(f"ATTACKS SCORES: {attacks_scores}")
     return attacks
 
 
-def generate_candidates(text, i, model, tokenizer)
+def generate_candidates(text, i, model, tokenizer):
     """
     Substitute a character in the text with every possible substitution 
 

@@ -3,7 +3,7 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification
 from pretrained.models import *
 import json
 from nltk.tokenize.treebank import TreebankWordDetokenizer
-from utils.eval import eval
+from utils.eval import evaluate
 from utils.attack import attack
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
@@ -33,10 +33,30 @@ with open("data/post_id_divisions.json") as splits:
 
 
 def dataset(ids):
+    """
+    Generates samples from the dataset. Only yields datapoints that are abusive
+    (offensive or hatespeech).
+
+    Parameters
+    ----------
+    ids : List(str)
+        List of post_ids of which to return the datapoints
+
+    Yields
+    ------
+    data[i] : Dict
+        Datapoint
+    """
     with open("data/dataset.json") as data_file:
         data = json.load(data_file)
     for i in ids:
-        yield data[i]
+        num_annotators = len(data[i]["annotators"])
+        num_normal = 0
+        for annotator in data[i]["annotators"]:
+            if annotator["label"].lower() == "normal":
+                num_normal += 1
+        if num_normal < num_annotators/2:
+            yield data[i]
 
 
 counter = 0
@@ -51,8 +71,8 @@ for post in dataset(test_ids):
     attacks = attack(text, model, tokenizer)
     print(attacks)
 
-    probabilities = eval(attacks, model, tokenizer)
-    # probabilities = eval(["this is a test", "this is a tast"], model, tokenizer)
+    probabilities = evaluate(attacks, model, tokenizer)
+    # probabilities = evaluate(["this is a test", "this is a tast"], model, tokenizer)
     print(probabilities)
     # print(f"Normal: {probabilities[0][0]}\nHatespeech: {probabilities[0][1]}\n\n")
     # print(f"Normal: {probabilities[1][0]}\nHatespeech: {probabilities[1][1]}\n\n")

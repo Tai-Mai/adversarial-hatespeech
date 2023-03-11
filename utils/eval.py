@@ -13,7 +13,7 @@ import torch
 # )
 # model = model.to(device)
 
-def eval(text, model, tokenizer):
+def evaluate(text, model, tokenizer):
     """
     Get model's prediction on a text.
 
