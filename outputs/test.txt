@@ -1,0 +1,12 @@
+Device: cuda
+
+Loading tokenizer...
+Loading model...
+Attacking dataset...
+1st column: non-abusive. 2nd column: abusive
+tensor([[0.6404, 0.3596],
+        [0.8935, 0.1065],
+        [0.6404, 0.3596],
+        [0.4799, 0.5201],
+        [0.0757, 0.9243]], device='cuda:0')
+Done.

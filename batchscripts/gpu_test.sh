@@ -1,6 +1,6 @@
 #!/bin/bash
-#SBATCH --job-name=test
-#SBATCH --output=outputs/test.txt
+#SBATCH --job-name=gpu_test
+#SBATCH --output=outputs/gpu_test.txt
 #SBATCH --mail-user=mai@cl.uni-heidelberg.de
 #SBATCH --mail-type=ALL
 #SBATCH --partition=students
@@ -24,5 +24,4 @@
 # export PYTHONPATH=${PYTHONPATH}:${PAPER_REPO}
 # PYTHONPATH=${PAPER_REPO}
 
-python3 test.py
-
+python -c "import torch;print(torch.cuda.is_available())"

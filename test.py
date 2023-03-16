@@ -7,14 +7,18 @@ from utils.eval import evaluate
 from utils.attack import attack
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
+print(f"Device: {device}\n")
 
+print(f"Loading tokenizer...")
 tokenizer = AutoTokenizer.from_pretrained(
     "Hate-speech-CNERG/bert-base-uncased-hatexplain-rationale-two"
 )
+print(f"Loading model...")
 model = Model_Rational_Label.from_pretrained(
     "Hate-speech-CNERG/bert-base-uncased-hatexplain-rationale-two"
 )
 model = model.to(device)
+model.eval()
 
 
 # inputs = tokenizer(['He is a great guy', 'He is a greeeeeet guy'],
@@ -61,6 +65,7 @@ def dataset(ids):
 
 counter = 0
 batchsize = 8
+print("Attacking dataset...")
 for post in dataset(test_ids):
     # if counter == 5:
     #     break
@@ -68,14 +73,23 @@ for post in dataset(test_ids):
 
     text = TreebankWordDetokenizer().detokenize(post["post_tokens"])
 
-    attacks = attack(text, model, tokenizer)
-    print(attacks)
+    # attacks = attack("You are a nigger", model, tokenizer)
+    # print(attacks)
 
-    probabilities = evaluate(attacks, model, tokenizer)
     # probabilities = evaluate(["this is a test", "this is a tast"], model, tokenizer)
-    print(probabilities)
+    # probabilities = evaluate(attacks, model, tokenizer)
+    # print(probabilities)
     # print(f"Normal: {probabilities[0][0]}\nHatespeech: {probabilities[0][1]}\n\n")
     # print(f"Normal: {probabilities[1][0]}\nHatespeech: {probabilities[1][1]}\n\n")
+
+    attacked = ["You are a n{gger who eats pie.",
+                "You are a ni@ger who eats pie.",
+                "You are a n{gger who eats pie.",
+                "You are a n~gger who eats pie.",
+                "You are a nigeer who eats pie."]
+    probabilities = evaluate(attacked, model, tokenizer)
+    print("1st column: non-abusive. 2nd column: abusive")
+    print(probabilities)
 
     # ATTACK HERE
     # batch = attack(detokenized)
@@ -93,3 +107,5 @@ for post in dataset(test_ids):
     # print(post["post_id"])
     # print(post["annotators"][0]["label"])
     # print(TreebankWordDetokenizer().detokenize(post["post_tokens"]))
+
+print("Done.")

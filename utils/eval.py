@@ -36,23 +36,24 @@ def evaluate(text, model, tokenizer):
         `probabilities[i][0]` and `probabilities[i][1]`, respectively, where
         `i` is the sample in the batch.
     """
-    device = 'cuda' if torch.cuda.is_available() else 'cpu'
-    model = model.to(device)
+    with torch.no_grad():
+        device = 'cuda' if torch.cuda.is_available() else 'cpu'
+        model = model.to(device)
 
-    inputs = tokenizer(
-        text, 
-        return_tensors="pt", 
-        padding=True
-    ).to(device)
-    prediction_logits, _ = model(
-        input_ids=inputs['input_ids'],
-        attention_mask=inputs['attention_mask']
-    )
-    softmax = torch.nn.Softmax(dim=1)
-    probabilities = softmax(prediction_logits)
-    # print(f"Normal: {probabilities[0][0]}\nHatespeech: {probabilities[0][1]}\n\n")
+        inputs = tokenizer(
+            text, 
+            return_tensors="pt", 
+            padding=True
+        ).to(device)
+        prediction_logits, _ = model(
+            input_ids=inputs['input_ids'],
+            attention_mask=inputs['attention_mask']
+        )
+        softmax = torch.nn.Softmax(dim=1)
+        probabilities = softmax(prediction_logits)
+        # print(f"Normal: {probabilities[0][0]}\nHatespeech: {probabilities[0][1]}\n\n")
 
-    return probabilities
+        return probabilities
 
 
 

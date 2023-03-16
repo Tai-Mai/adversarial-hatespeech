@@ -30,7 +30,7 @@ def attack(text, model, tokenizer, subs=1, top_k=5):
         List of the `top_k` attacks on the input text
     """
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
-    model = model.to(device)
+    # model = model.to(device)
 
     # Compute probabilities prior to the attacks
     # inputs = tokenizer(
@@ -51,13 +51,14 @@ def attack(text, model, tokenizer, subs=1, top_k=5):
     # Generate attacks
     candidate_scores = {}
     for i, char in enumerate(text):
-        print("")
-        for candidate in generate_candidates(text, i, model, tokenizer):
+        for candidate in generate_candidates(text, i):
             candidate_probability = evaluate(candidate, model, tokenizer)[0][1]
             
             candidate_score = prior_hatespeech_probability - candidate_probability
             # higher score is better
-            candidate_scores[candidate] = candidate_score
+            # convert candidate score (torch.Tensor) to float/double
+            candidate_scores[candidate] = candidate_score.item()    
+
             # print("----------------------------------")
             # print(f"i: {i}")
             # print(f"char: {char}")
@@ -71,12 +72,15 @@ def attack(text, model, tokenizer, subs=1, top_k=5):
                                    reverse=True))
     attacks = list(sorted_candidate_scores)[:top_k]
     attacks_scores = list(sorted_candidate_scores.values())[:top_k]
-    print(f"ATTACKS: {attacks}")
-    print(f"ATTACKS SCORES: {attacks_scores}")
+    for attack, score in zip(attacks, attacks_scores):
+        print(f"{score}: {attack}")
+
+    # print(f"ATTACKS: {attacks}")
+    # print(f"ATTACKS SCORES: {attacks_scores}")
     return attacks
 
 
-def generate_candidates(text, i, model, tokenizer):
+def generate_candidates(text, i):
     """
     Substitute a character in the text with every possible substitution 
 
@@ -86,10 +90,6 @@ def generate_candidates(text, i, model, tokenizer):
         Text to be attacked/modified.
     i : int
         Index of character to be substituted
-    model : transformers.AutoModelForSequenceClassification
-        Victim model, trained HateXplain model
-    tokenizer : transformers.AutoTokenizer
-        Tokenizer from trained HateXplain model
 
     Yields
     ------
