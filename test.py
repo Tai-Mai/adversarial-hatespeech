@@ -1,10 +1,14 @@
 import torch
-from transformers import AutoTokenizer, AutoModelForSequenceClassification
+from transformers import AutoTokenizer #, AutoModelForSequenceClassification
 from pretrained.models import *
 import json
 from nltk.tokenize.treebank import TreebankWordDetokenizer
 from utils.eval import evaluate
 from utils.attack import attack
+from utils.data import load_data
+from utils.data import fast_forward
+from utils.data import save_adversarial_examples
+from tqdm import tqdm
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 print(f"Device: {device}\n")
@@ -31,50 +35,31 @@ model.eval()
 # print(f"Normal: {probs[1][0]}\nHatespeech: {probs[1][1]}")
 
 # Load test dataset
-with open("data/post_id_divisions.json") as splits:
-    data = json.load(splits)
-    test_ids = data["test"]
 
+dataset = load_data()
 
-def dataset(ids):
-    """
-    Generates samples from the dataset. Only yields datapoints that are abusive
-    (offensive or hatespeech).
+# JSON file that will contain the found adversarial examples
+target_file = "data/adversarial_examples.json"
+# Fast-forward the dataset to the last attacked datapoint in case target_file 
+# exists. If it doesn't, `fast_forward` will do nothing and `num_skipped` = 0
+num_skipped = fast_forward(dataset, target_file)
 
-    Parameters
-    ----------
-    ids : List(str)
-        List of post_ids of which to return the datapoints
-
-    Yields
-    ------
-    data[i] : Dict
-        Datapoint
-    """
-    with open("data/dataset.json") as data_file:
-        data = json.load(data_file)
-    for i in ids:
-        num_annotators = len(data[i]["annotators"])
-        num_normal = 0
-        for annotator in data[i]["annotators"]:
-            if annotator["label"].lower() == "normal":
-                num_normal += 1
-        if num_normal < num_annotators/2:
-            yield data[i]
-
-
-counter = 0
-batchsize = 8
+# batchsize = 8
 print("Attacking dataset...")
-for post in dataset(test_ids):
+for post in tqdm(dataset, total=1142-num_skipped):    
+    # 1142 is number of abusive datapoints in the test set
+
+    # i to resume in the middle of the dataset
     # if counter == 5:
     #     break
     # counter += 1
 
-    text = TreebankWordDetokenizer().detokenize(post["post_tokens"])
+    original_text = TreebankWordDetokenizer().detokenize(post["post_tokens"])
 
-    # attacks = attack("You are a nigger", model, tokenizer)
-    # print(attacks)
+    attacks = attack(post["post_id"], original_text, model, tokenizer)
+    print(attacks)
+
+    save_adversarial_examples(post["post_id"], original_text, attacks, target_file)
 
     # probabilities = evaluate(["this is a test", "this is a tast"], model, tokenizer)
     # probabilities = evaluate(attacks, model, tokenizer)
@@ -82,17 +67,14 @@ for post in dataset(test_ids):
     # print(f"Normal: {probabilities[0][0]}\nHatespeech: {probabilities[0][1]}\n\n")
     # print(f"Normal: {probabilities[1][0]}\nHatespeech: {probabilities[1][1]}\n\n")
 
-    attacked = ["You are a n{gger who eats pie.",
-                "You are a ni@ger who eats pie.",
-                "You are a n{gger who eats pie.",
-                "You are a n~gger who eats pie.",
-                "You are a nigeer who eats pie."]
-    probabilities = evaluate(attacked, model, tokenizer)
-    print("1st column: non-abusive. 2nd column: abusive")
-    print(probabilities)
-
-    # ATTACK HERE
-    # batch = attack(detokenized)
+    # attacked = ["You are a n{gger who eats pie.",
+    #             "You are a ni@ger who eats pie.",
+    #             "You are a n{gger who eats pie.",
+    #             "You are a n~gger who eats pie.",
+    #             "You are a nigeer who eats pie."]
+    # probabilities = evaluate(attacked, model, tokenizer)
+    # print("1st column: non-abusive. 2nd column: abusive")
+    # print(probabilities)
 
     # inputs = tokenizer(detokenized, return_tensors="pt", padding=True).to(device)
     # prediction_logits, _ = model(input_ids=inputs['input_ids'],attention_mask=inputs['attention_mask'])

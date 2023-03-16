@@ -4,13 +4,13 @@ import string
 import torch
 from utils.eval import evaluate
 
-def attack(text, model, tokenizer, subs=1, top_k=5):
+def attack(original_text, model, tokenizer, subs=1, top_k=5):
     """
     Return adversarial examples
 
     Parameters
     ----------
-    text : str
+    original_text : str
         Text to be attacked/modified.
     model : transformers.AutoModelForSequenceClassification
         Victim model, trained HateXplain model
@@ -30,7 +30,7 @@ def attack(text, model, tokenizer, subs=1, top_k=5):
         List of the `top_k` attacks on the input text
     """
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
-    # model = model.to(device)
+    model = model.to(device)
 
     # Compute probabilities prior to the attacks
     # inputs = tokenizer(
@@ -46,12 +46,12 @@ def attack(text, model, tokenizer, subs=1, top_k=5):
     # prior_probabilities = softmax(prediction_logits)
     # prior_hatespeech_probability = prior_probabilities[0][1]
 
-    prior_hatespeech_probability = evaluate(text, model, tokenizer)[0][1]
+    prior_hatespeech_probability = evaluate(original_text, model, tokenizer)[0][1]
 
     # Generate attacks
     candidate_scores = {}
-    for i, char in enumerate(text):
-        for candidate in generate_candidates(text, i):
+    for i, char in enumerate(original_text):
+        for candidate in generate_candidates(original_text, i):
             candidate_probability = evaluate(candidate, model, tokenizer)[0][1]
             
             candidate_score = prior_hatespeech_probability - candidate_probability
