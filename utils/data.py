@@ -111,8 +111,25 @@ def save_adversarial_examples(post_id, results, filename):
         json.dump(full_results, f, indent=4)
 
 
+def indent(original_file, target_file):
+    """
+    Creates indents in the original dataset file for easier searchability.
+
+    Parameters
+    ----------
+    original_file : str
+        Name/path of original dataset JSON file.
+    """
+
+    with open(original_file) as data_file:
+        data = json.load(data_file)
+
+    with open(target_file, "w") as f:
+        json.dump(data, f, indent=4)
+
+
 def main():
-    pass
+    indent("data/original_dataset.json", "data/dataset.json")
 
 if __name__ == "__main__":
     main()

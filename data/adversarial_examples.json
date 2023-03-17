@@ -54,5 +54,33 @@
                 "abusive_probability": 0.5930965542793274
             }
         ]
+    },
+    "1169443635869487105_twitter": {
+        "original": {
+            "text": "<user> lol not me i don \u2019 t deal with bms not outside children \u2019 ss i leave that ghetto mess for everybody else \ud83d\ude02 \ud83d\ude02 \ud83d\ude02",
+            "abusive_probability": 0.32449960708618164
+        },
+        "attacks": [
+            {
+                "text": "<user> lol not me i don \u2019 t deal with bms not outside children \u2019 ss i leave that @hetto mess for everybody else \ud83d\ude02 \ud83d\ude02 \ud83d\ude02",
+                "abusive_probability": 0.05364619940519333
+            },
+            {
+                "text": "<user> lol not me i don \u2019 t deal with bms not outside children \u2019 ss i leave that ghe@to mess for everybody else \ud83d\ude02 \ud83d\ude02 \ud83d\ude02",
+                "abusive_probability": 0.05528416112065315
+            },
+            {
+                "text": "<user> lol not me i don \u2019 t deal with bms not outside children \u2019 ss i leave that ghett@ mess for everybody else \ud83d\ude02 \ud83d\ude02 \ud83d\ude02",
+                "abusive_probability": 0.0554891973733902
+            },
+            {
+                "text": "<user> lol not me i don \u2019 t deal with bms not outside children \u2019 ss i leave that ghett} mess for everybody else \ud83d\ude02 \ud83d\ude02 \ud83d\ude02",
+                "abusive_probability": 0.05805136635899544
+            },
+            {
+                "text": "<user> lol not me i don \u2019 t deal with bms not outside children \u2019 ss i leave that ghett\" mess for everybody else \ud83d\ude02 \ud83d\ude02 \ud83d\ude02",
+                "abusive_probability": 0.05828659608960152
+            }
+        ]
     }
 }

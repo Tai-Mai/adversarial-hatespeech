@@ -80,7 +80,6 @@ def attack(original_text, model, tokenizer, subs=1, top_k=5):
             candidate_score = prior_abusive_probability - candidate_probability
             # higher score is better
             candidate_scores[candidate] = candidate_score
-            print(f"candidate_score: {candidate_score}")
 
             # print("----------------------------------")
             # print(f"i: {i}")
@@ -106,7 +105,7 @@ def attack(original_text, model, tokenizer, subs=1, top_k=5):
 
     for attack, score in zip(attacks, attacks_scores):
         # print(f"{score}: {attack}")
-        print(f"candidate_score: {candidate_score}")
+        # print(f"candidate_score: {candidate_score}")
         result = {
             "text" : attack,
             "abusive_probability" : prior_abusive_probability - score
