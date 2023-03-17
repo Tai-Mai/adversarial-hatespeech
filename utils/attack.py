@@ -26,8 +26,27 @@ def attack(original_text, model, tokenizer, subs=1, top_k=5):
 
     Returns
     -------
-    attacks : List[str]
+    results : dict
         List of the `top_k` attacks on the input text
+        ```
+        results = {
+            "original" : {
+                "text" : original text,
+                "abusive_probability" : probability before attack
+            },
+            "attacks" : [
+                {
+                    "text" : attack1,
+                    "abusive_probability" : probability after attack
+                },
+                {
+                    "text" : attack2,
+                    "abusive_probability" : probability after attack
+                },
+                ...
+            ]
+        }
+        ```
     """
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
     model = model.to(device)
@@ -46,18 +65,22 @@ def attack(original_text, model, tokenizer, subs=1, top_k=5):
     # prior_probabilities = softmax(prediction_logits)
     # prior_hatespeech_probability = prior_probabilities[0][1]
 
-    prior_hatespeech_probability = evaluate(original_text, model, tokenizer)[0][1]
+    prior_abusive_probability = evaluate(original_text, model,
+                                         tokenizer)[0][1]
+    # convert candidate score (torch.Tensor) to float/double
+    prior_abusive_probability = prior_abusive_probability.item()
 
     # Generate attacks
     candidate_scores = {}
     for i, char in enumerate(original_text):
         for candidate in generate_candidates(original_text, i):
-            candidate_probability = evaluate(candidate, model, tokenizer)[0][1]
+            candidate_probability = evaluate(candidate, model,
+                                             tokenizer)[0][1].item()
             
-            candidate_score = prior_hatespeech_probability - candidate_probability
+            candidate_score = prior_abusive_probability - candidate_probability
             # higher score is better
-            # convert candidate score (torch.Tensor) to float/double
-            candidate_scores[candidate] = candidate_score.item()    
+            candidate_scores[candidate] = candidate_score
+            print(f"candidate_score: {candidate_score}")
 
             # print("----------------------------------")
             # print(f"i: {i}")
@@ -72,12 +95,30 @@ def attack(original_text, model, tokenizer, subs=1, top_k=5):
                                    reverse=True))
     attacks = list(sorted_candidate_scores)[:top_k]
     attacks_scores = list(sorted_candidate_scores.values())[:top_k]
+
+    results = {
+        "original" : {
+            "text" : original_text,
+            "abusive_probability" : prior_abusive_probability
+        },
+        "attacks" : []
+    }
+
     for attack, score in zip(attacks, attacks_scores):
-        print(f"{score}: {attack}")
+        # print(f"{score}: {attack}")
+        print(f"candidate_score: {candidate_score}")
+        result = {
+            "text" : attack,
+            "abusive_probability" : prior_abusive_probability - score
+        }
+        results["attacks"].append(result)
 
     # print(f"ATTACKS: {attacks}")
     # print(f"ATTACKS SCORES: {attacks_scores}")
-    return attacks
+
+    # print(results)
+
+    return results
 
 
 def generate_candidates(text, i):

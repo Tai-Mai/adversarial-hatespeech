@@ -1,0 +1,58 @@
+{
+    "1252707503441313794_twitter": {
+        "original": {
+            "text": "<user> <user> why are you repeating yourself are you a little retarded",
+            "abusive_probability": 0.7781403064727783
+        },
+        "attacks": [
+            {
+                "text": "<user> <user> why are you repeating yourself are you a little rewarded",
+                "abusive_probability": 0.024130934849381447
+            },
+            {
+                "text": "<user> <user> why are you repeating yourself are you a little reWarded",
+                "abusive_probability": 0.024130934849381447
+            },
+            {
+                "text": "<user> <user> why are you repeating yourself are you a little @etarded",
+                "abusive_probability": 0.024432916194200516
+            },
+            {
+                "text": "<user> <user> why are you repeating yourself are you a little revarded",
+                "abusive_probability": 0.02444992959499359
+            },
+            {
+                "text": "<user> <user> why are you repeating yourself are you a little reVarded",
+                "abusive_probability": 0.02444992959499359
+            }
+        ]
+    },
+    "1103385226921762816_twitter": {
+        "original": {
+            "text": "<user> <user> well she \u2019 muslim so of course she hates the jews jew hatred is one of the defining feature of islam",
+            "abusive_probability": 0.7565922141075134
+        },
+        "attacks": [
+            {
+                "text": "<user> <user> well she \u2019 muslim so of course she hates the jews [ew hatred is one of the defining feature of islam",
+                "abusive_probability": 0.5722723603248596
+            },
+            {
+                "text": "<user> <user> well she \u2019 muslim so of course she hates the jews &ew hatred is one of the defining feature of islam",
+                "abusive_probability": 0.5774858593940735
+            },
+            {
+                "text": "<user> <user> well she \u2019 muslim so of course she hates the jews jew hatred is one of the defining feature of is:am",
+                "abusive_probability": 0.5776488184928894
+            },
+            {
+                "text": "<user> <user> well she \u2019 muslim so of course she hates the jews /ew hatred is one of the defining feature of islam",
+                "abusive_probability": 0.5918062925338745
+            },
+            {
+                "text": "<user> <user> well she \u2019 muslim so of course she hates the jews jew hatred is one of the defining feature of is;am",
+                "abusive_probability": 0.5930965542793274
+            }
+        ]
+    }
+}

@@ -63,40 +63,52 @@ def fast_forward(dataset, filename):
     return num_skipped
 
 
-def save_adversarial_examples(post_id, original_text, attacks, filename):
+def save_adversarial_examples(post_id, results, filename):
     """
     Save adversarial examples to a .json file.
 
     Parameters
     ----------
     post_id : str
-        post_id of a specific post in the dataset.
-    original_text : str
-        Original text before adversarial attacks.
-    attacks : List[str]
-        List of successful adversarial attacks on the original_text.
+        post_id of the post in the dataset.
+    results : dict
+        List of the `top_k` attacks on the input text
+        ```
+        results = {
+            "original" : {
+                "text" : original text,
+                "abusive_probability" : probability before attack
+            },
+            "attacks" : [
+                {
+                    "text" : attack1,
+                    "abusive_probability" : probability after attack
+                },
+                {
+                    "text" : attack2,
+                    "abusive_probability" : probability after attack
+                },
+                ...
+            ]
+        }
+        ```
     filename : str
         Under which filename to save. Can pre-exist, in which case lines are 
         appended to the existing file.
     """
     if os.path.exists(filename):
         with open(filename, "r") as f:
-            existing_data = json.load(f)
+            existing_results = json.load(f)
     else:
         # create new json
-        existing_data = {}
+        existing_results = {}
 
-    new_data = {
-        post_id : {
-            "original text" : original_text,
-            "attacks" : attacks,
-        }
-    }
+    results = {post_id : results}
 
     # merge existing data with new data
-    full_data = {**existing_data, **new_data}
+    full_results = {**existing_results, **results}
     with open(filename, "w") as f:
-        json.dump(full_data, f)
+        json.dump(full_results, f, indent=4)
 
 
 def main():

@@ -36,7 +36,7 @@ model.eval()
 
 # Load test dataset
 
-dataset = load_data()
+dataset = load_data("test")
 
 # JSON file that will contain the found adversarial examples
 target_file = "data/adversarial_examples.json"
@@ -56,10 +56,10 @@ for post in tqdm(dataset, total=1142-num_skipped):
 
     original_text = TreebankWordDetokenizer().detokenize(post["post_tokens"])
 
-    attacks = attack(post["post_id"], original_text, model, tokenizer)
-    print(attacks)
+    results = attack(original_text, model, tokenizer)
+    print(results)
 
-    save_adversarial_examples(post["post_id"], original_text, attacks, target_file)
+    save_adversarial_examples(post["post_id"], results, target_file)
 
     # probabilities = evaluate(["this is a test", "this is a tast"], model, tokenizer)
     # probabilities = evaluate(attacks, model, tokenizer)
