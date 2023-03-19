@@ -51,43 +51,18 @@ def attack(original_text, model, tokenizer, subs=1, top_k=5):
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
     model = model.to(device)
 
-    # Compute probabilities prior to the attacks
-    # inputs = tokenizer(
-    #     text, 
-    #     return_tensors="pt", 
-    #     padding=True
-    # ).to(device)
-    # prediction_logits, _ = model(
-    #     input_ids=inputs['input_ids'],
-    #     attention_mask=inputs['attention_mask']
-    # )
-    # softmax = torch.nn.Softmax(dim=1)
-    # prior_probabilities = softmax(prediction_logits)
-    # prior_hatespeech_probability = prior_probabilities[0][1]
-
     prior_abusive_probability = evaluate(original_text, model,
-                                         tokenizer)[0][1]
-    # convert candidate score (torch.Tensor) to float/double
-    prior_abusive_probability = prior_abusive_probability.item()
-
+                                         tokenizer)[1]
     # Generate attacks
     candidate_scores = {}
     for i, char in enumerate(original_text):
         for candidate in generate_candidates(original_text, i):
             candidate_probability = evaluate(candidate, model,
-                                             tokenizer)[0][1].item()
+                                             tokenizer)[1]
             
             candidate_score = prior_abusive_probability - candidate_probability
             # higher score is better
             candidate_scores[candidate] = candidate_score
-
-            # print("----------------------------------")
-            # print(f"i: {i}")
-            # print(f"char: {char}")
-            # print(f"candidate: {candidate}")
-            # print(f"score: {candidate_score}")
-            # print("----------------------------------")
-
 
     sorted_candidate_scores = dict(sorted(candidate_scores.items(), 
                                    key=lambda item: item[1], 
@@ -105,15 +80,11 @@ def attack(original_text, model, tokenizer, subs=1, top_k=5):
 
     for attack, score in zip(attacks, attacks_scores):
         # print(f"{score}: {attack}")
-        # print(f"candidate_score: {candidate_score}")
         result = {
             "text" : attack,
             "abusive_probability" : prior_abusive_probability - score
         }
         results["attacks"].append(result)
-
-    # print(f"ATTACKS: {attacks}")
-    # print(f"ATTACKS SCORES: {attacks_scores}")
 
     # print(results)
 

@@ -1,36 +1,57 @@
 import json
 import os
+import torch
+from shutil import copyfile
+from tqdm import tqdm
+from nltk.tokenize.treebank import TreebankWordDetokenizer
+from .eval import evaluate
+# from ..pretrained.models import Model_Rational_Label
+# from transformers import AutoTokenizer
+# from .eval import evaluate
 
 
-def load_data(split):
+def load_data(dataset_file, only_abusive=True, split=None):
     """
     Generates samples from the dataset. Only yields datapoints that are abusive
-    (offensive or hatespeech).
+    (offensive or hatespeech)!
 
     Parameters
     ----------
+    dataset_file : str
+        Path/name of dataset file.
     split : str
-        train, test, or dev
+        train, test, dev, or None (default).
 
     Yields
     ------
     data[i] : Dict
         Datapoint
     """
-    with open("data/post_id_divisions.json") as splits:
-        data = json.load(splits)
-        ids = data[split]
 
-    with open("data/dataset.json") as data_file:
+    with open(dataset_file) as data_file:
         data = json.load(data_file)
 
-    for i in ids:
-        num_annotators = len(data[i]["annotators"])
-        num_normal = 0
-        for annotator in data[i]["annotators"]:
-            if annotator["label"].lower() == "normal":
-                num_normal += 1
-        if num_normal < num_annotators/2:
+    if split is not None:
+        # Load only ids from a specific split (train, dev, or test)
+        with open("data/post_id_divisions.json") as f:
+            splits = json.load(f)
+            ids = splits[split]
+    else:
+        # Load all ids
+        ids = data.keys()
+
+    if only_abusive:
+        for i in ids:
+            num_annotators = 3
+            num_normal = 0
+            for annotator in data[i]["annotators"]:
+                if annotator["label"].lower() == "normal":
+                    num_normal += 1
+            # Return datapoint if annotators and model agree that it's abusive
+            if num_normal < num_annotators/2 and data[i]["prediction"] == "abusive":
+                yield data[i]
+    else:
+        for i in ids:
             yield data[i]
 
 
@@ -111,7 +132,7 @@ def save_adversarial_examples(post_id, results, filename):
         json.dump(full_results, f, indent=4)
 
 
-def indent(original_file, target_file):
+def format_dataset_file(dataset_file):
     """
     Creates indents in the original dataset file for easier searchability.
 
@@ -119,17 +140,83 @@ def indent(original_file, target_file):
     ----------
     original_file : str
         Name/path of original dataset JSON file.
+    target_file : str
+        Name/path of target dataset JSON file.
     """
+    path_split = os.path.split(dataset_file)
+    original_file = os.path.join(path_split[0], "original_"+path_split[1])
+    copyfile(dataset_file, original_file)
 
-    with open(original_file) as data_file:
+    with open(dataset_file) as data_file:
         data = json.load(data_file)
 
-    with open(target_file, "w") as f:
+    with open(dataset_file, "w") as f:
         json.dump(data, f, indent=4)
 
 
+def prediction_to_dataset_file(dataset_file, model, tokenizer):
+    """
+    Adds the model's vanilla prediction (no adversarial attacks) to the dataset 
+    file.
+
+    Parameters
+    ----------
+    dataset_file : str
+        Name/path of dataset JSON file.
+    model : pretrained.models.Model_Rational_Label
+        Hatespeech detection model.
+    tokenizer : nltk.tokenize.treebank.TreebankWordDetokenizer
+        Detokenizes the datapoint text since datapoints are saved as lists of
+        tokens in the dataset.
+
+    Returns
+    -------
+    num_correct : int
+        Number of correct predictions. Correct means model predicted "abusive"
+        if more than half of the annotators annotated either "offensive" or
+        "hatespeech".
+    """
+    with open(dataset_file) as f:
+        data = json.load(f)
+
+    dataset = load_data(dataset_file, only_abusive=False)
+    num_correct = 0
+    for post in tqdm(dataset, total=20148):    # 20148 samples in entire dataset
+        post_id = post["post_id"]
+        text = TreebankWordDetokenizer().detokenize(post["post_tokens"])
+        probability_normal, probability_abusive = evaluate(text, 
+                                                           model, 
+                                                           tokenizer)
+        if probability_abusive > probability_normal:
+            prediction = "abusive"
+        else:
+            prediction = "normal"
+        
+        data[post_id]["prediction"] = prediction
+
+        num_annotators = 3
+        num_normal = 0
+        for annotator in data[post_id]["annotators"]:
+            if annotator["label"].lower() == "normal":
+                num_normal += 1
+        if num_normal < num_annotators/2:
+            annotation = "abusive"
+        else: 
+            annotation = "normal"
+        if prediction == annotation:
+            num_correct += 1
+
+    with open(dataset_file, "w") as f:
+        print("Updating file...")
+        json.dump(data, f, indent=4)
+
+    print(f"Correctly classified: {num_correct}/20148 =", 
+           "{:.2f}".format(num_correct/20148))
+
+
 def main():
-    indent("data/original_dataset.json", "data/dataset.json")
+    pass
+
 
 if __name__ == "__main__":
     main()

@@ -1,6 +1,6 @@
 #!/bin/bash
-#SBATCH --job-name=test
-#SBATCH --output=outputs/test.txt
+#SBATCH --job-name=attack
+#SBATCH --output=outputs/attack.txt
 #SBATCH --mail-user=mai@cl.uni-heidelberg.de
 #SBATCH --mail-type=ALL
 #SBATCH --partition=students
@@ -24,5 +24,5 @@
 # export PYTHONPATH=${PYTHONPATH}:${PAPER_REPO}
 # PYTHONPATH=${PAPER_REPO}
 
-python3 test.py
+python3 main.py
 

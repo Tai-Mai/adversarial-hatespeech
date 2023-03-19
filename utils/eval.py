@@ -1,17 +1,6 @@
 from typing import Union
 import torch
-# from transformers import AutoTokenizer, AutoModelForSequenceClassification
-# from pretrained.models import *
-#
-# device = "cuda" if torch.cuda.is_available() else "cpu"
-#
-# tokenizer = AutoTokenizer.from_pretrained(
-#     "Hate-speech-CNERG/bert-base-uncased-hatexplain-rationale-two"
-# )
-# model = Model_Rational_Label.from_pretrained(
-#     "Hate-speech-CNERG/bert-base-uncased-hatexplain-rationale-two"
-# )
-# model = model.to(device)
+
 
 def evaluate(text, model, tokenizer):
     """
@@ -30,11 +19,8 @@ def evaluate(text, model, tokenizer):
     -------
     probabilities : torch.Tensor
         If text is only one string, then get probabilities with
-        `probabilities[0][0]` for `normal` and 
-        `probabilities[0][1]` for `hatespeech`.
-        If text is multiple strings in a list, then get probabilities with
-        `probabilities[i][0]` and `probabilities[i][1]`, respectively, where
-        `i` is the sample in the batch.
+        `probabilities[0]` for `normal` and 
+        `probabilities[1]` for `abusive` (offensive or hatespeech).
     """
     with torch.no_grad():
         device = 'cuda' if torch.cuda.is_available() else 'cpu'
@@ -51,9 +37,9 @@ def evaluate(text, model, tokenizer):
         )
         softmax = torch.nn.Softmax(dim=1)
         probabilities = softmax(prediction_logits)
+        # convert tensor to list
+        probabilities = probabilities.squeeze().tolist()
+        # print(probabilities)
         # print(f"Normal: {probabilities[0][0]}\nHatespeech: {probabilities[0][1]}\n\n")
 
         return probabilities
-
-
-
