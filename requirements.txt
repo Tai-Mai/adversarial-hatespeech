@@ -1,0 +1,5 @@
+lime==0.2.0.1
+nltk==3.8.1
+torch==1.13.1+cu116
+tqdm==4.65.0
+transformers==4.26.1

@@ -2,7 +2,7 @@ from typing import Union
 import torch
 
 
-def evaluate(text, model, tokenizer):
+def evaluate(text, model, tokenizer, return_tensor=False):
     """
     Get model's prediction on a text.
 
@@ -25,6 +25,7 @@ def evaluate(text, model, tokenizer):
     with torch.no_grad():
         device = 'cuda' if torch.cuda.is_available() else 'cpu'
         model = model.to(device)
+        model.eval()
 
         inputs = tokenizer(
             text, 
@@ -38,7 +39,10 @@ def evaluate(text, model, tokenizer):
         softmax = torch.nn.Softmax(dim=1)
         probabilities = softmax(prediction_logits)
         # convert tensor to list
-        probabilities = probabilities.squeeze().tolist()
+        if return_tensor:
+            probabilities = probabilities.cpu().detach().numpy()
+        else:
+            probabilities = probabilities.squeeze().tolist()
         # print(probabilities)
         # print(f"Normal: {probabilities[0][0]}\nHatespeech: {probabilities[0][1]}\n\n")
 
