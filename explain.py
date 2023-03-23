@@ -9,7 +9,7 @@ from tqdm import tqdm
 import gc
 
 
-def lime_explain(model, tokenizer, attacks_file, top_k=2, num_features=5):
+def lime_explain(model, tokenizer, attacks_file, top_k=5, num_features=5):
     """
     Reads the file containing the attacks, gets rationale explanations using 
     LIME, and adds them to the file in-place.
@@ -23,8 +23,8 @@ def lime_explain(model, tokenizer, attacks_file, top_k=2, num_features=5):
     attacks_file : str
         Name/path of JSON file containing the adversarial attacks.
     top_k : int
-        Number of explanations of the k best candidates. 
-        Default: 2
+        How many attacks to explain
+        Default: 5
     num_features : int
         Number of tokens to include in explanations.
         Default: 5
@@ -70,7 +70,7 @@ def lime_explain(model, tokenizer, attacks_file, top_k=2, num_features=5):
             # print("\nExplanation of original text:\n", exp_original.as_list())
             attacks[post_id]["original"]["explanation"] = exp_original.as_list()
 
-            for k, attack in enumerate(results["attacks"][:top_k]):
+            for k, attack in enumerate(results["top_k_attacks"][:top_k]):
                 exp_attack = explainer.explain_instance(
                         attack["text"],
                         lambda text: evaluate(text, model, tokenizer,
@@ -80,7 +80,7 @@ def lime_explain(model, tokenizer, attacks_file, top_k=2, num_features=5):
                 )
                 # print(torch.cuda.memory_summary(device=0))
                 # print("Explanation of attacked text:\n", exp_attack.as_list())
-                attacks[post_id]["attacks"][k]["explanation"] = exp_attack.as_list()
+                attacks[post_id]["top_k_attacks"][k]["explanation"] = exp_attack.as_list()
 
             
             with open(attacks_file, "w") as f:

@@ -82,8 +82,8 @@ def main():
     print("Fast-forwarding...")
     num_skipped = fast_forward(dataset, target_file)
 
-    cumulative_success_rate = 0
-    cumulative_success_rate_in_top_k = 0
+    # cumulative_success_rate = 0
+    # cumulative_success_rate_in_top_k = 0
 
     print("Attacking dataset...")
     for post in tqdm(dataset, total=num_datapoints-num_skipped):    
@@ -91,30 +91,17 @@ def main():
 
         original_text = TreebankWordDetokenizer().detokenize(post["post_tokens"])
 
-        results, success_rate, success_rate_in_top_k = attack(original_text, 
-                                                    model, 
-                                                    tokenizer,
-                                                    permissible_substitutions)
-        cumulative_success_rate += success_rate
-        cumulative_success_rate_in_top_k += success_rate_in_top_k
+        results = attack(original_text, model, tokenizer, permissible_substitutions)
+        # cumulative_success_rate += success_rate
+        # cumulative_success_rate_in_top_k += success_rate_in_top_k
         # print(results)
 
         save_adversarial_examples(post["post_id"], results, target_file)
 
-        # attacked = ["You are a n{gger who eats pie.",
-        #             "You are a ni@ger who eats pie.",
-        #             "You are a n{gger who eats pie.",
-        #             "You are a n~gger who eats pie.",
-        #             "You are a nigeer who eats pie."]
-        # probabilities = evaluate(attacked, model, tokenizer)
-        # print("1st column: non-abusive. 2nd column: abusive")
-        # print(probabilities)
-
-    
-    average_success_rate = cumulative_success_rate / num_datapoints
-    average_success_rate_in_top_k = cumulative_success_rate_in_top_k / num_datapoints
-    print("Average attack success rate: {%.2f}".format(average_success_rate))
-    print("Average attack success rate in top k: {%.2f}".format(average_success_rate_in_top_k))
+    # average_success_rate = cumulative_success_rate / num_datapoints
+    # average_success_rate_in_top_k = cumulative_success_rate_in_top_k / num_datapoints
+    # print("Average attack success rate: {:.4f}".format(average_success_rate))
+    # print("Average attack success rate in top k: {:.4f}".format(average_success_rate_in_top_k))
     print("Done.")
 
 if __name__ == "__main__":

@@ -86,21 +86,21 @@ def fast_forward(dataset, filename):
 
 def save_adversarial_examples(post_id, results, filename):
     """
-    Save adversarial examples to a .json file.
+    Save adversarial examples to the passed JSON file.
 
     Parameters
     ----------
     post_id : str
         post_id of the post in the dataset.
     results : dict
-        List of the `top_k` attacks on the input text
+        Dictionary of the `top_k` attacks on the input text
         ```
         results = {
             "original" : {
                 "text" : original text,
                 "abusive_probability" : probability before attack
             },
-            "attacks" : [
+            "top_k_attacks" : [
                 {
                     "text" : attack1,
                     "abusive_probability" : probability after attack
@@ -110,7 +110,15 @@ def save_adversarial_examples(post_id, results, filename):
                     "abusive_probability" : probability after attack
                 },
                 ...
-            ]
+            ],
+            stats = {
+                "text_length" : Character length of text
+                "num_attacks" : Total number of attacks
+                "num_successful" : Total number of successful attacks 
+                "num_successful_top_k" : Number of successful attacks in top k
+                "success_rate" : Success rate among all attacks
+                "success_rate_top_k" : Success rate among top k attacks
+            }
         }
         ```
     filename : str

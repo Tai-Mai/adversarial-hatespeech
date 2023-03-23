@@ -26,14 +26,13 @@ def attack(original_text, model, tokenizer, permissible_substitutions, top_k=5):
     Returns
     -------
     results : dict
-        List of the `top_k` attacks on the input text
         ```
         results = {
             "original" : {
                 "text" : original text,
                 "abusive_probability" : probability before attack
             },
-            "attacks" : [
+            "top_k_attacks" : [
                 {
                     "text" : attack1,
                     "abusive_probability" : probability after attack
@@ -43,13 +42,15 @@ def attack(original_text, model, tokenizer, permissible_substitutions, top_k=5):
                     "abusive_probability" : probability after attack
                 },
                 ...
-            ]
+            ],
+            stats = {
+                "text_length" : Character length of text
+                "num_attacks" : Total number of attacks
+                "num_successful" : Total number of successful attacks 
+                "success_rate" : Success rate among all attacks
+            }
         }
         ```
-    success_rate : float
-        Success rate among all attempted attacks
-    success_rate_in_top_k : float
-        Success rate among the top k attacks
     """
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
     model = model.to(device)
@@ -74,18 +75,23 @@ def attack(original_text, model, tokenizer, permissible_substitutions, top_k=5):
                                                  key=lambda item: item[1]))
     attacks = list(sorted_candidate_probabilities)[:top_k]
     attacks_probabilities = list(sorted_candidate_probabilities.values())
+
     num_successful = sum(prob < 0.5 for prob in attacks_probabilities)
     success_rate = num_successful / (len(original_text) * len(permissible_substitutions))
     attacks_probabilities = attacks_probabilities[:top_k]
-    num_successful_in_top_k = sum(prob < 0.5 for prob in attacks_probabilities)
-    success_rate_in_top_k = num_successful_in_top_k / top_k
 
     results = {
         "original" : {
             "text" : original_text,
             "abusive_probability" : prior_abusive_probability
         },
-        "attacks" : []
+        "top_k_attacks" : [],
+        "stats" : {
+            "text_length" : len(original_text),
+            "num_attacks" : len(original_text) * len(permissible_substitutions),
+            "num_successful" : num_successful,
+            "success_rate" : success_rate,
+        }
     }
 
     for attack, probability in zip(attacks, attacks_probabilities):
@@ -94,11 +100,11 @@ def attack(original_text, model, tokenizer, permissible_substitutions, top_k=5):
             "text" : attack,
             "abusive_probability" : probability
         }
-        results["attacks"].append(result)
+        results["top_k_attacks"].append(result)
 
     # print(results)
 
-    return results, success_rate, success_rate_in_top_k
+    return results
 
 
 def generate_candidates(text, i, permissible_substitutions):
@@ -117,7 +123,7 @@ def generate_candidates(text, i, permissible_substitutions):
     Yields
     ------
     candidate : 
-        List of the `top_k` attacks on the input text
+        String of text after substitution
     """
 
     for substitution_char in permissible_substitutions:
