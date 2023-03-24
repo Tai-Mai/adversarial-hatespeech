@@ -82,7 +82,6 @@ def lime_explain(model, tokenizer, attacks_file, top_k=5, num_features=5):
                 # print("Explanation of attacked text:\n", exp_attack.as_list())
                 attacks[post_id]["top_k_attacks"][k]["explanation"] = exp_attack.as_list()
 
-            
             with open(attacks_file, "w") as f:
                 json.dump(attacks, f, indent=4)
 
@@ -102,7 +101,7 @@ def main():
     model = model.to(device)
     model.eval()
 
-    target_file = "data/adversarial_examples.json"
+    target_file = "data/adversarial_examples_no-letters.json"
 
     lime_explain(model, tokenizer, target_file)
 
