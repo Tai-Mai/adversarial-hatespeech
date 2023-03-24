@@ -1,13 +1,13 @@
 #!/bin/bash
-#SBATCH --job-name=attack_all-chars
-#SBATCH --output=outputs/attack_all-chars.txt
+#SBATCH --job-name=analyze_no-letters
+#SBATCH --output=outputs/analyze_no-letters.txt
 #SBATCH --mail-user=mai@cl.uni-heidelberg.de
 #SBATCH --mail-type=ALL
-#SBATCH --partition=students
+#SBATCH --partition=compute
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=64000
 #SBATCH --qos=batch
-#SBATCH --gres=gpu:1
+##SBATCH --gres=gpu:1
 
 
 ###############################################################################
@@ -24,5 +24,4 @@
 # export PYTHONPATH=${PYTHONPATH}:${PAPER_REPO}
 # PYTHONPATH=${PAPER_REPO}
 
-python3 main.py
-
+python3 analyze.py

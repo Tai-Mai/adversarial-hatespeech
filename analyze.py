@@ -1,5 +1,5 @@
 import json
-from numpy import std
+from numpy import mean, std
 
 
 def analyze(attacks_file):
@@ -15,7 +15,7 @@ def analyze(attacks_file):
         results = json.load(f)
 
     num_posts = len(results)
-    top_k = len(list(results.values())["top_k_attacks"])
+    top_k = len(list(results.values())[0]["top_k_attacks"])
     text_length_list = []
     vulnerable_text_length_list = []
     resistant_text_length_list = []
@@ -77,13 +77,13 @@ def analyze(attacks_file):
 
 
 def mean_and_std(l):
-    mean = sum(l) / len(l)
+    _mean = mean(l)
     standard_deviation = std(l)
-    return mean, standard_deviation
+    return _mean, standard_deviation
 
 
 def main():
-    attacks_file = "data/adversarial_attacks_no-letters.json"
+    attacks_file = "data/adversarial_examples_no-letters.json"
     analyze(attacks_file)
 
 

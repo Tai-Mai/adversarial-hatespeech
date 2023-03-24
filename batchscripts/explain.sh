@@ -1,6 +1,6 @@
 #!/bin/bash
-#SBATCH --job-name=explain_no-letters
-#SBATCH --output=outputs/explain_no-letters.txt
+#SBATCH --job-name=explain_all-chars
+#SBATCH --output=outputs/explain_all-chars.txt
 #SBATCH --mail-user=mai@cl.uni-heidelberg.de
 #SBATCH --mail-type=ALL
 #SBATCH --partition=students

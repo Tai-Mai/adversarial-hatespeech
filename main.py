@@ -58,10 +58,10 @@ def main():
     dataset_file = "data/dataset.json"
 
     # Characters for substitution
-    permissible_substitutions = string.punctuation + string.digits
+    # permissible_substitutions = string.punctuation + string.digits
     # !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~0123456789
 
-    # permissible_substitutions = string.printable
+    permissible_substitutions = string.printable
     # 0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~
 
 
@@ -76,7 +76,7 @@ def main():
     dataset = load_data(dataset_file, split="test")
 
     # JSON file that will contain the found adversarial examples
-    target_file = "data/adversarial_examples_no-letters.json"
+    target_file = "data/adversarial_examples_all-chars.json"
     # Fast-forward the dataset to the last attacked datapoint in case target_file 
     # exists. If it doesn't, `fast_forward` will do nothing and `num_skipped` = 0
     print("Fast-forwarding...")

@@ -101,7 +101,7 @@ def main():
     model = model.to(device)
     model.eval()
 
-    target_file = "data/adversarial_examples_no-letters.json"
+    target_file = "data/adversarial_examples_all-chars.json"
 
     lime_explain(model, tokenizer, target_file)
 
