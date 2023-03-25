@@ -2,7 +2,7 @@ import json
 from numpy import mean, std
 
 
-def analyze(attacks_file):
+def analyze(attacks_file, substitutions_file):
     """
     Compute statistics from the passed attacks_file
 
@@ -24,7 +24,18 @@ def analyze(attacks_file):
     success_rate_list = []
     normalized_num_successful_list = []
     normalized_success_rate_list = []
+
+    substitution_dict = {}
     
+    # {
+    #     original_token1 : {
+    #         "_num_attacks" : num_attacks
+    #         attack_token1 : num_substitutions,
+    #         attack_token2 : num_substitutions,
+    #         ...
+    #     },
+    #     original_token2 : {...}       
+    # }
 
     for result in results.values():
         text_length = result["stats"]["text_length"]
@@ -45,6 +56,24 @@ def analyze(attacks_file):
 
         normalized_num_successful_list.append(num_successful / text_length)
         normalized_success_rate_list.append(success_rate / text_length)
+
+        original_tokenized = result["original"]["text"].split()
+
+        for attack in result["top_k_attacks"]:
+            attack_tokenized = attack.split()
+            for original_token, attack_token in zip(original_tokenized, attack_tokenized):
+                if original_token != attack_token:
+                    if original_token in substitution_dict:
+                        if attack_token in substitution_dict[original_token]:
+                            substitution_dict[original_token][attack_token] += 1
+                        else:
+                            substitution_dict[original_token][attack_token] = 1
+                        substitution_dict[original_token]["_num_attacks"] += 1
+                    else:
+                        substitution_dict[original_token] = {attack_token : 1}
+                        substitution_dict[original_token]["_num_attacks"] = 1
+                    continue
+
 
     num_vulnerable = len(vulnerable_text_length_list)
     num_resistant = len(resistant_text_length_list)
@@ -75,6 +104,9 @@ def analyze(attacks_file):
     print("Mean success rate: {:.4f} +- {:.4f}".format(mean_success_rate, std_success_rate))
     print("Mean success rate (normalized for text length): {:.4f} +- {:.4f}".format(mean_normalized_success_rate, std_normalized_success_rate))
 
+    with open("data/substitutions.json", "w") as f:
+        json.dump(substitution_dict, f, indent=4)
+
 
 def mean_and_std(l):
     _mean = mean(l)
@@ -83,8 +115,10 @@ def mean_and_std(l):
 
 
 def main():
-    attacks_file = "data/adversarial_examples_no-letters.json"
-    analyze(attacks_file)
+    data_split = "test"
+    attacks_file = f"data/{data_split}_attacks_no-letters.json"
+    substitutions_file = f"data/{data_split}_substitutions_no-letters.json"
+    analyze(attacks_file, substitutions_file)
 
 
 if __name__ == "__main__":
