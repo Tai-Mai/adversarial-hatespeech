@@ -1,6 +1,6 @@
 #!/bin/bash
-#SBATCH --job-name=analyze_no-letters
-#SBATCH --output=outputs/analyze_no-letters.txt
+#SBATCH --job-name=analyze_test_no-letters
+#SBATCH --output=outputs/analyze_test_no-letters.txt
 #SBATCH --mail-user=mai@cl.uni-heidelberg.de
 #SBATCH --mail-type=ALL
 #SBATCH --partition=compute
@@ -24,4 +24,4 @@
 # export PYTHONPATH=${PYTHONPATH}:${PAPER_REPO}
 # PYTHONPATH=${PAPER_REPO}
 
-python3 analyze.py
+python3 analyze.py --attacks_file "data/attacks_test_no-letters.json"

@@ -32,7 +32,7 @@ def load_data(dataset_file, only_abusive=True, split=None):
         data = json.load(data_file)
 
     if split is not None:
-        # Load only ids from a specific split (train, dev, or test)
+        # Load only ids from a specific split (train, val, or test)
         with open("data/post_id_divisions.json") as f:
             splits = json.load(f)
             ids = splits[split]

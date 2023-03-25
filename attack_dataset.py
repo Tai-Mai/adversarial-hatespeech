@@ -31,14 +31,23 @@ def prepare_dataset_file(dataset_file, model, tokenizer):
 
 
 def main():
-    # parser = argparse.ArgumentParser(
-    #         description="Create adversarial attacks on HateXplain"
-    # )
-    # parser.add_argument(
-    #         "--explain", action="store_true", 
-    #         help="Explain model predictions using LIME"
-    # )
-    # args = parser.parse_args()
+    parser = argparse.ArgumentParser(
+            description="Create adversarial attacks on HateXplain"
+    )
+    parser.add_argument(
+            "--split", 
+            help="Which dataset split to use. {test, train, val}"
+    )
+    parser.add_argument(
+            "--permissible_subs", 
+            help="Permissible substitutions. {no-letters, all-chars}"
+    )
+    parser.add_argument(
+            "--substitutions_file", 
+            help="Substitutions file that's generated after running main.py and analyze.py",
+            default=None
+    )
+    args = parser.parse_args()
 
     device = "cuda" if torch.cuda.is_available() else "cpu"
     print(f"Device: {device}\n")
@@ -54,29 +63,33 @@ def main():
     model = model.to(device)
     model.eval()
 
-    # Load test dataset
+    # Load dataset
     dataset_file = "data/dataset.json"
+    
+    split = args.split
 
     # Characters for substitution
-    # permissible_substitutions = string.punctuation + string.digits
-    # !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~0123456789
-
-    permissible_substitutions = string.printable
-    # 0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~
-
+    if args.permissible_subs == "no-letters":
+        permissible_substitutions = string.punctuation + string.digits
+        # !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~0123456789
+    elif args.permissible_subs == "all-chars":
+        permissible_substitutions = string.printable
+        # 0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~
+    else:
+        raise ValueError("`permissible_subs` either `no-letters` or `all-chars`.")
 
 
     # Only does something when using the original dataset file by the authors
     prepare_dataset_file(dataset_file, model, tokenizer)
 
     print("Loading dataset...")
-    dataset = load_data(dataset_file, split="test")
+    dataset = load_data(dataset_file, split=split)
     num_datapoints = sum(1 for _ in dataset)
     # reset dataset generator
-    dataset = load_data(dataset_file, split="test")
+    dataset = load_data(dataset_file, split=split)
 
     # JSON file that will contain the found adversarial examples
-    target_file = "data/adversarial_examples_all-chars.json"
+    target_file = f"data/attacks_{split}_{args.permissible_subs}.json"
     # Fast-forward the dataset to the last attacked datapoint in case target_file 
     # exists. If it doesn't, `fast_forward` will do nothing and `num_skipped` = 0
     print("Fast-forwarding...")
@@ -86,17 +99,21 @@ def main():
     # cumulative_success_rate_in_top_k = 0
 
     print("Attacking dataset...")
-    for post in tqdm(dataset, total=num_datapoints-num_skipped):    
-        # 1142 is number of abusive datapoints in the test set
+    if args.substitutions_file is None:
+        for post in tqdm(dataset, total=num_datapoints-num_skipped):    
+            # 1142 is number of abusive datapoints in the test set
 
-        original_text = TreebankWordDetokenizer().detokenize(post["post_tokens"])
+            original_text = TreebankWordDetokenizer().detokenize(post["post_tokens"])
 
-        results = attack(original_text, model, tokenizer, permissible_substitutions)
-        # cumulative_success_rate += success_rate
-        # cumulative_success_rate_in_top_k += success_rate_in_top_k
-        # print(results)
+            results = attack(original_text, model, tokenizer, permissible_substitutions)
+            # cumulative_success_rate += success_rate
+            # cumulative_success_rate_in_top_k += success_rate_in_top_k
+            # print(results)
 
-        save_adversarial_examples(post["post_id"], results, target_file)
+            save_adversarial_examples(post["post_id"], results, target_file)
+    else:
+        # A generated substitutions file was provided. Use that to attack
+        pass
 
     # average_success_rate = cumulative_success_rate / num_datapoints
     # average_success_rate_in_top_k = cumulative_success_rate_in_top_k / num_datapoints

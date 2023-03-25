@@ -1,0 +1,13 @@
+Number of posts (correctly classified as abusive): 951
+Number vulnerable posts: 666
+Number resistant posts: 285
+Mean text length: 125.9485 +- 78.0467
+Mean number of attacks: 5289.8360 +- 3277.9631
+Mean number of successful attacks: 214.7424 +- 563.3953
+Mean vulnerable text length: 110.8153 +- 74.1817
+Mean resistant text length: 161.3123 +- 75.3687
+Mean number of successful attacks: 214.7424 +- 563.3953
+Mean number of successful attacks (normalized for text length): 2.5437 +- 4.8257
+Mean number of successful attacks (in top 5): 3.3817 +- 2.2963
+Mean success rate: 0.0606 +- 0.1149
+Mean success rate (normalized for text length): 0.0013 +- 0.0034

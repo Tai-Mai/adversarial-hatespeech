@@ -60,6 +60,8 @@ def attack(original_text, model, tokenizer, permissible_substitutions, top_k=5):
     # Generate attacks
     candidate_probabilities = {}
     for i, char in enumerate(original_text):
+        if char in string.whitespace: 
+            continue
         for candidate in generate_candidates(original_text, i, permissible_substitutions):
             candidate_probability = evaluate(candidate, model,
                                              tokenizer)[1]

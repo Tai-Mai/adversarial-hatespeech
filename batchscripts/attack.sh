@@ -1,6 +1,6 @@
 #!/bin/bash
-#SBATCH --job-name=attack_all-chars
-#SBATCH --output=outputs/attack_all-chars.txt
+#SBATCH --job-name=val_attacks_no-letters
+#SBATCH --output=outputs/val_attacks_no-letters.txt
 #SBATCH --mail-user=mai@cl.uni-heidelberg.de
 #SBATCH --mail-type=ALL
 #SBATCH --partition=students
@@ -24,5 +24,4 @@
 # export PYTHONPATH=${PYTHONPATH}:${PAPER_REPO}
 # PYTHONPATH=${PAPER_REPO}
 
-python3 main.py
-
+python3 attack_dataset.py --split "val" --permissible_subs "no-letters"
