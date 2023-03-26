@@ -1,6 +1,6 @@
 #!/bin/bash
-#SBATCH --job-name=val_attacks_no-letters
-#SBATCH --output=outputs/val_attacks_no-letters.txt
+#SBATCH --job-name=attacks_val_no-letters
+#SBATCH --output=outputs/attacks_val_no-letters.txt
 #SBATCH --mail-user=mai@cl.uni-heidelberg.de
 #SBATCH --mail-type=ALL
 #SBATCH --partition=students
