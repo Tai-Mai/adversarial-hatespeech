@@ -4,10 +4,10 @@ import torch
 from shutil import copyfile
 from tqdm import tqdm
 from nltk.tokenize.treebank import TreebankWordDetokenizer
-from .eval import evaluate
+from .eval import predict
 # from ..pretrained.models import Model_Rational_Label
 # from transformers import AutoTokenizer
-# from .eval import evaluate
+# from .eval import predict
 
 
 def load_data(dataset_file, only_abusive=True, split=None):
@@ -77,7 +77,7 @@ def fast_forward(dataset, filename):
         with open(filename, "r") as f:
             existing_datapoints = json.load(f)
 
-        for i in range(len(existing_datapoints)):
+        for _ in range(len(existing_datapoints)):
             num_skipped += 1
             next(dataset)
 
@@ -192,9 +192,9 @@ def prediction_to_dataset_file(dataset_file, model, tokenizer):
     for post in tqdm(dataset, total=20148):    # 20148 samples in entire dataset
         post_id = post["post_id"]
         text = TreebankWordDetokenizer().detokenize(post["post_tokens"])
-        probability_normal, probability_abusive = evaluate(text, 
-                                                           model, 
-                                                           tokenizer)
+        probability_normal, probability_abusive = predict(text, 
+                                                          model, 
+                                                          tokenizer)
         if probability_abusive > probability_normal:
             prediction = "abusive"
         else:

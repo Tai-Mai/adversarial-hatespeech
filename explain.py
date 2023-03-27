@@ -2,7 +2,7 @@ import torch
 from transformers import AutoTokenizer #, AutoModelForSequenceClassification
 from pretrained.models import *
 from nltk.tokenize.treebank import TreebankWordDetokenizer
-from utils.eval import evaluate
+from utils.eval import predict
 from lime.lime_text import LimeTextExplainer
 import json
 from tqdm import tqdm
@@ -53,7 +53,7 @@ def lime_explain(model, tokenizer, attacks_file, top_k=5, num_features=5):
 
             # exp = explainer.explain_instance(
             #         text_list, 
-            #         lambda text: evaluate(text, model, tokenizer,
+            #         lambda text: predict(text, model, tokenizer,
             #                               return_tensor=True),
             #         num_features=num_features
             # )
@@ -61,8 +61,8 @@ def lime_explain(model, tokenizer, attacks_file, top_k=5, num_features=5):
 
             exp_original = explainer.explain_instance(
                     original, 
-                    lambda text: evaluate(text, model, tokenizer,
-                                          return_tensor=True),
+                    lambda text: predict(text, model, tokenizer,
+                                         return_tensor=True),
                     num_features=num_features,
                     num_samples=100
             )
@@ -73,8 +73,8 @@ def lime_explain(model, tokenizer, attacks_file, top_k=5, num_features=5):
             for k, attack in enumerate(results["top_k_attacks"][:top_k]):
                 exp_attack = explainer.explain_instance(
                         attack["text"],
-                        lambda text: evaluate(text, model, tokenizer,
-                                              return_tensor=True),
+                        lambda text: predict(text, model, tokenizer,
+                                             return_tensor=True),
                         num_features=num_features,
                         num_samples=100
                 )

@@ -4,7 +4,7 @@ import os
 from numpy import mean, std
 
 
-def analyze(attacks_file, substitutions_file):
+def analyze(attacks_file, substitution_file):
     """
     Compute statistics from the passed attacks_file
 
@@ -76,11 +76,14 @@ def analyze(attacks_file, substitutions_file):
                         substitution_dict[original_token][attack_token] = 1
                     continue
 
-    # Sort by counts
-    for original_token, subs in substitution_dict.items():
+    # Sort original tokens by `_num_attacks``
+    sorted_substitution_dict = {k:v for k,v in sorted(substitution_dict.items(), key=lambda item: item[1]["_num_attacks"], reverse=True)}
+
+    # Sort attack tokens by counts
+    for original_token, subs in sorted_substitution_dict.items():
         sorted_subs = {k:v for k,v in sorted(subs.items(), key=lambda item:
             item[1], reverse=True)}
-        substitution_dict[original_token] = sorted_subs
+        sorted_substitution_dict[original_token] = sorted_subs
 
 
     num_vulnerable = len(vulnerable_text_length_list)
@@ -112,8 +115,8 @@ def analyze(attacks_file, substitutions_file):
     print("Mean success rate: {:.4f} +- {:.4f}".format(mean_success_rate, std_success_rate))
     print("Mean success rate (normalized for text length): {:.4f} +- {:.4f}".format(mean_normalized_success_rate, std_normalized_success_rate))
 
-    with open(substitutions_file, "w") as f:
-        json.dump(substitution_dict, f, indent=4)
+    with open(substitution_file, "w") as f:
+        json.dump(sorted_substitution_dict, f, indent=4)
 
 
 def mean_and_std(l):
@@ -136,14 +139,15 @@ def main():
     folder = os.path.split(attacks_file)[0]
     filename = os.path.split(attacks_file)[1]
     # attacks_file = f"data/attacks_{split}_no-letters.json"
-    # substitutions_file = f"data/substitutions_{split}_no-letters.json"
+    # substitution_dict = f"data/substitutions_{split}_no-letters.json"
     split = filename.split("_")[1]
     permissible_subs = filename.split("_")[2]
-    substitutions_file = os.path.join(
+    substitution_file = os.path.join(
             folder, 
             f"substitutions_{split}_{permissible_subs}"
     )
-    analyze(attacks_file, substitutions_file)
+    print(f"Saving substitution dictionary to {str(substitution_file)}")
+    analyze(attacks_file, substitution_file)
 
 
 if __name__ == "__main__":

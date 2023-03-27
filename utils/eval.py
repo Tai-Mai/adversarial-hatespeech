@@ -2,7 +2,7 @@ from typing import Union
 import torch
 
 
-def evaluate(text, model, tokenizer, return_tensor=False):
+def predict(text, model, tokenizer, return_tensor=False):
     """
     Get model's prediction on a text.
 

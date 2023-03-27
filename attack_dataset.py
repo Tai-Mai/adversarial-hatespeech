@@ -4,12 +4,13 @@ from transformers import AutoTokenizer #, AutoModelForSequenceClassification
 from pretrained.models import *
 import json
 from nltk.tokenize.treebank import TreebankWordDetokenizer
-from utils.eval import evaluate
+from utils.eval import predict
 from utils.attack import attack
 from utils.data import (format_dataset_file, load_data, fast_forward, 
                         save_adversarial_examples, prediction_to_dataset_file)
 from tqdm import tqdm
 import string
+import os
 
 
 def prepare_dataset_file(dataset_file, model, tokenizer):
@@ -43,8 +44,8 @@ def main():
             help="Permissible substitutions. {no-letters, all-chars}"
     )
     parser.add_argument(
-            "--substitutions_file", 
-            help="Substitutions file that's generated after running main.py and analyze.py",
+            "--substitution_dict", 
+            help="Substitution dictionary that's generated after running main.py and analyze.py",
             default=None
     )
     args = parser.parse_args()
@@ -92,54 +93,57 @@ def main():
     target_file = f"data/attacks_{split}_{args.permissible_subs}.json"
     # Fast-forward the dataset to the last attacked datapoint in case target_file 
     # exists. If it doesn't, `fast_forward` will do nothing and `num_skipped` = 0
-    print("Fast-forwarding...")
-    num_skipped = fast_forward(dataset, target_file)
+
+    if os.path.exists(target_file) and args.substitution_dict is None:
+        print("Fast-forwarding...")
+        num_skipped = fast_forward(dataset, target_file)
 
     # cumulative_success_rate = 0
     # cumulative_success_rate_in_top_k = 0
 
     print("Attacking dataset...")
-    if args.substitutions_file is None:
+    if args.substitution_dict is None:
         for post in tqdm(dataset, total=num_datapoints-num_skipped):    
             # 1142 is number of abusive datapoints in the test set
 
             original_text = TreebankWordDetokenizer().detokenize(post["post_tokens"])
 
             results = attack(original_text, model, tokenizer, permissible_substitutions)
-            # cumulative_success_rate += success_rate
-            # cumulative_success_rate_in_top_k += success_rate_in_top_k
-            # print(results)
 
             save_adversarial_examples(post["post_id"], results, target_file)
     else:
-        # A generated substitutions file was provided. Use that to attack
-        pass
+        print("Substitutions file was provided.")
+        print("Using look-up substitutions for attacks...")
+        with open(args.substitution_dict) as f:
+            subs_dict = json.load(f)
 
-    # average_success_rate = cumulative_success_rate / num_datapoints
-    # average_success_rate_in_top_k = cumulative_success_rate_in_top_k / num_datapoints
-    # print("Average attack success rate: {:.4f}".format(average_success_rate))
-    # print("Average attack success rate in top k: {:.4f}".format(average_success_rate_in_top_k))
+        successful = 0
+        for post in tqdm(dataset, total=num_datapoints):    
+            text = post["post_tokens"]
+            # Find the token in the current post that was attacked the most.  
+            # That token will be our naive attack vector.
+            highscore = 0
+            for i, token in enumerate(text):
+                if subs_dict[token]["_num_attacks"] < highscore:
+                    victim_token = token
+                    victim_index = i
+
+            substitute_token = subs_dict[victim_token]
+            # Substitute the victim_token with the substitute_token
+            text[victim_index] = substitute_token
+            text = TreebankWordDetokenizer().detokenize(text)
+            probabilities = predict(text, model, tokenizer)
+            if probabilities[1] < 0.5:  # if abusive score is below 0.5
+                successful += 1
+
+        success_rate = successful / num_datapoints
+        
+        print("Attack success rate: {}/{} = {:.4f}".format(successful, 
+                                                           num_datapoints, 
+                                                           success_rate))
+
+
     print("Done.")
 
 if __name__ == "__main__":
     main()
-
-    # device = "cuda" if torch.cuda.is_available() else "cpu"
-    # print(f"Device: {device}\n")
-
-    # print(f"Loading tokenizer...")
-    # tokenizer = AutoTokenizer.from_pretrained(
-    #     "Hate-speech-CNERG/bert-base-uncased-hatexplain-rationale-two"
-    # )
-    # print(f"Loading model...")
-    # model = Model_Rational_Label.from_pretrained(
-    #     "Hate-speech-CNERG/bert-base-uncased-hatexplain-rationale-two"
-    # )
-    # model = model.to(device)
-    # model.eval()
-
-    # # Load test dataset
-    # dataset_file = "data/dataset.json"
-
-    # prediction_to_dataset_file(dataset_file, model, tokenizer)
-    # print("Done.")

@@ -2,7 +2,7 @@ from typing import Union
 import transformers
 import string
 import torch
-from utils.eval import evaluate
+from utils.eval import predict
 
 def attack(original_text, model, tokenizer, permissible_substitutions, top_k=5):
     """
@@ -55,7 +55,7 @@ def attack(original_text, model, tokenizer, permissible_substitutions, top_k=5):
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
     model = model.to(device)
 
-    prior_abusive_probability = evaluate(original_text, model,
+    prior_abusive_probability = predict(original_text, model,
                                          tokenizer)[1]
     # Generate attacks
     candidate_probabilities = {}
@@ -63,7 +63,7 @@ def attack(original_text, model, tokenizer, permissible_substitutions, top_k=5):
         if char in string.whitespace: 
             continue
         for candidate in generate_candidates(original_text, i, permissible_substitutions):
-            candidate_probability = evaluate(candidate, model,
+            candidate_probability = predict(candidate, model,
                                              tokenizer)[1]
             
             # candidate_score = prior_abusive_probability - candidate_probability
