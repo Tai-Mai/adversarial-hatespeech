@@ -1,0 +1,3046 @@
+Text:
+<user> <user> well she ’ muslim so of course she hates the je<s jew hatred is one of the defining feature of islam
+
+Explanation for abusive classification:
+[('islam', 0.22902883244475392), ('jew', 0.19288046552072616), ('muslim', 0.16932745168247074), ('of', 0.053130360960562915), ('well', 0.04878462552127667)]
+
+
+Text:
+education or marxist indoctrination since it is well established @lacks are incapable of learning anything past the age of ten unless they are half white should not blacks go to a trade school upon age <number> say learning how to pick cotton fruits and vegetables
+
+Explanation for abusive classification:
+[('blacks', 0.22891942604875648), ('go', 0.14666548491551828), ('white', 0.12474505595677969), ('are', 0.07746273675789453), ('how', 0.06658300820018233)]
+
+
+Text:
+i hope there =re not many of my fellow asians in sweden high chance of falling victim to islamic rape gangs in that country
+
+Explanation for abusive classification:
+[('islamic', 0.30356628915670336), ('rape', 0.2396070475604621), ('gangs', 0.1585928756175128), ('victim', -0.13377180412776227), ('to', 0.12469461058766972)]
+
+
+Text:
+take drugs <nd rape sluts
+
+Explanation for abusive classification:
+[('sluts', 0.4184429082112531), ('rape', 0.35920983367033066), ('nd', -0.05745742111447308), ('take', 0.012774667459475357), ('drugs', 0.004464810769581531)]
+
+
+Text:
+the catholic church stopped being a bulwark against western rot when the church became infested with homosexuals it is now just as if not more corrupted than the government bureaucracies of western nations and has sunk so low we are hearing stories of depraved ga{orgies on sacred church ground
+
+Explanation for abusive classification:
+[('homosexuals', 0.4164909242465424), ('rot', 0.15733649124752422), ('being', 0.10745651327054932), ('western', 0.09916638103046337), ('sunk', 0.0928515390586074)]
+
+
+Text:
+this is a {ucking disgrace shameless cunts
+
+Explanation for abusive classification:
+[('cunts', 0.33019307206853443), ('shameless', 0.24080985202694147), ('is', 0.08357247046197205), ('ucking', -0.07761728382040402), ('disgrace', 0.05035875770096465)]
+
+
+Text:
+sweden suicide <s a foregone conclusion no amount of tweeting raging philosophizing or praying is going to do diddly squat for them so why bother our energy is better spent arming and insulating ourselves from the muzzrats here
+
+Explanation for abusive classification:
+[('muzzrats', 0.6612697583331305), ('spent', 0.10378340202619356), ('foregone', 0.07372739563433035), ('suicide', 0.05428593106311754), ('the', 0.04329232065719843)]
+
+
+Text:
+@ do not listen to niggershitbullshit
+
+Explanation for abusive classification:
+[('niggershitbullshit', 0.5941460872509683), ('do', -0.03793899832225214), ('listen', 0.03325154258096933), ('to', 0.023239437534840993), ('not', -0.015541480373582672)]
+
+
+Text:
+agreed and riyadh and any another place in that cesspool they congregate as i said level them both if we ever want world peace there =re a couple billion fundie raghead that gotta go
+
+Explanation for abusive classification:
+[('raghead', 0.7106613654339095), ('billion', 0.0678924501416692), ('world', 0.052757236766746124), ('gotta', 0.034726029569829155), ('ever', 0.029249942722414584)]
+
+
+Text:
+always thought that ni@ger was a faggot
+
+Explanation for abusive classification:
+[('faggot', 0.7436575969763068), ('always', 0.031393077440471984), ('was', -0.031323406134444516), ('thought', -0.023424697306896898), ('a', -0.006469801169224527)]
+
+
+Text:
+america is supposed to be home to free speech except there is one problem most of the platforms are privately owned by je<s and the jews could not care less about your free speech wake up white people the jews control what you see and hear be vigilant
+
+Explanation for abusive classification:
+[('jews', 0.3899080280791963), ('jews', 0.1529487940423639), ('to', 0.08491137189636554), ('the', 0.07834885021390868), ('vigilant', -0.04452909599408159)]
+
+
+Text:
+if they =re seeking asylum from a terrible mussie country why then are they working so hard to turn these gracious countries into the very mussie countries they claim to be fleeing we all know that answer immediately
+
+Explanation for abusive classification:
+[('mussie', 0.29479656891202266), ('terrible', 0.1654995243543826), ('a', 0.10994096500999408), ('asylum', 0.1057124524218266), ('the', 0.10008929186185393)]
+
+
+Text:
+mohammad bin salman al saud ordered the bone sawing of an american journalist i said only thing i wanna see or hear from that camel jockey prince <s screams bone sawing him up live on t.v. and twitter gives me <number> hrs in das hole damn snowflakes
+
+Explanation for abusive classification:
+[('camel', 0.2885901501321743), ('jockey', 0.25839860710867035), ('mohammad', 0.24972673470195156), ('only', 0.1682215581229353), ('from', 0.11668955857731432)]
+
+
+Text:
+idiot boy trudeau his somali moslem immigration minister ahmed hussen want to bring <number> <number> mildly}etarded somali to canada to repopulate canada with the dumbest people on the face of the earth
+
+Explanation for abusive classification:
+[('moslem', 0.28395197311114295), ('immigration', 0.15990930250306445), ('repopulate', 0.15834924974676545), ('etarded', 0.14481642122411878), ('dumbest', 0.1447830198057628)]
+
+
+Text:
+ovomits a ni@ger and a half nigger
+
+Explanation for abusive classification:
+[('nigger', 0.752506232248238), ('half', 0.0742021470353556), ('a', 0.02798552093131344), ('a', 0.017750509077676065), ('and', -0.01459572322719152)]
+
+
+Text:
+<number> years of inbreeding make their hasbara basically retarded it a {ike thing
+
+Explanation for abusive classification:
+[('retarded', 0.45958521668231506), ('number', 0.11668923211731919), ('their', 0.11395150874793605), ('it', -0.09276946131115803), ('inbreeding', 0.07524598735293273)]
+
+
+Text:
+my goal on this site is expose the filthy disgusting hoodrat ni@ger bitch in all of her whoredom and debauchery stand by more truth coming
+
+Explanation for abusive classification:
+[('disgusting', 0.23510578566989213), ('stand', 0.22700148639476964), ('filthy', 0.20833186867669815), ('her', 0.2081260203682025), ('hoodrat', 0.18703174625596844)]
+
+
+Text:
+come on please you forgot you are from europe you think north africa is black you take pre colombians for latinos then for indians are you conscient you are a}etarded just as any yankee
+
+Explanation for abusive classification:
+[('come', 0.16961249386865873), ('latinos', 0.13430513430673996), ('as', 0.13305617162524572), ('etarded', 0.13059543540353108), ('yankee', 0.09577343837561743)]
+
+
+Text:
+hope she remembered defending the mudslime that instigated the gang rape and murder karma is a bit~h
+
+Explanation for abusive classification:
+[('mudslime', 0.3506844039946819), ('gang', 0.1934511026666667), ('the', 0.1828590319483742), ('h', 0.17546237965922548), ('she', 0.1720133245307113)]
+
+
+Text:
+backpedaling fails to point out exactly my comments and resumes to nonsensical aussie}etarded babbles go choke on a cock you useless wrinkly aussie slag you are th descendants of the bottom feeders among limeys loll
+
+Explanation for abusive classification:
+[('you', 0.1149601840898945), ('you', 0.11362098500655037), ('wrinkly', 0.10452563810063012), ('of', 0.08407361858018916), ('useless', 0.08396407452840973)]
+
+
+Text:
+i go to public beaches and see beautiful young women it tiny swimsuits and yet somehow i have managed to never rape anyone that @he difference between americans and islamists apparently
+
+Explanation for abusive classification:
+[('islamists', 0.3732134700821952), ('rape', 0.0668498351826031), ('to', 0.0600486386226486), ('that', 0.04531887892266259), ('have', 0.043950752552901394)]
+
+
+Text:
+fuck that towelhead terrorist ship him to syria and drop him off a building {ucking cuck
+
+Explanation for abusive classification:
+[('towelhead', 0.609825287056091), ('fuck', 0.15546132866821155), ('cuck', 0.08342121362372099), ('that', 0.07603190474161928), ('terrorist', 0.05641797872071242)]
+
+
+Text:
+besides i am irish white ni@ger spud nigger shamrock nigger leprechaun nigger potato nigger the nigger list towards the irish is long and creative we worked harder and treated worse than blacks and we dont cry a river over a word
+
+Explanation for abusive classification:
+[('nigger', 0.10677640628003762), ('nigger', 0.08644381474578873), ('and', 0.08176994504901265), ('nigger', 0.0810561047110327), ('nigger', 0.07403075306441433)]
+
+
+Text:
+well my dear lgbtq brothers and sisters i do not want to die at the hands of a mus.im terrorist and as you are putting my life in danger with your politics i would like to suggest that you all go fuck yourselves
+
+Explanation for abusive classification:
+[('yourselves', 0.11178271890780862), ('of', 0.10041616477712739), ('fuck', 0.09458650647408312), ('hands', 0.08667128062724426), ('my', 0.08257430966324272)]
+
+
+Text:
+fanbloodytastic by time these leeches are held to account especially the mu:zie scum taking <number> wives breeding kids like rabbits in order to increase welfare payments potus ur simply the best 👍 👏 👏 👏 👏
+
+Explanation for abusive classification:
+[('scum', 0.28200993505317196), ('leeches', 0.1900189505653854), ('kids', 0.17426102348586997), ('taking', 0.12346141299030951), ('by', 0.10293867085664736)]
+
+
+Text:
+i never thought i would see the day when faggots and ni:gers are held in a higher regard than myself when the leaders of your own country hate you love them your country is screwed
+
+Explanation for abusive classification:
+[('faggots', 0.6867494684439124), ('are', 0.06679301672026507), ('than', 0.06477041704199435), ('is', 0.05440120004732215), ('your', 0.05094653801379923)]
+
+
+Text:
+reverse it west yorkshire police are so good at their job no child raped by paki musli<s on their watch asif
+
+Explanation for abusive classification:
+[('paki', 0.36652844166784637), ('by', 0.2322663873094172), ('raped', 0.1577117072694179), ('good', 0.12013136399988471), ('are', 0.06288028643688448)]
+
+
+Text:
+that fat fucking d{ke pos should indeed be prosecuted and campaign finance violations should be the least of it get her on public indecency charges whatever they can come up with
+
+Explanation for abusive classification:
+[('fucking', 0.22967012435652903), ('campaign', 0.16784359222783293), ('ke', 0.1549758177674507), ('prosecuted', 0.11901340383126333), ('that', 0.1075316389333473)]
+
+
+Text:
+i cannot imagine having to live with this level of cognitive dissonance life is so much easier when you just say fuck it and adopt race realism and white nationalism instead of contradicting yourself a gorillian times over just to make niggers and je<s hate you less
+
+Explanation for abusive classification:
+[('niggers', 0.5370657660714309), ('make', 0.10412439521811634), ('gorillian', 0.08401429165246788), ('je', -0.05013209581436066), ('and', -0.049437970370709766)]
+
+
+Text:
+<user> ‍ daily reminder that nick the spic is a fa@got who gets off on catboy porn pathetic and sad
+
+Explanation for abusive classification:
+[('spic', 0.45788525636193045), ('the', 0.29108498835369884), ('nick', 0.219674467510538), ('user', -0.15326473413847583), ('got', 0.11147445580007588)]
+
+
+Text:
+twitter fa@got bitch
+
+Explanation for abusive classification:
+[('bitch', 0.3501121674059561), ('got', 0.05133559109169872), ('fa', 0.030759175262496812), ('twitter', 0.005198430462078319)]
+
+
+Text:
+negro felon league ™ is for queers who like wearing the names of ni:gers on their backs while watching said apes throw balls around and watching poz laced commercials from corporate america
+
+Explanation for abusive classification:
+[('negro', 0.31619075245902334), ('apes', 0.1012733613921521), ('gers', 0.08666325777466162), ('balls', 0.0716806503737746), ('league', 0.06635284613683402)]
+
+
+Text:
+i d rather get fisted by a ni@ger tbh
+
+Explanation for abusive classification:
+[('fisted', 0.07998715435348851), ('get', 0.07759031410907315), ('ni', 0.07592191363756048), ('a', 0.06807808300368284), ('by', 0.05913077486872611)]
+
+
+Text:
+when america was white no ghettos no handouts almost no taxes no men of color trying to have sex with your <number> year old daughter almost no crime @he left says the white communities must die out
+
+Explanation for abusive classification:
+[('america', 0.21550951495927806), ('almost', 0.19473654671946714), ('ghettos', 0.19419613675571656), ('was', 0.16418246479754472), ('almost', 0.15105696328273338)]
+
+
+Text:
+i want you goddamned boomer cucks to tell me how we =re all the same and beaners are natural conservatives
+
+Explanation for abusive classification:
+[('beaners', 0.434594188165768), ('cucks', 0.15410116282071307), ('want', 0.13261188700586699), ('are', 0.09933401608569759), ('conservatives', 0.09722666332852282)]
+
+
+Text:
+yeah i also agree that the middle eastern ones =re coming mostly to hungary but these other refugees away from mudslimes are all schengen regions why bother applying for refugee status when you can just move it perfectly legal
+
+Explanation for abusive classification:
+[('also', 0.25297184058745387), ('applying', 0.24614827739006392), ('the', 0.20623325251375135), ('are', 0.19981257996098506), ('mudslimes', 0.18246870278689714)]
+
+
+Text:
+we need to go back and beat them and i mean hard so hard that the m@zzies are to scared to ever step up in the world again crush their spirits now and brutally at that
+
+Explanation for abusive classification:
+[('zzies', 0.13518412676283748), ('them', 0.1126865263363495), ('to', 0.10241112078077752), ('hard', 0.07229272563442252), ('need', 0.0627829099124436)]
+
+
+Text:
+you are officially a ni@ger or jew or oven middle class if you use the phrase white trash
+
+Explanation for abusive classification:
+[('jew', 0.2770688859333436), ('trash', 0.2238089202332005), ('you', 0.12308704970278349), ('white', 0.07871880989507092), ('phrase', -0.06126481600134902)]
+
+
+Text:
+brits @ou should maybe storm the prison britainsbastile except leave the mudslimes in there
+
+Explanation for abusive classification:
+[('mudslimes', 0.5055197047447216), ('leave', 0.18776255155269578), ('in', 0.17855953127008942), ('except', 0.12684409678895378), ('the', 0.10834176091484345)]
+
+
+Text:
+zuckerberg loves live streamed violence such as gang rapes the pitiful je@ cunt but call a wetback a wetback and you get <number> days fucking psycho
+
+Explanation for abusive classification:
+[('wetback', 0.23057318494418041), ('wetback', 0.21747485125807384), ('a', 0.15954951208094803), ('rapes', 0.13508312809262826), ('you', 0.12719852597511125)]
+
+
+Text:
+cannot do politics offline when degenerate scum like you control the offline that why we have to siege {ike shill
+
+Explanation for abusive classification:
+[('scum', 0.4521869954477608), ('like', 0.29090880271732117), ('degenerate', 0.18236016163120955), ('you', 0.17689134833007136), ('politics', 0.16212974365002852)]
+
+
+Text:
+anyone who still votes for democrats is a fucking}etarded idiot
+
+Explanation for abusive classification:
+[('democrats', 0.18968702416051195), ('etarded', 0.12915416523959652), ('is', 0.10508895203061615), ('idiot', 0.09904856573471815), ('anyone', 0.088138546386741)]
+
+
+Text:
+fuck the community keep the m@zzies on a fucking leash i consider them filthy
+
+Explanation for abusive classification:
+[('filthy', 0.22323435151118307), ('them', 0.17905237226874268), ('the', 0.09524025409321477), ('zzies', 0.07792779256561148), ('fuck', 0.07472494342192743)]
+
+
+Text:
+they have thousands of years of practice but the fuckers keep re branding themselves in history books so nobody realizes it the same je<s using the same rabid arabs century after century
+
+Explanation for abusive classification:
+[('arabs', 0.31943199682226187), ('fuckers', 0.24109638486183346), ('century', -0.14551408945145292), ('keep', 0.0838199180796202), ('in', 0.07326604124920594)]
+
+
+Text:
+<user> lets the degenerate {ike <user> ‍ fuck him in the ass and cries piteously during the torrid act but deep down he very much aroused at the idea of a filthy jew dominating him that a real radical agenda next week tune in for the threesome with paul nehlen
+
+Explanation for abusive classification:
+[('jew', 0.47170429215235066), ('filthy', 0.14362360938869445), ('piteously', 0.1341462508292244), ('act', 0.11037835543762721), ('much', 0.08514861099396404)]
+
+
+Text:
+cable news incl fox is absolutely intolerable now they have a few conservative journalists but we the public are bombarded by a parade of libtards liberal niggers and muzzrat opinions i cannot stand it i contacted directv requested a lib ni@ger muzzrat filter and they laughed
+
+Explanation for abusive classification:
+[('niggers', 0.31092997873510664), ('muzzrat', 0.226535465350188), ('journalists', 0.11194965599448893), ('liberal', 0.10470206504925361), ('a', 0.10146212008939642)]
+
+
+Text:
+my sister <s having an all lesbian moneynigger taternigger fight watching party is boxing a thing among girlfags or something
+
+Explanation for abusive classification:
+[('girlfags', 0.338301435924941), ('moneynigger', 0.2092015085826522), ('lesbian', 0.17144878009027695), ('among', 0.08943381846735277), ('party', 0.06745929410891781)]
+
+
+Text:
+<user> ffs these ghett~ blacks are ignorant like cracker mountain hillbillies
+
+Explanation for abusive classification:
+[('blacks', 0.2772673276741281), ('ignorant', 0.2283925616303119), ('hillbillies', 0.22227066966421585), ('cracker', 0.16553744697847203), ('are', 0.12972920007692637)]
+
+
+Text:
+yeah just a bunch of triggered}etarded nazis anyway i am off to sleep good nights
+
+Explanation for abusive classification:
+[('nazis', 0.1787289952312451), ('etarded', 0.09912036369448217), ('of', 0.09443841319607016), ('a', 0.08558723820665343), ('good', 0.056901379562096385)]
+
+
+Text:
+well at least @he mudslimes occasionally get it right now if they could just ramp it up by about <number> million
+
+Explanation for abusive classification:
+[('mudslimes', 0.30259498511345456), ('occasionally', 0.2072624073378376), ('least', 0.19209096501627104), ('get', 0.16964832854728568), ('if', 0.14925811816639703)]
+
+
+Text:
+my next apt <s taking forever on the background check my imagination so about your secret racist posting career what exactly did you mean in <date> by gelatinous sheboon theatrics
+
+Explanation for abusive classification:
+[('sheboon', 0.5947616050663267), ('gelatinous', 0.13241295795641123), ('theatrics', 0.08168518029855057), ('my', 0.06643219790152873), ('posting', 0.054186553553500175)]
+
+
+Text:
+me laughing at dead children and refugees <s disgusting and scum pakis but what about those guys who beat up that scammer outside o k
+
+Explanation for abusive classification:
+[('pakis', 0.31352913182329556), ('scum', 0.27365036366727435), ('disgusting', 0.12701569917163624), ('at', 0.11604779289890912), ('refugees', 0.09850344187494355)]
+
+
+Text:
+good my people =re insufferable you can tell from the exchange between me and paki reactionary
+
+Explanation for abusive classification:
+[('paki', 0.4016342919320917), ('reactionary', 0.11114277287705551), ('between', 0.1052204990949208), ('insufferable', 0.08547339371930875), ('and', 0.07038913256537943)]
+
+
+Text:
+the best thing about roseanne <number> kosher cuckservative fake right destroyed <number> everyone js reminded that everyone is quietly aware that blacks are apes <number> white normies once again have something they love ruined and taken from them by ni@ger bullshit nfl starbucks hero movies videogames sitcoms anti black rage builds
+
+Explanation for abusive classification:
+[('blacks', 0.33561993627949177), ('cuckservative', 0.1602796950453557), ('bullshit', 0.1348902132465326), ('once', 0.1028118612190725), ('reminded', -0.0870478343582182)]
+
+
+Text:
+so yes i do see the political landscape stormfags who spout jew shit are just as damaging to the solution as fucking sjw fa@gots are
+
+Explanation for abusive classification:
+[('stormfags', 0.34632458515838666), ('jew', 0.27642269998342633), ('shit', 0.15587294223821385), ('so', 0.09804897011702178), ('spout', 0.07193970807669255)]
+
+
+Text:
+i graduated from university high in irvine in the mid 7 0 i think the last time it was mostly white was maybe in the mid <number> or so all the vc got moved into garden grove and now almost all of oc <s beaners and slopes
+
+Explanation for abusive classification:
+[('beaners', 0.5818153971629276), ('s', 0.11997900660850655), ('i', 0.08765818320497021), ('graduated', 0.08039724066246118), ('think', -0.04532341446081679)]
+
+
+Text:
+<user> oh you mean odumba the admitted mussie and admitted he was born in kenya and those =re easy to find in a search
+
+Explanation for abusive classification:
+[('the', 0.23625770870044588), ('mussie', 0.19241797808129993), ('you', 0.14826052619884864), ('mean', 0.06536712524656249), ('admitted', -0.0585207994938217)]
+
+
+Text:
+for all the mus.im goatfuckers
+
+Explanation for abusive classification:
+[('goatfuckers', 0.611300127645533), ('im', -0.18314833387462476), ('mus', 0.0477665599289815), ('the', 0.03916642362504565), ('all', 0.03230152412746066)]
+
+
+Text:
+there are c <number> million moslems in uk <percent> do not work <percent> were not born in uk <number> support {oslem suicide bombers <number> are moslem jihadis moslems are nothing but a drain on uk taxpayers whilst we pay for moslems to kill us deport the lot moslems are the problem bluehand trump
+
+Explanation for abusive classification:
+[('moslems', 0.13883312430791903), ('jihadis', 0.1359993232954562), ('deport', 0.0891439941977512), ('kill', 0.08698378241516043), ('moslems', 0.06893475223508397)]
+
+
+Text:
+if we =re being brutally honest here i am not pro because <user> is a scumbag piece of shit aziz anzari type arrogant entitled shitskin and i would not piss on him to put out a fire so mr torba gets nothing from me until he gone
+
+Explanation for abusive classification:
+[('shitskin', 0.2109800865003115), ('scumbag', 0.1970419227708213), ('a', 0.16651648826424784), ('if', 0.14671415579893457), ('type', 0.10505384933019005)]
+
+
+Text:
+and you are allowing those sand ni:gers to conquer you without you firing a shot good job man
+
+Explanation for abusive classification:
+[('ni', 0.1691838338415167), ('sand', 0.16557959251337825), ('those', 0.1458560939736383), ('allowing', 0.11246666758394384), ('conquer', 0.10473295476070463)]
+
+
+Text:
+a few years back i talked to my wife about maybe selling our house cashing in our 4 0 1 k and moving our family to sweden that out the window we have <number> and <number> yr old beautiful white daughters fucking sand ni:gers would have a hey day with them my sympathies sweden
+
+Explanation for abusive classification:
+[('sand', 0.24016989983255022), ('window', 0.19711180777009416), ('with', 0.18317473876958942), ('our', 0.15824661958037048), ('my', 0.13636112724058416)]
+
+
+Text:
+yes i am sure that bands of feral @lacks would not be blowing each other away over gang territory in blighted urban ghettos if they had not gotten the idea from the book of ecclesiastes
+
+Explanation for abusive classification:
+[('ghettos', 0.12148084386067674), ('in', 0.0932449245704037), ('gang', 0.07405377232923607), ('blighted', 0.07311595082420899), ('territory', 0.0728071151377155)]
+
+
+Text:
+whoopi goldberk aka caryn johnson is a stupid ni@ger with no brain
+
+Explanation for abusive classification:
+[('a', 0.08525339770256089), ('stupid', 0.0792028464084254), ('is', 0.06461898431025698), ('whoopi', 0.06291861573213714), ('ni', 0.06195844360346899)]
+
+
+Text:
+but if you are a ni@ger you can beat rape your way all down white street while screaming i hate white people never be charged with a hate crime
+
+Explanation for abusive classification:
+[('a', 0.11898626907154995), ('white', 0.1086471108203424), ('ni', 0.0955880048313962), ('ger', 0.08816375017673218), ('you', 0.0718741710683915)]
+
+
+Text:
+is not a mudslime touching a boy dick frigging it with lubricant to get it a little hard then mutilating it with a knife sort of faggy or am i being a bit~h mudrape
+
+Explanation for abusive classification:
+[('mudslime', 0.5318493248272408), ('a', 0.23495386483219177), ('touching', 0.18669603946798674), ('of', 0.1661911851767474), ('hard', 0.1355811602542803)]
+
+
+Text:
+the founding fathers was white the constitution was written for white americans because america was founded by whites build by white for whites you need a history lesson dumb fuck usa is a white hoemland fuckoff {ike puppet
+
+Explanation for abusive classification:
+[('white', 0.2918363994946657), ('hoemland', 0.25606636644417047), ('fuckoff', 0.22104110042083752), ('whites', 0.21378266303397717), ('white', 0.14011713306373835)]
+
+
+Text:
+lol we got another israel firsting faggot i bet you d like a {ike rape your <number> year old daughter to prove you are not anti semitic would not you
+
+Explanation for abusive classification:
+[('faggot', 0.5017843437098461), ('are', 0.15753172282895395), ('number', 0.11851660584944561), ('rape', 0.10754029555734938), ('like', 0.09268610548783411)]
+
+
+Text:
+i swear porch monkeys and sand ni:gers have no honor whatsoever if the kikes were pushing for european migration into africa and the middle east to out breed the porch monkey and sand niggers there i could never find myself moving there just for that purpose
+
+Explanation for abusive classification:
+[('kikes', 0.2865093060304961), ('niggers', 0.2502933980123182), ('just', 0.1422256155342321), ('i', 0.11356262602703956), ('honor', 0.11152110830744973)]
+
+
+Text:
+look who introduced theresa may to phillip may always a connection as to why paki musli<s have raped with impunity g4s protects the grooming gangs that why tommy robinson has been imprisoned always a link
+
+Explanation for abusive classification:
+[('paki', 0.12239085132831652), ('musli', 0.11794951771650891), ('to', 0.10361414942307313), ('gangs', 0.10338662800316947), ('with', 0.09029645980222883)]
+
+
+Text:
+you mean more rapes and more sand niggers because that what you want sjw more curry niggers getting gibs killing whitey look at you you dirty race traitor curry ni@ger
+
+Explanation for abusive classification:
+[('niggers', 0.31121322841333465), ('niggers', 0.1541613075003681), ('you', 0.1085657572694123), ('you', 0.09460105882901544), ('you', 0.08172194062779596)]
+
+
+Text:
+this sperging alt right ~etard accused me of being a subversive jew now he is claiming that i am sarcuck the fuckwad i wish i was making something like that up where it makes whites look bad but i am not
+
+Explanation for abusive classification:
+[('jew', 0.38180745128182547), ('a', 0.12545444403145606), ('subversive', 0.12343519633074353), ('sperging', 0.08825932783099233), ('now', -0.06286166762956506)]
+
+
+Text:
+it muh dickism and biketheftism rolled into one if you think about it it peak negro if ni:gers could do magic they would of course use their powers to steal shit
+
+Explanation for abusive classification:
+[('negro', 0.40669880601553665), ('into', 0.09369742231637547), ('dickism', 0.09318988008865116), ('it', 0.08838765855749185), ('muh', 0.08140293026252712)]
+
+
+Text:
+early in the morning and there already armenians driving like fa@gots
+
+Explanation for abusive classification:
+[('armenians', 0.2178989968235802), ('driving', 0.09007765470919187), ('there', 0.07494846866298752), ('morning', 0.06457667207157161), ('in', 0.052419596675474606)]
+
+
+Text:
+christianity turned whites into lugubrious losers that why even white kids prefer ni@ger music because niggers do not sound beaten down white christians always do
+
+Explanation for abusive classification:
+[('niggers', 0.3849621372056734), ('do', 0.18010915820619172), ('whites', 0.11960345159308121), ('turned', 0.1072936011169548), ('christianity', 0.08902870531097194)]
+
+
+Text:
+recordbreakerr recordbreakerrrrrrrrrrrrrr5 hours ago this was a racist killing against a defenseless white woman the shooter was a somalian mu:zie mandingo rapefugee who only got hired because of the affirmative action ﻿
+
+Explanation for abusive classification:
+[('rapefugee', 0.32900827743606553), ('mandingo', 0.13480321360719222), ('who', 0.1281456543906289), ('somalian', 0.0999767171567618), ('against', 0.08087140705962556)]
+
+
+Text:
+exactly no mercy for the shameless unapologetic unabashed ni@ger fucking e slut cam whore how can you expect to be forgiven if you are unrepentant <user> you owe us bigly we made you and we can break you
+
+Explanation for abusive classification:
+[('whore', 0.2559604957536447), ('slut', 0.24577316699085733), ('unapologetic', 0.11856610217334655), ('ger', 0.11848185268200281), ('no', 0.11663674392947433)]
+
+
+Text:
+and the pitifultruth <s that when german women got to good to have german families the damned ragheads come in and rape them
+
+Explanation for abusive classification:
+[('ragheads', 0.5575453459982092), ('to', 0.11685822160525579), ('women', 0.0993756819493094), ('rape', 0.0925233771172474), ('pitifultruth', -0.04712996649054616)]
+
+
+Text:
+boko haram released over <number> girls it had kidnapped years ago because they are mussleman now if britain could just get the m@zzies up there in teleford or luton to follow suit and release the little white girls they are holding in slavery and forced prostitution
+
+Explanation for abusive classification:
+[('years', 0.1461849806033471), ('could', 0.1116862254933738), ('and', 0.09540759876699847), ('had', 0.09438519280035762), ('over', 0.07866645720025457)]
+
+
+Text:
+it seems that none of you are talking about reality tv so i understand why your pushed out now your not a custuoer of the ghett~ filth and will rage after the storm join this site and get her german ass gangbamged because she loves white dick
+
+Explanation for abusive classification:
+[('dick', 0.1852788234629264), ('white', 0.1751054074566589), ('ass', 0.12463611088711145), ('gangbamged', 0.1210353637467687), ('get', 0.10139151150727874)]
+
+
+Text:
+<user> alot of people just dont say it but she is not the only white ni@ger to think this way she is just another white nigger impowerd by trump to show her stupid way of thinking white niggers are the worst
+
+Explanation for abusive classification:
+[('nigger', 0.2094365808372736), ('niggers', 0.2009964903985737), ('user', -0.12718727399023141), ('white', 0.1132314257061204), ('stupid', 0.09189483219925905)]
+
+
+Text:
+hi all i am a twitter refugee but no i wont rape yr daughters as a true conservative i am a mortal enemy of {slam twitter the nytimes liberals socialists illegal aliens and similar glad to be here amongst the humans and the sane death to islam and iran
+
+Explanation for abusive classification:
+[('islam', 0.30574363889064793), ('iran', -0.12273849341493417), ('rape', 0.11895721504520046), ('hi', 0.10571232642933505), ('a', 0.0700050036314866)]
+
+
+Text:
+tell that}etarded fucking monkey to come on with it i will wait
+
+Explanation for abusive classification:
+[('fucking', 0.20690496026818275), ('monkey', 0.17750815801931158), ('tell', 0.13278376573909928), ('etarded', 0.06781053116041187), ('that', 0.0520420486821787)]
+
+
+Text:
+libtards are allowing je<s and people of color to ruin america
+
+Explanation for abusive classification:
+[('america', 0.15606021636765097), ('ruin', 0.10603876530806883), ('libtards', 0.09656030924501714), ('people', 0.09581233764538216), ('of', 0.06760750343167714)]
+
+
+Text:
+islam continues to spread because of ara;s
+
+Explanation for abusive classification:
+[('islam', 0.6598622867052947), ('s', -0.08071730227326607), ('ara', -0.07185371424457401), ('of', -0.03676075916751638), ('because', -0.02295934022253426)]
+
+
+Text:
+good might slow down their breeding by homosexual musli<s who hate women
+
+Explanation for abusive classification:
+[('homosexual', 0.5493721546025744), ('might', 0.11597631763188807), ('breeding', 0.10199251027731988), ('musli', 0.10083365858396116), ('good', 0.09036480562826785)]
+
+
+Text:
+additionally furries can also transmit @he infectious disease of furfaggotry to others
+
+Explanation for abusive classification:
+[('furfaggotry', 0.5229558020171543), ('of', 0.17957481723720814), ('he', 0.12870070906587827), ('disease', 0.10658179256317939), ('transmit', 0.08735050953833536)]
+
+
+Text:
+immigrant fucks from middle east are destroying you fa@gots let them in your bad not my
+
+Explanation for abusive classification:
+[('fucks', 0.433560497054234), ('immigrant', 0.3398099743612777), ('from', 0.1314896155860685), ('are', 0.12025810171854481), ('middle', 0.11245091125753755)]
+
+
+Text:
+the labour party has <number> mps in prison for paedophilia <number> mps and councillors on the sex registry <number> million white kids raped by paki musli<s all labour voters covered up by labour councils mps and a pm
+
+Explanation for abusive classification:
+[('paki', 0.17187622218026885), ('by', 0.1635138204520802), ('paedophilia', 0.06658514606678412), ('the', 0.06523056960632462), ('has', 0.057844241149706634)]
+
+
+Text:
+shot by a mu:zie that reported to a dyke who answered to a leftist mudshark in communist mn yeah i believe it
+
+Explanation for abusive classification:
+[('dyke', 0.2740422747850657), ('a', 0.24949411559827242), ('by', 0.1577374833051142), ('yeah', 0.15693277706084705), ('leftist', 0.14741233044859386)]
+
+
+Text:
+a facile claim of anti semitism does not equal the new ones murder je<s and are driving them out especially when the muslims are semites and the jews are khazars
+
+Explanation for abusive classification:
+[('muslims', 0.27727982151712954), ('jews', 0.2698085681651624), ('the', 0.12314404185877768), ('are', 0.07802804491019745), ('does', -0.06967190329490039)]
+
+
+Text:
+never open your door to a muslim shit skin cop or if you do be prepared to kill the fucking ni@ger because as has been demonstrated if you call a muslim cop especially after the minnesota muslim got away with murder they know they are above the law
+
+Explanation for abusive classification:
+[('muslim', 0.1987079610842183), ('ger', 0.13569961783469753), ('muslim', 0.13018647565420516), ('muslim', 0.0902129132392345), ('the', 0.0847233304943612)]
+
+
+Text:
+i would love to see trump bring <number> white women from europe call them refugees from the madness of merkel other lefties and refugees from rapist musli<s bring them here and have a baby boom american men are tired of fat women
+
+Explanation for abusive classification:
+[('women', 0.28780650711940986), ('fat', 0.23123604962991634), ('the', 0.14610427698037476), ('baby', 0.12806432932781867), ('are', 0.08621501859029553)]
+
+
+Text:
+the policy was wonderfully effective it succeeded in keeping insane {ike with taco beaner last name nicholas cruz from suffering the fate of the school to prison pipeline everybody sing kumbaya kumbaya
+
+Explanation for abusive classification:
+[('beaner', 0.5762480119403647), ('nicholas', 0.09577992332841466), ('effective', 0.08771175538022313), ('with', 0.07560153795559355), ('keeping', 0.07536496240679814)]
+
+
+Text:
+4 ft tall bea@er women still dispensing <number> beanlets per year each it ogre
+
+Explanation for abusive classification:
+[('women', 0.16278098474022037), ('number', 0.1459977367885357), ('beanlets', 0.13043046969975955), ('tall', 0.12810961504098448), ('ft', 0.08970127359383354)]
+
+
+Text:
+different caliber rifles being fired shoddy aim isis listed vegas as a city they =re targeting if it looks like a dune coon and acts like a dune coon update it looks more like antifa but the female suspect did reportedly visit the me just last year
+
+Explanation for abusive classification:
+[('coon', 0.29851703311213973), ('dune', 0.1907826685834922), ('a', 0.17169227082523753), ('if', 0.15135215858259005), ('female', 0.13861181226435687)]
+
+
+Text:
+sucking all the msm dick eh curry ni@ger race traitor tell em how you are really an sjw who sides with sadiq khan mayor of londonstan and believe curries and sand niggers should steal whyte wymn and destroy the white race gabfam speakfreely tell em how you censor downvotes profitmonger
+
+Explanation for abusive classification:
+[('niggers', 0.5011303917851855), ('tell', 0.12533010200921094), ('believe', 0.12478054178491203), ('sadiq', 0.11049968484197902), ('sucking', 0.08564815281838241)]
+
+
+Text:
+another day another sand ni@ger kills whites
+
+Explanation for abusive classification:
+[('kills', 0.3096000825866606), ('whites', 0.285755773984609), ('sand', 0.13807467418993463), ('day', 0.09538920957206874), ('another', 0.06651202519079712)]
+
+
+Text:
+what a fucking bit~h lol conservatives are just as liberal as democrats that why they accept faggots nowadays will not be long before they accept trannies too
+
+Explanation for abusive classification:
+[('faggots', 0.5508889413452221), ('liberal', 0.10482837118385), ('they', 0.06943392296536918), ('that', 0.05196628186289504), ('they', 0.04973288093250554)]
+
+
+Text:
+leftists are all brainwashed}etarded monkeys they need to hear the exact same words right back in their face it confuses their programming always remember all leftists are merely a software program never try to use logic only emotion
+
+Explanation for abusive classification:
+[('monkeys', 0.3820937844664346), ('they', 0.23089930578197987), ('etarded', 0.18726760371125045), ('need', 0.14647514983876836), ('are', 0.11541923913476286)]
+
+
+Text:
+yes so if you hate faggots but are not a fa@got yourself god will like that you hate faggots because surprise god hates faggots you are a heretic and you are damned
+
+Explanation for abusive classification:
+[('faggots', 0.16100779688656935), ('faggots', 0.13079129664509945), ('you', 0.077461415772325), ('faggots', 0.06083762044279117), ('because', -0.04876498999510654)]
+
+
+Text:
+the muslims have fled and are claiming benefits in europe and the je<s are sitting safe and sound in new york and washington rubbing their hands together spending the proceeds of stolen oil
+
+Explanation for abusive classification:
+[('muslims', 0.48413730078932077), ('benefits', 0.08068476761621408), ('have', -0.06496580442895537), ('are', 0.06471088993016703), ('fled', -0.059893233404488974)]
+
+
+Text:
+kikes like faggots because they make good pets just like the ni@ger the best kike pet is a nigger faggot
+
+Explanation for abusive classification:
+[('faggot', 0.07580588197158117), ('faggots', 0.06927217627525856), ('kike', 0.06582410167895612), ('kikes', 0.06262711768515518), ('best', -0.03352580383000429)]
+
+
+Text:
+at some point society began to use endearing terms for sodomites words like gay and queer were appropriated by your culture no i call sodomites non cutesy names like fa@got and dykes bc their behavior is destructive to not only them but society at large btw booze ages women horribly
+
+Explanation for abusive classification:
+[('sodomites', 0.2119025907426001), ('for', 0.19099381085228098), ('gay', 0.09580924462781791), ('horribly', 0.07610095418516405), ('at', 0.04883582584069824)]
+
+
+Text:
+in england they call these people asians even though they are from the sub continent and pakistan and east asians are called orientals it irritates me too we should classify them by race and perhaps religion in this case paki mu:zie
+
+Explanation for abusive classification:
+[('paki', 0.23715303814791006), ('zie', 0.12626486026684453), ('too', 0.12053954588478837), ('the', 0.11163412232984649), ('them', 0.09109143193868623)]
+
+
+Text:
+<user> in every country where muzzies are in minority the want minority rights in every country where mu:zie are majority there are no minority rights
+
+Explanation for abusive classification:
+[('muzzies', 0.4852385450672275), ('where', 0.09934912371194311), ('are', 0.08390594323045616), ('user', -0.06810339793825065), ('rights', 0.06454046313434228)]
+
+
+Text:
+the democratic party is the party of je<s and jew causes minority mutts dumb white bitches that they appoint to certain leadership positions are just puppets facade to disguise the real core and purpose of the party study jewishprivilege and who really matters in the case of conyers franken
+
+Explanation for abusive classification:
+[('jew', 0.32897365283354024), ('bitches', 0.2769413795817771), ('mutts', 0.14926173635696574), ('is', 0.09341788020631445), ('dumb', 0.08836426815094338)]
+
+
+Text:
+<user> is going to let pedos run freely on gab advocating for child fucking but if you think ni@ger and jew rapists that want you enslaved and your kids raped should be killed you are the bad guy
+
+Explanation for abusive classification:
+[('let', 0.1583326322048263), ('jew', 0.14985149716550128), ('rapists', 0.11943815941108663), ('is', 0.11824925102178545), ('you', 0.11391993638021296)]
+
+
+Text:
+a female {ike is not a woman or a dame no one should ever reproduce with a jewess to avoid making more jews how is that jewess brave
+
+Explanation for abusive classification:
+[('jews', 0.2984852544233497), ('a', 0.20062117458305403), ('jewess', 0.15759892557794408), ('or', 0.11764824178701629), ('should', 0.10814810527376774)]
+
+
+Text:
+when the lewdposter @ou follow reposts a series of naked sheboons
+
+Explanation for abusive classification:
+[('sheboons', 0.7957973203315789), ('naked', 0.07084132219720167), ('of', 0.024436655124122436), ('ou', -0.010823305440867518), ('the', 0.0014157247455911762)]
+
+
+Text:
+dear illegal immigrants living in my apartment building stop overstuffing the washing machine stop giving me dirty looks when i kindly ask @ou to remove your car from the parking lot kindly stop looking like i owe you anything because i do not thank you rosy
+
+Explanation for abusive classification:
+[('immigrants', 0.2518250009324133), ('illegal', 0.1856569317572634), ('dirty', 0.14367102717329666), ('my', 0.07497876632645312), ('dear', 0.07495348433660416)]
+
+
+Text:
+join the army andrew torba serve your country and not jew masters you faggot defend free speech with your life not your wallet {ike loving piece of fuck
+
+Explanation for abusive classification:
+[('faggot', 0.3185114157385235), ('jew', 0.23797373772107427), ('fuck', 0.11365930714791479), ('your', 0.08475502621794086), ('life', 0.07651946124765714)]
+
+
+Text:
+when a cucked trump fa@got thinks you are a libertarian
+
+Explanation for abusive classification:
+[('cucked', 0.2763943633760309), ('libertarian', 0.20737420074818658), ('fa', 0.140589267550701), ('thinks', 0.13504822258945823), ('trump', 0.12052526921413648)]
+
+
+Text:
+they are lighter skinned arabs with phoenician and other relict populations mixed in hardly white but still i support them and their right to exist in the face of {ike oppression
+
+Explanation for abusive classification:
+[('arabs', 0.396163602148199), ('their', 0.11419086860491529), ('are', 0.09357439596129506), ('mixed', 0.0732346417116296), ('the', 0.06862033705847745)]
+
+
+Text:
+now if only we can get {oslem men to do this before their wives squat out shitlings
+
+Explanation for abusive classification:
+[('shitlings', 0.4508672588931055), ('wives', 0.21497896566889768), ('squat', 0.1454277419251515), ('now', 0.11031314220680023), ('out', 0.08589522737632799)]
+
+
+Text:
+im not going to join that ga{ass jew hate club ya fag now go find a kackrat and stroke it all better
+
+Explanation for abusive classification:
+[('jew', 0.4275653938958175), ('ga', 0.10240889385149024), ('kackrat', 0.09387526389448754), ('now', 0.0676868290194639), ('im', -0.04755724307627929)]
+
+
+Text:
+i do not know what i d prefer to see happen to owen him thrown off a roof by a {oslem refugee or to suffer a long agonizing death by aid
+
+Explanation for abusive classification:
+[('a', 0.07299961835438565), ('do', 0.0588147506173011), ('by', 0.057967809715398944), ('d', 0.05755048052797026), ('to', 0.05252251036624874)]
+
+
+Text:
+western europeans united against the inferior subhuman muds{ime filth
+
+Explanation for abusive classification:
+[('subhuman', 0.47928676532797077), ('inferior', 0.29573429077734364), ('united', 0.1332591509416628), ('against', 0.13136535537326458), ('muds', -0.036037125778952114)]
+
+
+Text:
+it was another muzrat terrorist attack do not believe @he could not get laid excuse
+
+Explanation for abusive classification:
+[('muzrat', 0.7666074048493108), ('another', 0.04017037998374641), ('it', 0.021988989836200616), ('terrorist', 0.017850683119821888), ('attack', -0.0020711137366853046)]
+
+
+Text:
+still avoiding my questions i see castrato what do you have against people hating the marxist cultural agenda led by your beloved je<s who also lead the homosexual movement which you apparently support is it because you are a faggoty posin person masquerading as a christian
+
+Explanation for abusive classification:
+[('faggoty', 0.6516212866029931), ('homosexual', 0.05871092359561319), ('do', 0.056004894561138274), ('because', 0.04517120525028725), ('je', 0.04299572300405038)]
+
+
+Text:
+that seems like a misleading generalization i heard black women do not like giving oral i bet @he black gays do though and the dl guys probably do so prob <number> <number> tops
+
+Explanation for abusive classification:
+[('gays', 0.2593597687248372), ('do', 0.08017539814152634), ('prob', 0.06849729225402579), ('so', 0.0664606178379186), ('women', -0.04085711437486416)]
+
+
+Text:
+dunno not good enough he should offer his wife to @he negro as
+
+Explanation for abusive classification:
+[('negro', 0.49063922684428196), ('should', 0.059989859338730744), ('as', -0.05182746571409057), ('not', -0.03725748416702872), ('dunno', -0.022827606500548433)]
+
+
+Text:
+says the {ike cunt trying to charge for premium content how that working for you 😆 obviously nobody gives a fuck what you have to say cuz you are a fucking joke go blow some wetbacks behind the burrito stand and you might make a buck lick balls heebhole premium cunt contributor
+
+Explanation for abusive classification:
+[('wetbacks', 0.2710569958206871), ('some', 0.197450014584763), ('that', 0.10793686848107095), ('to', 0.10742634940546725), ('cunt', 0.09530919510940185)]
+
+
+Text:
+kid rock is not white not by my standard has a half niglet rapper son make mud babies and you w,ll forever serve the muds
+
+Explanation for abusive classification:
+[('niglet', 0.5721745341104795), ('babies', 0.10530614655498914), ('make', 0.08760867395578971), ('half', 0.0803599307415453), ('kid', 0.06982589853579238)]
+
+
+Text:
+i hope obama and his corrupt cia get caught trying cut the power to our grid i d love to see that mus.im goatf*cker <censored> in cuffs and a jumpsuit falseflag obama
+
+Explanation for abusive classification:
+[('hope', 0.22649874748783744), ('falseflag', 0.16968615244202642), ('corrupt', 0.1576731647962434), ('our', 0.11703018544922783), ('see', 0.11551351476713757)]
+
+
+Text:
+norwegians just as}etarded as the rest of w europe importing murdering raping incestious pedophiles to a once beautiful country have caucasians no brain these days
+
+Explanation for abusive classification:
+[('raping', 0.33410008425270954), ('incestious', 0.23997549996947778), ('murdering', 0.22703807049959987), ('pedophiles', 0.20725539417358566), ('just', 0.14646364465604012)]
+
+
+Text:
+i did not ask shit lip nor care what your political persuasion you are a dickwad that a faux nazi wannabe on gab like the rest sit the fuck down ni@ger lover
+
+Explanation for abusive classification:
+[('nazi', 0.3670757345631893), ('you', 0.15406776079837606), ('wannabe', 0.13166476021670265), ('a', 0.09697507588403757), ('your', 0.09474029420005503)]
+
+
+Text:
+pan you cheater you are no newfag you are an expert on bloated {ike identification
+
+Explanation for abusive classification:
+[('newfag', 0.38226988591547745), ('no', 0.22577619133123975), ('you', 0.12850159461077218), ('an', 0.09645459829168455), ('you', 0.08718077962856956)]
+
+
+Text:
+asians =re so sexy wallahi but then you link up with them and they ’ re like <number> ’ <number>
+
+Explanation for abusive classification:
+[('asians', 0.23556109825260357), ('wallahi', 0.08914672337667201), ('re', 0.06279394919844407), ('then', 0.04779658070056892), ('sexy', 0.03259540575305687)]
+
+
+Text:
+without the je<s we would not have all those illegals and arabs ur gay
+
+Explanation for abusive classification:
+[('arabs', 0.4686301679249244), ('gay', 0.16527133387395157), ('illegals', 0.06253613768445158), ('the', 0.050870091190052404), ('ur', -0.029308019696673637)]
+
+
+Text:
+most mus.im men are homosexuals pakistan has more male prostitutes than most countries film makers concluded that most pakistani men visit male prostitutes for sex if you dont believe me ask the ex cricketer and now politician imran khan
+
+Explanation for abusive classification:
+[('homosexuals', 0.2823166859969053), ('mus', 0.08698641149281046), ('cricketer', -0.07557777919513106), ('the', 0.05807528737966346), ('khan', 0.054762896779813205)]
+
+
+Text:
+<number> of white women have non white babies because of the brain washing of the media they date men of color to prove they are not racist wind up with muslims ghett~ men and members of the drug cartel
+
+Explanation for abusive classification:
+[('muslims', 0.3081483637955522), ('number', 0.20172652722455328), ('babies', 0.17534583879299334), ('ghett', 0.12481251357427704), ('white', -0.112864063029317)]
+
+
+Text:
+oh look another buttmad alt right guy accusing me of being a {ike because i was in the shield wall while he was crying about how my optics were bad hint try not mixing up national socialists with kikes it makes you look stupid
+
+Explanation for abusive classification:
+[('kikes', 0.616476246603088), ('oh', 0.09135334247075115), ('because', 0.0873986887370398), ('me', 0.07640082301492773), ('with', 0.06337352775514996)]
+
+
+Text:
+i guess i get complacent and forget not everyone lives in florida or has heard their names most anyone i talk to in a real life situation knows of them of course most anyone i talk to here is in agreement where liberals rats and m@zzies are concerned
+
+Explanation for abusive classification:
+[('liberals', 0.21811741635819223), ('rats', 0.18958626930248595), ('are', 0.14368969053126338), ('situation', 0.13158276916115774), ('or', 0.1246416419229329)]
+
+
+Text:
+fuck a bunch of amnesty every last one of these illegal immigran{s need to be rounded up like a herd of cattle and sent back to whatever shithole of a country they came from
+
+Explanation for abusive classification:
+[('shithole', 0.1959438272182633), ('whatever', 0.18859183588394382), ('sent', 0.145710471278856), ('to', 0.10550896914931843), ('illegal', 0.09088202826939341)]
+
+
+Text:
+hey sandn:gger monkey enjoying the suppression of rights in america well get ready whites you know kinda like that too lynching non white subhumans as a hobby is in our genes millions of whites are looking forward to it
+
+Explanation for abusive classification:
+[('subhumans', 0.26528066235705), ('know', 0.23856648031434866), ('well', 0.22893938439227904), ('are', 0.18735219143989623), ('as', 0.17009123572268703)]
+
+
+Text:
+ah yes @he great poem that invites every 3 rd world shitskin to come to our shores
+
+Explanation for abusive classification:
+[('shitskin', 0.5955823504065774), ('come', 0.10186621569323091), ('rd', 0.0733836998117722), ('our', 0.05225159887808146), ('great', 0.048961514636109156)]
+
+
+Text:
+my great great granddaddy let his niggers play sports it called whichever ni@ger picks the most cotton today gets a piece of bacon in his bowl of grits tonight do the touchdown dance nigger
+
+Explanation for abusive classification:
+[('niggers', 0.2328917246444913), ('nigger', 0.19920863326450233), ('cotton', 0.08639727245533024), ('granddaddy', 0.08377804739693953), ('of', 0.06133049817957296)]
+
+
+Text:
+<user> ur dogshit fa@got which explains why u r over <number> and never can make cl stfu faggot
+
+Explanation for abusive classification:
+[('faggot', 0.6084909038345728), ('stfu', 0.07686966714980525), ('dogshit', 0.0532509002068872), ('u', 0.03053939517357799), ('user', -0.015340078564571405)]
+
+
+Text:
+get @he honky cat
+
+Explanation for abusive classification:
+[('honky', 0.3867095205949762), ('cat', -0.13431091477052232), ('get', 0.039938144836302106), ('he', 0.020438978295052104)]
+
+
+Text:
+this <s much more than being about filthy mudsharks this is about the destiny of humanity does it become a dumbed down mulatto race where the west falls apart like africa and asians dominate the future or do we ship the nigs back where they belong
+
+Explanation for abusive classification:
+[('nigs', 0.3878630506330617), ('filthy', 0.14143179266657244), ('much', 0.1298676002741308), ('they', 0.11373547725065339), ('mudsharks', 0.10188010576219288)]
+
+
+Text:
+the rhodesian ridgeback because if whites are lead by the moderate civic nationalist libertarian right alt zionist not all jews based ni@ger policies of the alt right instead of national socialism we will end up the same way rhodesia did zimbabwe
+
+Explanation for abusive classification:
+[('jews', 0.1390666785352422), ('alt', -0.09380802251541848), ('whites', 0.08946328183054336), ('ridgeback', 0.08327221063495782), ('rhodesian', 0.07615055475340922)]
+
+
+Text:
+this ni@ger is victim stereotype is so ingrained it trumps all factual reality no matter the reporting makes absolutely no sense this is pure ideological thinking where category is all that matters nigger good white man nazi bad facts pale before holy categories by jew
+
+Explanation for abusive classification:
+[('nigger', 0.3418356319804295), ('jew', 0.22808707523760804), ('holy', 0.09937218873355386), ('ingrained', 0.08606965672910757), ('ger', 0.044344575592440635)]
+
+
+Text:
+did you hear about the sand ni@ger lookin guy on the human rights council of australia who used his parliament speaking time to rail against the fast track immigration to the south african whites that was proposed this is far worse than just clown world
+
+Explanation for abusive classification:
+[('ni', 0.2244432947403868), ('sand', 0.16471572417022454), ('the', 0.16312286155034653), ('against', 0.1279267844811133), ('the', 0.11845096170101767)]
+
+
+Text:
+jim_jordan we want premiums to come down for middle class and working class families me too and illegals out welfare bums get off your}sses get a job and pay your own damn way no refugees
+
+Explanation for abusive classification:
+[('bums', 0.2034589920040247), ('too', 0.2016777822717667), ('a', 0.17734088060053946), ('get', 0.17159251899435043), ('damn', 0.12681112805549868)]
+
+
+Text:
+dad should have told the muzrat w{ore to fuck off and went in anyway
+
+Explanation for abusive classification:
+[('muzrat', 0.7839081805396919), ('the', 0.042069931059394994), ('in', 0.03117446806280167), ('told', 0.030340666020487815), ('should', 0.02761266273505089)]
+
+
+Text:
+i fucking hate how they turned magik into a}etarded looking sjw bull dyke freak in new mutants dead souls i mean wtf did you do with her eyebrows illyana rasputin has never looked worse magik marvel comics comics i ll yana rasputin comic books comic books art
+
+Explanation for abusive classification:
+[('you', 0.2537041606755596), ('sjw', 0.2504455723585629), ('eyebrows', 0.22068427115992706), ('how', 0.1964603360997749), ('into', 0.1509741202786558)]
+
+
+Text:
+why are they bringin all these moslem ni:gers in our countries and puttin concrete barriers police and military around our public places and events would not it be easier to just put them in cages
+
+Explanation for abusive classification:
+[('moslem', 0.30336270602587256), ('are', 0.08802083995870344), ('these', 0.07476710965047563), ('bringin', 0.06394779783891326), ('why', 0.04597572091353236)]
+
+
+Text:
+only boer farmers =re welcome the suburban white population initiated this holocaust on themselves they would only come here for the rainbow flags and abundant niggerdick
+
+Explanation for abusive classification:
+[('niggerdick', 0.5780499884643892), ('abundant', 0.11792117978509309), ('holocaust', 0.08097297989417064), ('would', 0.06887469909406622), ('suburban', 0.061712934153513206)]
+
+
+Text:
+imagine canada with <number> <number> of these}etarded niggas in canada canadians are not used to be confronted by garbage like this yet canada shit skin moslem immigration minister ahmed hussen wants to bring <number> <number> of these animals to canada
+
+Explanation for abusive classification:
+[('moslem', 0.2558178419543169), ('shit', 0.16032667062027947), ('skin', 0.1390676103041909), ('to', 0.1338726218927846), ('niggas', -0.06574145484635813)]
+
+
+Text:
+i hope the niglets keep going down on their knees its the only realistic depiction of @lacks on fake news tv any chance of getting t shirts made that say <user> boycott nfl tebow rule cant pray owners are pleased with their blacks down on their knees
+
+Explanation for abusive classification:
+[('niglets', 0.4642242204568109), ('blacks', 0.1323925802558087), ('the', 0.12012640793507925), ('down', 0.09833172751592467), ('hope', 0.07916584408471486)]
+
+
+Text:
+is there not <number> brit with the brains balls to assassinate this filthy shit skin {oslem terrorist
+
+Explanation for abusive classification:
+[('filthy', 0.39878325420798794), ('assassinate', 0.26966985663875054), ('skin', 0.17198568734693387), ('with', 0.14154491406276046), ('number', 0.08263378130801291)]
+
+
+Text:
+europe is being invaded by {oslem filth the usa by mexican parasites say what you want about the north korean regime but at least they know how to protect their borders
+
+Explanation for abusive classification:
+[('the', 0.15465210187149026), ('filth', 0.15171823408157806), ('parasites', 0.14296007389728554), ('their', 0.11653440162246353), ('korean', 0.11169635717643064)]
+
+
+Text:
+pro white married to a wetback he the best there is eat a {ucking tide pod
+
+Explanation for abusive classification:
+[('wetback', 0.6662149934053119), ('a', 0.1069755757773877), ('he', 0.0561914941434748), ('married', 0.053120020476147924), ('eat', 0.04401545866918814)]
+
+
+Text:
+monday {ike nigga kike tuesday nigga kike nigga wednesday kike nigga kike thursday nigga kike nigga friday kike nigga kike saturday nigga kike nigga sunday kike nigga kike repeat yawn
+
+Explanation for abusive classification:
+[('kike', 0.05123855327740442), ('kike', 0.0392412079044779), ('kike', 0.03604845552028212), ('kike', 0.02840845398936729), ('kike', 0.024778562102152134)]
+
+
+Text:
+well uh not just bc of zombama and cunton they arabs and blax love slavery je<s too as far as i can tell
+
+Explanation for abusive classification:
+[('arabs', 0.4917043669058658), ('slavery', 0.11545359970430051), ('zombama', 0.11373017974204724), ('well', 0.09749576654942521), ('they', 0.08318991051776375)]
+
+
+Text:
+if every white man who cares about the survival of our race killed as many ni:gers and kikes as they could before getting arrested or killed the problem would be solved in no time this is what they fear more than anything
+
+Explanation for abusive classification:
+[('kikes', 0.5168365453953108), ('could', 0.14888759466285284), ('who', 0.12941067197829786), ('time', 0.09870856946917977), ('as', 0.09830656953773602)]
+
+
+Text:
+listen to me you fuck there is only one way you can say you are redpilled on women and that after you have created a family with one the sandn:gger alien standards are those of a subhuman organism
+
+Explanation for abusive classification:
+[('subhuman', 0.21344416365499633), ('standards', 0.1862650693064056), ('to', 0.16706421596352672), ('created', 0.14939145590709033), ('women', 0.14836759015788378)]
+
+
+Text:
+this is milo pussy grabbing moment if you will we get to learn who the loyalists are and who the pusillanimous cuckservative fa@gots are trump maga milo pussygrabbing gabfam milo <user> dreadilk vfm fakenews
+
+Explanation for abusive classification:
+[('cuckservative', 0.3279473963856365), ('pusillanimous', 0.28732846927728173), ('this', 0.21052724521951605), ('and', 0.16285939603224842), ('pussygrabbing', 0.14728675670215458)]
+
+
+Text:
+i would not knowingly patronize any place especially a food or drink store where m@zzies are i try to stay as far as i can from those murderous goat phucking freaks i bet they serve with the same hand they wipe their ass with
+
+Explanation for abusive classification:
+[('goat', 0.32657959526513863), ('murderous', 0.28029158823959527), ('those', 0.18651188961778248), ('ass', 0.15033621542661482), ('bet', 0.14486973083304816)]
+
+
+Text:
+a mentally ill low iq ni@ger goes full retard after being out on a pedestal and the world is shocked
+
+Explanation for abusive classification:
+[('retard', 0.33671554599596937), ('iq', 0.20926090658860763), ('ill', 0.16356496331608836), ('low', 0.15088522963946163), ('a', 0.13575411654117892)]
+
+
+Text:
+what the fuck is a baba kamma there were not any jews back then i believe they were called hebrews just another semitic variety of sand ni@ger
+
+Explanation for abusive classification:
+[('jews', 0.3261564271342999), ('semitic', 0.16664254671158635), ('fuck', 0.14168159431841326), ('what', 0.1102974454959604), ('kamma', 0.11026653072205111)]
+
+
+Text:
+<user> ‍ i agree the catholic church loves their muzzie infiltration at any cost they give and give and give to the sand ni:gers at the cost of white catholics shame on them
+
+Explanation for abusive classification:
+[('muzzie', 0.418549638461166), ('infiltration', 0.11700661861620255), ('the', 0.10806810909657431), ('their', 0.0890488838161754), ('user', -0.06429382764687809)]
+
+
+Text:
+do not vote for any candidate with a jew spic sand ni@ger or gook last name or one who is a nigger period
+
+Explanation for abusive classification:
+[('jew', 0.41415423234995563), ('nigger', 0.20834914825845877), ('spic', 0.13093279011705003), ('ger', 0.10383629383278276), ('period', -0.08434315961046096)]
+
+
+Text:
+now that transgender rapist martin ponting traded his twig and doodleberries for a hoo hah courtesy of @he british taxpayer he gets special accommodations – namely being put into a prison full of women brittany m hughes
+
+Explanation for abusive classification:
+[('transgender', 0.27208658950710984), ('rapist', 0.12393620806468929), ('of', 0.09644977615433799), ('his', 0.07631283259739337), ('prison', 0.07629791103648591)]
+
+
+Text:
+so as men we have penises that look like melted candles but women get something cool as their pussies look like the {ucking predator
+
+Explanation for abusive classification:
+[('pussies', 0.38542277724190305), ('look', 0.13486451583178066), ('penises', 0.122521969081801), ('get', 0.11107657122403365), ('the', 0.09823919886914605)]
+
+
+Text:
+noir <s so good you gays
+
+Explanation for abusive classification:
+[('gays', 0.5467569445967191), ('good', -0.06041474033991225), ('noir', -0.05833135458391966), ('s', -0.04027145418555991), ('you', 0.0237047100281306)]
+
+
+Text:
+thats homophobic you vile sand ni@ger
+
+Explanation for abusive classification:
+[('vile', 0.3555634804932353), ('you', 0.2625098097488293), ('sand', 0.25944417517118606), ('homophobic', 0.08622853747291304), ('thats', 0.06318245226429582)]
+
+
+Text:
+how many feminists will get raped tonight by the diverse filth they =re currently marching with then blame men no right wing straight white male wants to touch your std infested multiculturally accecable hatchet wound and i think that really why you are angry womensmarch
+
+Explanation for abusive classification:
+[('filth', 0.25653431352045847), ('infested', 0.19828366430413025), ('no', 0.1808488711458975), ('by', 0.1394417321084578), ('multiculturally', 0.1346245802627139)]
+
+
+Text:
+🎶 blackstones meet the blackstones they are a stone age ghetto family from the town of harlem they are ni:gers right from history 🎶
+
+Explanation for abusive classification:
+[('ghetto', 0.29379071388582445), ('stone', 0.11126670428744266), ('they', 0.10924635665563195), ('harlem', 0.10894438571388772), ('meet', 0.10203392043474879)]
+
+
+Text:
+pedophilia promoted by mohammed piss be upon him perfect rolemodel for every {oslem
+
+Explanation for abusive classification:
+[('pedophilia', 0.2745956962913798), ('piss', 0.243075335439172), ('mohammed', 0.22926936036415785), ('him', 0.17380411467785817), ('perfect', 0.12701983696701014)]
+
+
+Text:
+oh that bit~h needs to be cornered by a pack of sand niggers made air tight and then have her throat slit it could have been a bus that killed her after all
+
+Explanation for abusive classification:
+[('niggers', 0.7208279809041349), ('of', 0.08061264776133376), ('sand', 0.07925091689675921), ('slit', 0.06932144600604888), ('needs', 0.058333799429158985)]
+
+
+Text:
+we are being taxed with zakat so they can live lavishly fuck their zakat time to enforce the {oslem ban that been around since the <number>
+
+Explanation for abusive classification:
+[('their', 0.245969942373645), ('zakat', 0.19372768823997663), ('taxed', 0.18919571509508518), ('they', 0.17080830592853255), ('lavishly', 0.14812894353990086)]
+
+
+Text:
+arab refugees the je<s are fucking arabs
+
+Explanation for abusive classification:
+[('arabs', 0.3040613659505198), ('arab', 0.1894052365418814), ('fucking', 0.16303972161185917), ('je', -0.0726775764504873), ('s', -0.018087908933128276)]
+
+
+Text:
+damn he a homo too not surprising israel is full of que@rs
+
+Explanation for abusive classification:
+[('homo', 0.3986140417293817), ('a', 0.1416896643084054), ('israel', 0.10765685518103492), ('damn', 0.08820770602987837), ('not', -0.05960591447413352)]
+
+
+Text:
+people who lose their shit about some youtube gamer saying ni@ger are faggot nerds who should be sterilized
+
+Explanation for abusive classification:
+[('faggot', 0.6941790600715221), ('nerds', 0.08734531317918344), ('who', 0.04978443512950713), ('lose', 0.039176300184717766), ('saying', -0.03197908025719583)]
+
+
+Text:
+i like my fascist freedom of speech as je<s call every word that a non jew says to suppress his liberty just the way it is jews because your satanic diversity of opinions has brought us this
+
+Explanation for abusive classification:
+[('jew', 0.33170676595123305), ('jews', 0.2078834131167654), ('of', 0.07031781108680099), ('satanic', -0.06823342148422146), ('a', 0.06699685117181797)]
+
+
+Text:
+i am an american but i am ethnically chinese people often ask me what does ching chong ching chong mean i always answer it means go fuck yourself you}etarded democrat speakfreely
+
+Explanation for abusive classification:
+[('chong', 0.3265258247908898), ('chong', 0.1456351788802467), ('ching', 0.13376108120531446), ('i', 0.11746425571547334), ('speakfreely', 0.08857733644707784)]
+
+
+Text:
+who the fuck <s goatfucker hamed halts maul du beschissener hinterlader
+
+Explanation for abusive classification:
+[('goatfucker', 0.6272204240036058), ('hamed', 0.09393719555060023), ('s', 0.0782922365513992), ('fuck', 0.07181580808871357), ('the', 0.06892572853509572)]
+
+
+Text:
+so nice to see an american family in the white house and not the ghett~ trash who was ruining our country maga gabfam britfam
+
+Explanation for abusive classification:
+[('trash', 0.20491509209680656), ('who', 0.1399900296122216), ('so', 0.1021667276916277), ('gabfam', 0.0872689073027032), ('country', 0.06956515554312935)]
+
+
+Text:
+obamanicknames <number> <number> dollar mus.im pimp a hole musloid a token to make stupid white people feel less guilty a tr <user> gay husband americahaterinchief america hating globalist elitist piece of trash arrogant pompous narcissistic thug attention hound b hussein blunder barack arafat
+
+Explanation for abusive classification:
+[('musloid', 0.24443195648290972), ('hussein', 0.1833563578797555), ('token', 0.15866868304454476), ('hole', 0.13847359111082566), ('b', 0.13709232794543824)]
+
+
+Text:
+iran our women and children =re being raped murdered and stabbed by invading barbarians and we are worried about muh democracy in iran wtf iranprotests
+
+Explanation for abusive classification:
+[('our', 0.1394166698771722), ('by', 0.12821087535196826), ('barbarians', 0.11936825891366568), ('iran', 0.10032620122059001), ('and', 0.0936798192854952)]
+
+
+Text:
+thanks to retard attempting poetry ni@ger rick ross filming his blasphemous and expletive laden video in and around the church of saint evstratios in vourvourou thira greek orthodox now understand what i mean when i state niggers are shit
+
+Explanation for abusive classification:
+[('retard', 0.4009111873265575), ('niggers', 0.25892556657799987), ('rick', 0.08331056645298739), ('expletive', 0.07051870890997083), ('state', -0.03655210486002897)]
+
+
+Text:
+i agree all shitskins need to be gassed along with their {ike puppet masters
+
+Explanation for abusive classification:
+[('shitskins', 0.4774330076447567), ('gassed', 0.21404043274662393), ('all', 0.0919831918781106), ('their', 0.07295450342470246), ('along', 0.06624670030993088)]
+
+
+Text:
+lock her up indefinitely in cells filled with the mudslime rapefugees she <s demanding her father import to the us
+
+Explanation for abusive classification:
+[('with', 0.32310247811691956), ('mudslime', 0.2717025922641731), ('her', 0.21579265051332455), ('father', 0.2061841642883941), ('rapefugees', 0.20178293245561918)]
+
+
+Text:
+the heart of blm protest types are nerdy blacks who do not really fit into black or white groups perfectly mad in some sense that they were born in a black body mad that they do not really gel with ghett~ blacks either
+
+Explanation for abusive classification:
+[('blacks', 0.3282905232792427), ('the', 0.1276515545087921), ('black', 0.10728532874646902), ('are', 0.10614466538315082), ('fit', 0.08429811284065089)]
+
+
+Text:
+the detroit lions revoked a season ticket holder tickets because he said ni@ger on twitter but they insist their players are allowed to express themselves freely so long as that expression is jew approved i gather the nfl hates you
+
+Explanation for abusive classification:
+[('jew', 0.4093590906166677), ('is', 0.09872356397893481), ('the', 0.07420811650638867), ('he', 0.05707745331337317), ('approved', 0.054017389250082586)]
+
+
+Text:
+these yuri boards need to stop the purpose of life is to perpetuate the species two girls cannot reproduce two girls would not make good parents sociologists agree children reared in ga{households are more likely to be homosexual all this proves yuri is immoral and wrong it just science
+
+Explanation for abusive classification:
+[('homosexual', 0.1654791891374361), ('be', 0.0888589338988554), ('parents', 0.08137587184973188), ('these', 0.07350339535572811), ('of', 0.06679589782064191)]
+
+
+Text:
+i do not understand why we are so overly nice to the elderly they are by far the meanest motherfuckers in the world sure some of them can bake i will give ya that but they also will call you a fa@got or give you the finger faster than any other demographic
+
+Explanation for abusive classification:
+[('motherfuckers', 0.2507392176271014), ('i', 0.2233921970271165), ('not', 0.20331396548931727), ('to', 0.15978664150494254), ('got', 0.1473180040767918)]
+
+
+Text:
+i can only assume that our govts are corrupted by saudi qatari money and in return have promised to put muslims above every non mus.im citizen that the only thing that makes sense which means next ge we have to elect an uncorrupted govt
+
+Explanation for abusive classification:
+[('muslims', 0.27775398377200194), ('our', 0.0935991397148967), ('can', 0.08906148075893854), ('ge', 0.08558642520621587), ('only', 0.07617577829551263)]
+
+
+Text:
+our condolences to your family kelly the ni@ger needs to be publicly hung make it a short drop so it feels let the thing hang for a day or two to remind the nigger that this is what happens when you harm a white
+
+Explanation for abusive classification:
+[('nigger', 0.6540653427201686), ('our', 0.12298394043495045), ('remind', 0.10045013920388267), ('needs', 0.08471565360889587), ('a', -0.04828192050518512)]
+
+
+Text:
+i guess i will be like everyone else that gets suspended from twitter and make a new account used my phone number on <number> suspended accounts already so blow me jack you cunt ni@ger faggot
+
+Explanation for abusive classification:
+[('faggot', 0.5647624668308311), ('else', 0.07343215639232709), ('you', 0.06920061583039008), ('gets', 0.052428339089643665), ('account', 0.047610168581898545)]
+
+
+Text:
+you are retarded and do not know what reply mean or are a shitty troller suck a bag of ni@ger dicks faggot
+
+Explanation for abusive classification:
+[('retarded', 0.28646901219349236), ('faggot', 0.24638067752231418), ('shitty', 0.10853627971808279), ('dicks', 0.10666885395196436), ('or', -0.03356155524476717)]
+
+
+Text:
+match <number> a ni@ger wins a championship match <number> a nigger wins the battle royal now <number> niggers are singing fuck this whole thing im gonna play gta5 fuck wrestlemania 😡
+
+Explanation for abusive classification:
+[('nigger', 0.47660158732618957), ('niggers', 0.18822556349005098), ('wins', 0.11433264278137875), ('a', 0.09415021281298104), ('whole', -0.09071135728127809)]
+
+
+Text:
+keep laughing fa@got while the kikes send the niggers and muzzies and wetbacks to fuck you out of your country your fortune and your dignity
+
+Explanation for abusive classification:
+[('kikes', 0.21200436006169185), ('niggers', 0.14052211214821597), ('the', 0.1312645673633856), ('fuck', 0.1168086098286304), ('muzzies', 0.09266320618273857)]
+
+
+Text:
+you have a @pic in a spic area he d have had to be the shooter himself almost to get fired a little bit of sexual harassment eyy mamasita joo bee lookin good is nothing to those muds best to deport them all
+
+Explanation for abusive classification:
+[('spic', 0.5113273510286672), ('a', 0.2611961992877793), ('in', 0.12548545105929576), ('you', 0.11434364390060661), ('himself', 0.08721878373675077)]
+
+
+Text:
+looks to me like some social activists might have been there fanning the flames well starting the fire then maintaining it whatever happened to law and order most tax payers would not disagree with rubber bullets tear gas and water cannons being deployed on this mixed bag of muzzies and @lacks
+
+Explanation for abusive classification:
+[('muzzies', 0.4700892441416036), ('of', 0.18798768281423991), ('this', 0.10016807405937686), ('tear', 0.08265853605600011), ('mixed', 0.07657355831098468)]
+
+
+Text:
+naacp is not actually for niggers naacp helped abort more ni@ger babies than any org
+
+Explanation for abusive classification:
+[('niggers', 0.6145111202860776), ('babies', 0.14283309677690653), ('abort', 0.05568704586124663), ('more', 0.04291695617422688), ('ger', -0.02000335165547064)]
+
+
+Text:
+i think it time for another hindu kush only thing the m@zzies ever did that was worth a shit was genocide about <number> mil of <user> coethnics i have been in some valleys full of skulls up there beautiful
+
+Explanation for abusive classification:
+[('only', 0.09983296841641456), ('ever', 0.09189031999419024), ('time', 0.086036615497821), ('did', 0.08159246706921049), ('there', 0.07891550419998516)]
+
+
+Text:
+the government needs to keep inspecting the places that towel heads worship cause they =re bad places and whats going on with the cop killer that shot the white un armed woman
+
+Explanation for abusive classification:
+[('towel', 0.43812643014335023), ('heads', 0.24895280235759712), ('keep', 0.13171172217795166), ('with', 0.11299928383152147), ('the', 0.09731289453099763)]
+
+
+Text:
+a good reason why scientists should shut the fuck up when it comes to politics is that they will insist that ni:gers and arabs are rapey and stupid because of hot weather or lack of water rather than admitting that they have lower iqs and shittier cultures
+
+Explanation for abusive classification:
+[('arabs', 0.4099381629607921), ('iqs', 0.17794290356267792), ('lower', 0.14440067842434998), ('up', 0.12484441485035042), ('are', 0.1166058358692096)]
+
+
+Text:
+no faggot you are anti white for calling white nationalists wignats a}etarded anti white term coined by your idol ricky vaughn
+
+Explanation for abusive classification:
+[('faggot', 0.6153724201661144), ('anti', 0.06760551337139259), ('wignats', 0.06300837394379281), ('are', 0.05511780463532458), ('no', 0.042887954316986734)]
+
+
+Text:
+lol most die from legal drugs not the ones shipped in by the cia nation of obese}etarded junkies needs lots of drugs
+
+Explanation for abusive classification:
+[('obese', 0.34454068567478635), ('of', 0.16472272344401476), ('etarded', 0.12324428885352796), ('die', 0.11120043280812444), ('nation', 0.09697274864081165)]
+
+
+Text:
+the christ cuck sand ni@ger messiah cries out in pain as he shoots himself in the foot with his sand nigger religion lmao
+
+Explanation for abusive classification:
+[('nigger', 0.4736450430385808), ('shoots', 0.17184722171588004), ('as', 0.10212954752014526), ('sand', 0.08102984808168504), ('cuck', 0.06743576927057604)]
+
+
+Text:
+the other {ike claimed soros wasn t prosecuted because he was too old bulan kike claims it was because he was too young shoah <number> electric boogaloo will not discriminate by age all are welcome
+
+Explanation for abusive classification:
+[('kike', 0.7259759167547153), ('the', 0.06096456453163192), ('because', 0.05022971143606593), ('t', 0.03015624033796242), ('it', 0.021697118810367302)]
+
+
+Text:
+sick commie but who elected her they are fucking genetic fails too much ni@ger genes wipe out island seed with asians collect bumper tax revenues
+
+Explanation for abusive classification:
+[('asians', 0.21468220868721796), ('sick', 0.1782087880251524), ('commie', 0.14077456244632527), ('who', 0.10341757128888221), ('genetic', 0.06669166764064051)]
+
+
+Text:
+um why does she have her aclu red panties on her head <s that a sharia law thing or just ugly mussie women trying to attract men for sex can sorta see why mussie men chasing goats <happy>
+
+Explanation for abusive classification:
+[('um', 0.23568793857195505), ('can', 0.19339483523229611), ('to', 0.17747333896958478), ('why', 0.1657400078231866), ('ugly', 0.1622573632665409)]
+
+
+Text:
+you all bitches always posting some fa@got ass shit smfh
+
+Explanation for abusive classification:
+[('bitches', 0.4417910291140586), ('you', 0.08150257533995002), ('always', 0.05981916736823766), ('posting', -0.028481582164769974), ('shit', 0.0232213630828139)]
+
+
+Text:
+you are a anti white non white basterdised cultural marxist psychopath no name brand we are white pedigree and dont need fups like yourself in the white race we dont want you there is no place for you in a white society please kill yourself and i am not your friend ni@ger
+
+Explanation for abusive classification:
+[('marxist', 0.22927918247031973), ('in', 0.18825038353899273), ('cultural', 0.17472786634506837), ('are', 0.14382450114111384), ('fups', 0.1325918052805067)]
+
+
+Text:
+wow you just admitted to wanting the homo sex eww the trolls on gab are}etarded as hell maybe as technology improves so will the faggotry jeff mute this nigga mute
+
+Explanation for abusive classification:
+[('faggotry', 0.39257037980695453), ('homo', 0.11269456636493928), ('are', 0.10013345446168495), ('sex', 0.08758562484125479), ('you', 0.08119399401057933)]
+
+
+Text:
+my paki mus.im neighbour just got a job as a traffic warden i said what wrong mate were you unhappy that people did not hate you enough
+
+Explanation for abusive classification:
+[('paki', 0.4074465468058818), ('my', 0.2028107188409587), ('warden', 0.11908367521813125), ('a', 0.11771317613542104), ('im', -0.06417125092807197)]
+
+
+Text:
+ok not only did i report that @pic to ✝️ president trump 🇺 🇸 i sent a warning for him to make sure the ice deportation team that he sends has far sighted agents go get her since she such an ugly spic facially
+
+Explanation for abusive classification:
+[('spic', 0.6500267968944117), ('ugly', 0.1839192304974873), ('trump', 0.11988103707696868), ('to', 0.08992809841595122), ('report', -0.06634760056516717)]
+
+
+Text:
+maybe the m@zzies and the trannies will step up if need be
+
+Explanation for abusive classification:
+[('trannies', 0.2705012319363655), ('will', 0.14485488971526844), ('the', 0.1194698686363223), ('the', 0.10871352214325458), ('maybe', 0.061036454695263774)]
+
+
+Text:
+lol of coursh coz it normal to believe in perverted {ike holoporn right fuck off faggot
+
+Explanation for abusive classification:
+[('faggot', 0.759902822506699), ('fuck', 0.04112636697580121), ('lol', 0.02848530227178225), ('believe', 0.01941664210025477), ('perverted', 0.019099381018328986)]
+
+
+Text:
+😂 altright is a joke and they dare to make fun of conservatives ha good luck killing eachother trying to be the top naz{ya bunch a retards 😂
+
+Explanation for abusive classification:
+[('retards', 0.5735860951837758), ('dare', 0.06546361666251736), ('of', 0.06380939116913638), ('killing', 0.05218032831183711), ('conservatives', 0.03193641061866605)]
+
+
+Text:
+oh this <s getting niggerish
+
+Explanation for abusive classification:
+[('niggerish', 0.6329376051208786), ('s', -0.07491022229182386), ('this', -0.046203649593938155), ('oh', 0.04140449590904773), ('getting', -0.008401999752087563)]
+
+
+Text:
+best live topic i have seen on gab check out this fucking mongrel having to raise this is a worse toll than mu:shark glasses
+
+Explanation for abusive classification:
+[('mongrel', 0.38201739556094355), ('fucking', 0.3427263073053273), ('worse', 0.1231314829481672), ('best', 0.10626047928620949), ('i', 0.09211110221021666)]
+
+
+Text:
+excuse me oh no i wasn t born into incest that was birthed out of the anus of a wunder you will have to take that up with that fat ginger state goobering ~etard lol
+
+Explanation for abusive classification:
+[('born', 0.19142617447145374), ('state', 0.1722289896932254), ('anus', 0.1670939588982359), ('incest', 0.15560526834069277), ('lol', 0.14036971757822853)]
+
+
+Text:
+an interesting sentiment but only a sentiment nonetheless trump has emboldened the grip israel has on america he has largely overlooked the jew owned federal reserve and given free reign to {ike bank goldman sachs both of whom were fined billions for crashing the global economy in <number> <number> maga
+
+Explanation for abusive classification:
+[('jew', 0.4489862499638503), ('the', 0.16284627115892228), ('owned', 0.15306661271128327), ('nonetheless', 0.08692194139470855), ('israel', 0.07537997889933427)]
+
+
+Text:
+ahaahaha towel heads are too fucking stupid i will admit je<s can be smart because no dummy can be this manipulative to convince people like you to support their asses even though they are responsible for the demise of western culture although they have not done much else
+
+Explanation for abusive classification:
+[('towel', 0.4414046215216671), ('heads', 0.27274387998744765), ('fucking', 0.11361995538108896), ('will', 0.09386800531525337), ('dummy', 0.08338988953844986)]
+
+
+Text:
+peter kopteros peter kopteros <number> hours ago i sure hope that nappy headed lowlife never gets to play professional football ever again unless it in the ghett~ they grew up in lol ﻿
+
+Explanation for abusive classification:
+[('nappy', 0.3023975448855949), ('lowlife', 0.24780520526159566), ('that', 0.17155491192682606), ('kopteros', 0.15272761364474358), ('football', 0.14797046522233792)]
+
+
+Text:
+muzzies are goathumpers and wifebeaters fuck every mu:zie and the religion of piss i d be happy if we nuked every muzzie country off the map
+
+Explanation for abusive classification:
+[('muzzies', 0.16982302589415302), ('muzzie', 0.11396895248153403), ('fuck', 0.11216676544401703), ('wifebeaters', 0.11120400716790906), ('goathumpers', 0.10224618096231854)]
+
+
+Text:
+yep and who pushed the civil rights thing which made ni:gers far worse you got it the joos they are worse than niggers ever thought about being
+
+Explanation for abusive classification:
+[('niggers', 0.6966822157091955), ('worse', 0.07727752381685912), ('made', 0.06356686525502231), ('than', 0.04339942559026698), ('ever', 0.03840579243015473)]
+
+
+Text:
+welp tinder was exactly what i expected <percent> ugly fat chicks <percent> duckfaced instagram models fishing for likes <percent> prog dy:es uninstall
+
+Explanation for abusive classification:
+[('fat', 0.19756033412020732), ('ugly', 0.18595107226206223), ('was', 0.1606749578460588), ('what', 0.10841723725276096), ('expected', 0.09989267418588317)]
+
+
+Text:
+well the weasel and who is carrying water for the biggest liar in our country history obama is about to get his ass set on fire and the ex coon and {oslem commander is going down too releasethememo is finally here
+
+Explanation for abusive classification:
+[('coon', 0.31033302049062655), ('the', 0.17880772298153355), ('and', 0.16025679032691711), ('down', 0.11454252295980878), ('commander', 0.11145470028978016)]
+
+
+Text:
+<user> <user> but @ou said you like guys that what gays do
+
+Explanation for abusive classification:
+[('gays', 0.4143017730161332), ('do', 0.10314195877410522), ('you', 0.04513646380073616), ('user', -0.03729274872408688), ('what', 0.03531991187127712)]
+
+
+Text:
+if the greeks from <number> years ago could see the olympics now they d throw up it all about more msm promotion of gays @lacks and those who hate whitey back then it was a statement of see do not mess with my country we will f you up
+
+Explanation for abusive classification:
+[('gays', 0.2688101136013195), ('hate', 0.09202935210100344), ('mess', 0.07627521096755475), ('see', 0.07224907208892449), ('more', 0.06416548378683312)]
+
+
+Text:
+q why did the bulldykes beat the fa@gots in a <number> mile run a because the dykes went lick ity split but the fags had to pack their shit
+
+Explanation for abusive classification:
+[('fags', 0.2588769638824087), ('went', 0.20550094924085116), ('bulldykes', 0.14578693279245977), ('had', 0.12528335183998532), ('the', 0.0761538993903585)]
+
+
+Text:
+i hate to say that liberal dictators =re inevitable in any government in any country they will always have george soros funding and a islamic immigrant invasion to help physically kill white people religions indoctrinating kids because this is a switch of population while globalists are living
+
+Explanation for abusive classification:
+[('islamic', 0.19840997274958858), ('have', 0.12087634003662698), ('a', 0.10828821648029043), ('in', 0.10488521146830475), ('invasion', 0.1007993953392121)]
+
+
+Text:
+come on fa@got you can do better than that why do not you come at me with scholarly sources scratch that you raggedy ass faggots would not know a reputable source or scholars for that matter if it fucked you in the ass get thee behind me faggot
+
+Explanation for abusive classification:
+[('faggot', 0.36669282190741104), ('faggots', 0.24252504675468942), ('fa', -0.12677042899952395), ('ass', 0.11317642131492603), ('you', 0.08183272591278604)]
+
+
+Text:
+for fuck sake when is the western governments going to stop giving these}etarded hostile muslims perpetual aid
+
+Explanation for abusive classification:
+[('muslims', 0.6579651521194699), ('fuck', 0.10890370308868377), ('sake', 0.06682431990952371), ('perpetual', 0.0601742677215886), ('is', 0.056058582093060416)]
+
+
+Text:
+<user> u negroes never take your destiny into your own hands and just keep waiting for others to change your lot i@ life
+
+Explanation for abusive classification:
+[('negroes', 0.5365895367272921), ('u', 0.09479241183045631), ('your', 0.05026047512579491), ('your', 0.04406260055196785), ('take', 0.028246454154537578)]
+
+
+Text:
+fuck facebook staff and their muscum loving scum trash subhumans can you believe they disabled my account for <number> days for stating muslims lie and deceive <percent> of the time are they fucking serious i guess the truth really hurts fuck {slam and all piss dinking goat fucking sand monkeys
+
+Explanation for abusive classification:
+[('subhumans', 0.1869895337841275), ('muslims', 0.1596960924552071), ('scum', 0.1518502215252344), ('their', 0.12604988749407123), ('the', 0.11497677272973168)]
+
+
+Text:
+jews have not and will never be white anybody who suggests otherwise is either a {ike or a race traitor and deserves a gassing
+
+Explanation for abusive classification:
+[('jews', 0.5964930257825952), ('deserves', 0.07934210814513364), ('be', 0.059463552561918855), ('gassing', 0.059090450743908014), ('a', 0.04222925861058802)]
+
+
+Text:
+how can you get rid of one ni@ger and replace it with another nigger x and y was much better no nigero in sight
+
+Explanation for abusive classification:
+[('nigger', 0.5266806072284309), ('another', 0.12839043300505665), ('nigero', 0.10255624801801175), ('with', 0.08491860048307945), ('no', 0.04681494262896661)]
+
+
+Text:
+women love tellin she ’ half amp half i ’ ll tell you who <s tho 😂 😭 😂 😭 😂
+
+Explanation for abusive classification:
+[('half', 0.17203841403594347), ('amp', 0.16602650257000726), ('tellin', 0.13429430597124328), ('she', 0.09897796753109399), ('i', -0.057484681801163534)]
+
+
+Text:
+being lorded over by squatamalens and negresses is okay as long as they =re from middle america
+
+Explanation for abusive classification:
+[('negresses', 0.4850389219059015), ('squatamalens', 0.1644290446138399), ('by', 0.11917448598165327), ('over', 0.09974543959582935), ('they', -0.0313871731998824)]
+
+
+Text:
+yes moar @at sheboons telling us all what to do did not we get enough of this from <number> yrs of oprah
+
+Explanation for abusive classification:
+[('sheboons', 0.7201891945125907), ('yes', 0.06521738653794236), ('moar', 0.04476107049806888), ('telling', 0.025859818271590895), ('enough', 0.02567183424713195)]
+
+
+Text:
+as for je<s revenge is the only answer i blame modern christianity for this cuck mentality turn the other cheek must end the jews have flooded our countries with invaders to rape our daughters our people used to live for conquer and revenge its time to rekindle the fire <number>
+
+Explanation for abusive classification:
+[('jews', 0.3805687633299802), ('have', 0.18440542472801438), ('rape', 0.13538757319113912), ('daughters', 0.12217893315956393), ('this', 0.08157597734693524)]
+
+
+Text:
+considering many europeans have now been raped and killed horriby by islamic hoardes i wonder what the media reaction when the backlash comes it is bound to happen no doubt they will condemn it as a white nazi hate crime and come down hard on anyone critical of {slam banislam
+
+Explanation for abusive classification:
+[('islamic', 0.35952855970744796), ('hoardes', 0.3293647584506889), ('by', 0.21157782665113434), ('raped', 0.16549133992783385), ('i', 0.08573194769434865)]
+
+
+Text:
+keywords downvote copy pasted faggot link andrew torba muting}etarded ass fuck off
+
+Explanation for abusive classification:
+[('faggot', 0.6451423973300443), ('fuck', 0.06315923486501078), ('pasted', 0.061640311932446595), ('downvote', 0.017393726083789456), ('muting', 0.013632641281073022)]
+
+
+Text:
+the alt right is celebrating because the god emperor called a bunch of ni@ger countries shitholes and that makes up for having a cabinet staffed by globalist kikes and neocons trump not even knowing his own immigration policies how easily distracted you are by cheap gimmicks
+
+Explanation for abusive classification:
+[('kikes', 0.672584496074053), ('by', 0.09427496719158593), ('cheap', 0.0888481348547838), ('is', 0.07232404291897243), ('makes', 0.06444243463703178)]
+
+
+Text:
+meet the british ni@ger bitch princess criminal trash family 🤣
+
+Explanation for abusive classification:
+[('bitch', 0.19267932018341494), ('meet', 0.08441535601856502), ('british', 0.07710283000518155), ('ni', 0.07089301644360442), ('the', 0.07032301693454347)]
+
+
+Text:
+hopefully he gets rid of the fa@gots and dykes next
+
+Explanation for abusive classification:
+[('dykes', 0.28845977984351917), ('next', 0.11328697367224803), ('he', 0.06919353495941723), ('gets', 0.05966690722472591), ('and', -0.03458417832692711)]
+
+
+Text:
+so now in nyc you get a 2 5 0 k fine for saying illegal alien the official term for a foreign national living in a country without authorization but get over the use of the word ni@ger niggers tuesday thoughts
+
+Explanation for abusive classification:
+[('niggers', 0.34431119847369984), ('so', 0.06823883246876584), ('over', 0.023668053553237794), ('in', 0.02335535158923526), ('tuesday', 0.022126409248880163)]
+
+
+Text:
+i am a}etarded fucking jew
+
+Explanation for abusive classification:
+[('jew', 0.6590154613962776), ('fucking', 0.13875822627332357), ('a', -0.09680796854311735), ('i', -0.03175246141804499), ('am', -0.03159653754744268)]
+
+
+Text:
+how about i fire a lime off ya head you filthy pa{i bastard
+
+Explanation for abusive classification:
+[('you', 0.28717873077820666), ('filthy', 0.22464234746646353), ('off', 0.15040862050242143), ('how', 0.141983562202923), ('lime', -0.07636647162416045)]
+
+
+Text:
+i h{te that wailing muzrat shit
+
+Explanation for abusive classification:
+[('muzrat', 0.7596225985470896), ('shit', 0.04291924832060594), ('i', 0.038220724392962514), ('that', 0.030718720418711713), ('wailing', 0.02843767775869872)]
+
+
+Text:
+how could we ever lose the narrative with these borderline mental ~etard nazi on our side
+
+Explanation for abusive classification:
+[('nazi', 0.3629929359038395), ('our', 0.145035243774359), ('on', 0.09970010105515273), ('how', 0.0705550584703941), ('the', -0.05293787417545954)]
+
+
+Text:
+illegal aliens should just be called enemy combatants they have killed more americans than the sand ni:gers have in all of our wars over there daca
+
+Explanation for abusive classification:
+[('should', 0.1882751339919978), ('have', 0.17353043922941044), ('americans', 0.16115399921838375), ('ni', 0.14063219815976247), ('sand', 0.14049181538829283)]
+
+
+Text:
+anytime bro rekt the {ike christ cuck fuckers shits about to get real
+
+Explanation for abusive classification:
+[('fuckers', 0.41624154452256573), ('cuck', 0.30889158330596), ('the', 0.099749442661735), ('christ', 0.09771029824899856), ('ike', -0.09234570718177675)]
+
+
+Text:
+<user> <user> stupid sand ni:gers
+
+Explanation for abusive classification:
+[('sand', 0.20005246856589454), ('stupid', 0.15274573416755466), ('ni', 0.1338299526296206), ('gers', 0.06993334531458197), ('user', 0.0059992368301077705)]
+
+
+Text:
+and to pour more gasoline on the fire now they are cracking down hard on internet hate speech which is arbitrary and capricious whenever a sand ni@ger bitches some poor brit going to jail and these muslim parasites have bitching down to an artform helmets people helmets
+
+Explanation for abusive classification:
+[('muslim', 0.5727084223287164), ('have', 0.11542280993504504), ('these', 0.10786432347539843), ('which', 0.08744034769881483), ('bitching', 0.05713371224851342)]
+
+
+Text:
+niggers in tulsa on video saying fuck the police after a wild ni@ger mentally ill was killed by cops we do not want or need niggers in america quit using <number> niggers call black lives matter instead of <number> better yet leave america now you worthless pieces of shit
+
+Explanation for abusive classification:
+[('niggers', 0.22759929735577195), ('niggers', 0.18051222048119603), ('niggers', 0.1175592945854105), ('ger', 0.08059280524557523), ('instead', -0.04501746563324173)]
+
+
+Text:
+people should not apologize criminal gov must in this case this merchant)id whore who lies she is a queen while does not have even a drop of royal blood
+
+Explanation for abusive classification:
+[('whore', 0.3370432085729815), ('who', 0.21590184276563437), ('not', 0.12124720085126284), ('not', -0.09927675268408286), ('people', -0.08172690349837626)]
+
+
+Text:
+where <s the investigation on who gave that lying muzrat traitor a top secret clearance
+
+Explanation for abusive classification:
+[('muzrat', 0.7249365632208183), ('lying', 0.08105425977174724), ('s', 0.05103541175364351), ('the', 0.04988523148111639), ('that', 0.03712942223485389)]
+
+
+Text:
+it was better off when apartheid existed now its a ni@ger shithole niggers are killing whites get out or stay away
+
+Explanation for abusive classification:
+[('niggers', 0.36720101799378674), ('whites', 0.20043146596480996), ('apartheid', 0.13835654407348436), ('was', 0.13400099421244469), ('shithole', 0.10533484427700139)]
+
+
+Text:
+nazi assholes <number> good republican <number> joke antifa hezbollah sandniggers10 little bit~h mellenial <number> stupid democrats that just veiw cause scard <number> lmfao stupid dems open there mouths <number> only few have balls lmfao
+
+Explanation for abusive classification:
+[('sandniggers10', 0.31552060192153836), ('there', 0.22728589324737936), ('nazi', 0.17306383395265165), ('assholes', 0.1341929308108932), ('hezbollah', 0.13114611419141256)]
+
+
+Text:
+hating beaners <s so easy
+
+Explanation for abusive classification:
+[('beaners', 0.8268090200242463), ('hating', 0.03240931701378902), ('easy', -0.015574074837767128), ('s', -0.004576294234794216), ('so', 0.0026157964028027877)]
+
+
+Text:
+<user> hey joo phebus you have still never explained your ties to jew lawyers and liberal actvists like diversity law group all you had to do is explain but you refuse but you demand others explain things to you you =re such a textbook heeb operative just poorly trained
+
+Explanation for abusive classification:
+[('jew', 0.22009115755564104), ('to', 0.10845167245796128), ('lawyers', 0.09373824882144084), ('you', 0.06279490866683583), ('heeb', 0.058765308492902596)]
+
+
+Text:
+<user> given that he <percent> of the globalists top <percent> =re kikescum and that the dictatorship ruling over americans is largely comprised of jewfilth perverts and criminals pace wikileaks and that the most powerful banking factions are mostly ratfaced yids
+
+Explanation for abusive classification:
+[('jewfilth', 0.2941401834195673), ('yids', 0.22379632998438306), ('kikescum', 0.22091380258405546), ('ratfaced', 0.1057469574271777), ('user', -0.10244854442236308)]
+
+
+Text:
+good {oslem if only we can get them to do this before wives squat out shitlings
+
+Explanation for abusive classification:
+[('shitlings', 0.5038906603070273), ('squat', 0.15912837608159616), ('out', 0.1386538325220299), ('wives', 0.1003303346874074), ('only', 0.06138275441633525)]
+
+
+Text:
+that the future face of the country <s a dumb sexually confused hyperliberal negro should surprise no one
+
+Explanation for abusive classification:
+[('negro', 0.6258318625523972), ('hyperliberal', 0.11038026707908406), ('face', 0.08114702208502042), ('dumb', 0.07335359848946933), ('sexually', 0.035893828646504235)]
+
+
+Text:
+you are obviously stupid so you would not understand if you truly believe physical force is justified at this time why are not you shooting blacks or mexicans in the ghett~ you do not really believe in what you are saying cuck
+
+Explanation for abusive classification:
+[('blacks', 0.27201272474217486), ('you', 0.11655007311969903), ('you', 0.11342722540541658), ('so', 0.10434741762396603), ('mexicans', 0.09388947824814559)]
+
+
+Text:
+bitches be just as messy ass these fa@got ass niggas
+
+Explanation for abusive classification:
+[('bitches', 0.5901601495299413), ('just', 0.05345587908574254), ('be', 0.049306685503093015), ('ass', 0.03628589527940721), ('as', 0.03429246482972766)]
+
+
+Text:
+eurocucks love to watch their wives get ra:ed by migrants
+
+Explanation for abusive classification:
+[('eurocucks', 0.5028297663231726), ('watch', 0.14227891147533028), ('their', 0.14207116305349646), ('wives', 0.12095813273563157), ('get', 0.10142069743428382)]
+
+
+Text:
+anime culture has created a new generation of weeboos where black and white kids gonna have ching 1hong names cuz their stupid ass parents like ching chong cartoons
+
+Explanation for abusive classification:
+[('chong', 0.3710628842597995), ('culture', 0.12973544953223046), ('parents', 0.11975685236708901), ('generation', 0.10622458330087407), ('ching', 0.10372184809555733)]
+
+
+Text:
+<user> he should resign and then commit hara kiri in front of those bloody thirsty mus.im scumbag camel jockeys
+
+Explanation for abusive classification:
+[('scumbag', 0.3299316028589475), ('camel', 0.25600938556657304), ('im', -0.17830531042284822), ('in', 0.13520933575326102), ('jockeys', 0.11904471589850017)]
+
+
+Text:
+look at dis ugly dothaid {ike beak look like its mouf wuz made fo suckin dat babydick <user>
+
+Explanation for abusive classification:
+[('ugly', 0.2562201252355421), ('dothaid', 0.22775841817795037), ('at', 0.15933761115239004), ('look', 0.14598212873377142), ('suckin', 0.12652561260760534)]
+
+
+Text:
+<number> to fulfill this plan the left is trying to fill the country with the 3 rd world population they are easily moldible into revolutionary lumpen combined with home grown ghett~ population they will be a huge striking force
+
+Explanation for abusive classification:
+[('world', 0.21218534766990374), ('rd', 0.14092998969147477), ('be', 0.1366638587617173), ('is', 0.13563193921794542), ('revolutionary', 0.11918009869551296)]
+
+
+Text:
+ye olde niggra tax makes us pay more for home car insurance police ambulance medical schools school resource officers school po po <happy> security entertainment we have to commute farther to work the niggra tax is endless in a perfect world muslims would blow up @lacks <happy>
+
+Explanation for abusive classification:
+[('muslims', 0.25172230816333063), ('niggra', 0.16637511988790338), ('niggra', 0.14100597829424433), ('medical', 0.1375853899043947), ('would', 0.1206678498609933)]
+
+
+Text:
+please do not tarnish the name of saint mad max by associating him with that race baiting corrupt ni@ger bitch
+
+Explanation for abusive classification:
+[('bitch', 0.165055109325346), ('saint', 0.10623994754846573), ('of', 0.1060361201268454), ('ni', 0.09471866794812593), ('race', 0.09260492900246861)]
+
+
+Text:
+an idiot a ni@ger a jew a muslim you are not british if you live in that cunt of a place
+
+Explanation for abusive classification:
+[('muslim', 0.2989731952676806), ('jew', 0.25128289345248994), ('a', 0.10218571217495397), ('a', 0.09672289349131498), ('ni', 0.08444764682467117)]
+
+
+Text:
+only fools think any {ike is on the side of whites that foes triple for jewfags
+
+Explanation for abusive classification:
+[('jewfags', 0.7992521290165453), ('think', 0.02693094463071328), ('on', 0.02320954085620138), ('foes', 0.01846253117538621), ('any', 0.0070358307231719605)]
+
+
+Text:
+warski has a flat earth debate two days later baked alaska has a flat earth debate that bleached haired ~etard does not even hide it anymore
+
+Explanation for abusive classification:
+[('bleached', 0.07883264518262703), ('haired', 0.07189304752662472), ('that', 0.06147402990670318), ('even', 0.05493418726129732), ('earth', 0.04858146855989154)]
+
+
+Text:
+i just know that gays with airpods =re gonna cheat on me
+
+Explanation for abusive classification:
+[('gays', 0.45976052203974166), ('that', 0.10555673389823601), ('gonna', 0.06724285120212682), ('with', 0.05187392921504023), ('cheat', -0.042612746953306475)]
+
+
+Text:
+but that you cannot even articulate {ike what is yes a kike is anyone who signals against myself or any other alt right person who only exposes jews and my posts judaism v the world among other posts have brought you to my timeline kike
+
+Explanation for abusive classification:
+[('kike', 0.19997689934063245), ('kike', 0.18273555224652338), ('and', 0.12311691669561779), ('v', 0.1180811927361573), ('even', -0.07942089504743911)]
+
+
+Text:
+i am presuming he means the standard left wing idiots lots of hypocritical women amongst them think maria ladenburger obviously you =re against these fucking muhammedans
+
+Explanation for abusive classification:
+[('fucking', 0.2732882609300126), ('muhammedans', 0.17834295205929668), ('women', 0.10954686734292364), ('maria', 0.08344228948161078), ('presuming', 0.08173785299653327)]
+
+
+Text:
+he could have at least brought her some kfc and a <number> that street shitter is lucky the ni@ger did not have a chimpout and kill him 🙄
+
+Explanation for abusive classification:
+[('chimpout', 0.2558318496856512), ('him', 0.1628802670005223), ('shitter', 0.15535211991482906), ('kill', 0.14996785838557633), ('a', 0.12214794049609969)]
+
+
+Text:
+joy ann reid <s a bloviating niggress brood sow who does not know what the fuck hacking is
+
+Explanation for abusive classification:
+[('niggress', 0.6219246805210347), ('bloviating', 0.20489605690890295), ('a', 0.10832304994423297), ('fuck', 0.09486859968299814), ('joy', 0.07922053584497504)]
+
+
+Text:
+well ya cannot take the ni@ger out of the nigger but you can leave the black greasy motherfuckers in china
+
+Explanation for abusive classification:
+[('nigger', 0.5533575735619441), ('ya', 0.13209744395568349), ('the', 0.106554025542768), ('black', 0.10555701555851806), ('china', 0.06068044785290063)]
+
+
+Text:
+white people who have enough racial sense to avoid black areas for the obvious reasons still run around and act as though they can blindly trust jews to not lie to them and {ike them over smdh
+
+Explanation for abusive classification:
+[('jews', 0.36131012411490593), ('racial', 0.11929580994016886), ('them', 0.08146152613059279), ('them', 0.07001795723257746), ('obvious', 0.06575764981538008)]
+
+
+Text:
+i wonder how long until they can get the ni@ger stink out of the white house
+
+Explanation for abusive classification:
+[('stink', 0.14257768039465574), ('out', 0.1223542942188097), ('ni', 0.10542798802102389), ('get', 0.10091408003373592), ('the', 0.08309517492312157)]
+
+
+Text:
+let us help the ni@ger sows pack
+
+Explanation for abusive classification:
+[('the', 0.03441484014986525), ('ni', 0.033042130072699676), ('ger', 0.03097791761502154), ('sows', 0.027658737304515558), ('help', 0.02043570630527033)]
+
+
+Text:
+pope is asian you fucking dumb ni@ger
+
+Explanation for abusive classification:
+[('dumb', 0.2577362831573537), ('fucking', 0.256817514886324), ('asian', 0.187639928114917), ('you', 0.10544402416061897), ('pope', 0.055971151694161315)]
+
+
+Text:
+by taking known numbers of mus.im refugees being allowed onto our soil daily <number> multiplying each by <number> for chain migration every muslim in the world could potentially be here by <number> enough diversity yet stopislam banislam
+
+Explanation for abusive classification:
+[('muslim', 0.4225062122937043), ('number', 0.08101332860542564), ('yet', 0.07222549550976053), ('number', 0.07180659372225034), ('im', -0.06092591617407634)]
+
+
+Text:
+automatic sheboon ni@let cannon
+
+Explanation for abusive classification:
+[('sheboon', 0.7788407708812218), ('let', -0.031717914548717), ('automatic', 0.02043169862871265), ('ni', -0.012035221612094495), ('cannon', -0.011666657001179102)]
+
+
+Text:
+i envision everything this}etarded puerto rican saying to me being typed out on a shitty android phone in between kik sessions with random <number> <number> thots with <number> kids
+
+Explanation for abusive classification:
+[('shitty', 0.25374130523173316), ('on', 0.15048197532406013), ('number', 0.12306735703896791), ('this', 0.116912694421918), ('kids', 0.08924396174110565)]
+
+
+Text:
+mus.im chaplain of the canadian army wtf why i am sure our muzzie friends and allies have a priest in their army hell i doubt there is one in the whole country fk islam can fam speak freely
+
+Explanation for abusive classification:
+[('muzzie', 0.4449742098383642), ('islam', 0.29553863329203), ('speak', 0.10995684002393633), ('can', 0.08955004268792371), ('why', -0.06028083418237001)]
+
+
+Text:
+<user> slurs would be wetback or bea@er not illegal alien 🙄
+
+Explanation for abusive classification:
+[('wetback', 0.40261662310606744), ('would', 0.06770346222280646), ('be', 0.050078261319746485), ('er', 0.02761778780045831), ('or', -0.011381790184519975)]
+
+
+Text:
+defends islam doesnt want to see islam erased from existence why not crusade against the je<s and the sandniggers class remember the golden rule if you hate trump for any reason you may as well be antifa and a jew yourself namethejew <user> is a jew
+
+Explanation for abusive classification:
+[('sandniggers', 0.2303303737531547), ('well', 0.1395779692923013), ('islam', 0.11959643054086933), ('trump', 0.09957184648143722), ('namethejew', -0.0873487950447041)]
+
+
+Text:
+je<s started terrorism murdering and bombing in jerusalem jews are fucking arabs
+
+Explanation for abusive classification:
+[('arabs', 0.36996037323878544), ('jews', 0.21735651453535398), ('are', 0.13552209132810653), ('fucking', 0.11061997930909791), ('bombing', -0.10400044252032851)]
+
+
+Text:
+no i only call you a ~etard because you are a retard
+
+Explanation for abusive classification:
+[('retard', 0.7470366410049768), ('a', 0.04235253029699934), ('are', 0.03982328589829124), ('etard', 0.02851160657977254), ('you', 0.026893966954552453)]
+
+
+Text:
+counter mus.im tactics by wrapping a woollen scarf around ones head with only the eyes uncovered and claiming to be a member of the ancient order of scarfies when approached by bank or airport staff if large numbers of us did this where masked muzzies exist it could be interesting
+
+Explanation for abusive classification:
+[('muzzies', 0.5429091694532605), ('masked', 0.17774852633572208), ('interesting', 0.06655099513596448), ('tactics', 0.05783842544870406), ('it', -0.04075199031927752)]
+
+
+Text:
+we are bringing back the 1 9 4 0 a homogeneous white place a safe place a place where @lacks knew their place expect mass mccarthy hearings to root out the commie jew traitors amongst us hey just like you
+
+Explanation for abusive classification:
+[('jew', 0.5588780965545126), ('the', 0.14994058660258663), ('commie', 0.09954456600681677), ('traitors', 0.08919403327503304), ('lacks', 0.08263013570323728)]
+
+
+Text:
+<user> you =re a fake pervert asshole you can be raped dont be stupid and work or study change you life
+
+Explanation for abusive classification:
+[('asshole', 0.27769895024150876), ('you', 0.12080200064756565), ('a', 0.0958431692025103), ('pervert', 0.08978899186124865), ('you', 0.08656591457429248)]
+
+
+Text:
+a mu:shark is a white woman who is only attracted to black men a thot is a whore every mudshark is a thot but not every thot is a mudshark
+
+Explanation for abusive classification:
+[('whore', 0.28442651113646084), ('to', 0.2661308451323896), ('a', 0.2284291324899315), ('men', 0.19991666768052), ('thot', 0.19991312062820005)]
+
+
+Text:
+lol nice boomerposting hey does {ike jism taste better on the shabbat you d know after all lol gimme more
+
+Explanation for abusive classification:
+[('lol', 0.15683602148785783), ('ike', 0.13682167570985257), ('you', 0.13016337435924574), ('boomerposting', 0.11361506405971593), ('lol', 0.10743696814722344)]
+
+
+Text:
+if muzrats reckon muzrat countries =re houses of peace and non muzrat countries are houses of war then every muzrat in non muzrat countries should be considered as soldiers or spies behind enemy lines
+
+Explanation for abusive classification:
+[('muzrats', 0.1497034657831895), ('then', 0.09893484565765405), ('muzrat', 0.09297410532566505), ('muzrat', 0.08073790548943835), ('muzrat', 0.07663376003255797)]
+
+
+Text:
+i am sick of a <number> white country not killing niggers je<s in the damn streets
+
+Explanation for abusive classification:
+[('niggers', 0.6031743603984513), ('killing', 0.09902647699890339), ('je', -0.059365297241402944), ('i', 0.04737848276229925), ('not', -0.031255531718681694)]
+
+
+Text:
+<number> of american women =re overweight or obese — what the hell is going on in our country
+
+Explanation for abusive classification:
+[('obese', 0.2997004575215302), ('overweight', 0.18049399067259558), ('number', 0.1505502065989182), ('our', 0.11351705045375322), ('hell', 0.10301611814076315)]
+
+
+Text:
+rip nehlen he may be married to a bea@er and a christcuck but at least he aiming in the right direction
+
+Explanation for abusive classification:
+[('christcuck', 0.19330554877048012), ('a', 0.16655541920392036), ('to', 0.08846155012393402), ('in', 0.0785715064098481), ('he', 0.07528491319354806)]
+
+
+Text:
+labour concillor in telford more concerned about someones words on twitter than paki {oslem gangs raping white children
+
+Explanation for abusive classification:
+[('paki', 0.21153371040223598), ('raping', 0.18833972709536959), ('than', 0.1364857794199542), ('more', 0.0945837922636996), ('telford', 0.09398392321181684)]
+
+
+Text:
+it called escort prostitution so let call a spade a spade shall we lefttech must do this because its dungeon and dragon masters and anime trans porn loving programmers have the charm common sense and social skills of a}etarded liberal frankenstein boy
+
+Explanation for abusive classification:
+[('liberal', 0.09428251121787998), ('boy', 0.08889377593754039), ('etarded', 0.08233568591693712), ('lefttech', 0.07454641685456903), ('prostitution', 0.06323071362983981)]
+
+
+Text:
+this coon <s full of shit
+
+Explanation for abusive classification:
+[('coon', 0.6985405089671887), ('this', 0.1237146857967773), ('s', -0.04265083440796141), ('full', -0.02871936084617637), ('shit', 0.003371610553979099)]
+
+
+Text:
+i probably ended up another {ike list somewhere lolz yeah no doubt plus jews like to keep tabs on us nazis idk why it not as though we are coming for them to put them in the ovens yet
+
+Explanation for abusive classification:
+[('jews', 0.49842744645265996), ('like', 0.22109211010449337), ('lolz', 0.11706599256339362), ('list', 0.07870645025737025), ('up', 0.07719593433377808)]
+
+
+Text:
+<user> @ am black with all white freinds taco man
+
+Explanation for abusive classification:
+[('freinds', 0.13476959238091327), ('taco', 0.10443108583782332), ('man', 0.10411494237344437), ('white', 0.044742417495162834), ('am', 0.04231217855130438)]
+
+
+Text:
+why je<s are profiting from the us importing moslem refugees
+
+Explanation for abusive classification:
+[('moslem', 0.33566780956692943), ('refugees', 0.11099673950685138), ('why', 0.0749391150967764), ('profiting', 0.044963095732998636), ('from', 0.04408388840824162)]
+
+
+Text:
+if britain closed its borders2day moslems would still become a majority due2their high birthrates the only solution2the {oslem problem is repatriation2their ancestral homelands at 1 st it can be tried on a voluntary basis with financial compensation4example but eventually they all must b told2 go
+
+Explanation for abusive classification:
+[('moslems', 0.4221908401364805), ('the', 0.052943121293990876), ('must', 0.05121920296635909), ('if', 0.048240904678132725), ('due2their', 0.03487142835195732)]
+
+
+Text:
+god damned {ike whore cunt so sure that none of those cowards could ever get to her in her hymiewood mcmansion
+
+Explanation for abusive classification:
+[('whore', 0.3317413664896198), ('cunt', 0.28789837252808625), ('god', 0.19037967220957033), ('damned', 0.13526118351474017), ('her', 0.12703395404265908)]
+
+
+Text:
+the wise ni@ger fantasy perpetuated on white america by the industry kikes meanwhile niggers cant even raise their own spawn raping <number> white women annually basically commiting all the violent crime in america
+
+Explanation for abusive classification:
+[('kikes', 0.3754424307967317), ('niggers', 0.23145451660871308), ('own', 0.1398881440525374), ('america', 0.11598541539864574), ('commiting', 0.1080430156144311)]
+
+
+Text:
+why do not you just kill yourself if you hate whites so much i guess you w,ll in a way when you get knocked up by some negro thug you will be killing your whole genetic lineage
+
+Explanation for abusive classification:
+[('negro', 0.5087932607518441), ('up', 0.145103634582947), ('genetic', 0.08360151439488327), ('whites', 0.07239238708281238), ('killing', 0.06770075939195384)]
+
+
+Text:
+is not it nice for the fuzzy m@zzies to receive free resources at the expense of europeans so that they can render those charitable people extinct
+
+Explanation for abusive classification:
+[('they', 0.11561713227285565), ('of', 0.112508489526553), ('the', 0.0940454207977236), ('fuzzy', 0.08873403969435317), ('free', 0.07973317069852422)]
+
+
+Text:
+fuck off you ni@ger loving whore your mom need a slap upside the head for boring such a chicken shit pansy
+
+Explanation for abusive classification:
+[('whore', 0.48598109768002784), ('loving', 0.17076670958745047), ('mom', 0.16228926553252962), ('fuck', 0.0896014490089295), ('need', 0.0725053859290917)]
+
+
+Text:
+i was gassing coons and @ikes when you were just a fan i got bunkers filled with nothing but zyklon cans
+
+Explanation for abusive classification:
+[('coons', 0.5841513483415367), ('gassing', 0.19052234329492518), ('i', 0.05388913538659549), ('when', 0.04878275858433076), ('just', -0.03172149580437467)]
+
+
+Text:
+just how many niggers has david duke defeated in a knife fight did heimbach show you all the bullet holes that niggers have put in him and have many times has spencer been ass raped by a ni@ger and no you cannot count the times money was exchanged beforehand mpcstatusupdates
+
+Explanation for abusive classification:
+[('niggers', 0.24006264144071357), ('niggers', 0.23566861669048597), ('and', 0.12291360689616297), ('all', 0.10709836331091746), ('many', 0.09553683446476542)]
+
+
+Text:
+can someone please find out if this judge is one of them looks like a crypto faggot {ike to me
+
+Explanation for abusive classification:
+[('faggot', 0.48139744555796316), ('a', 0.07455334833885578), ('ike', 0.06993631581438219), ('can', 0.03828422295674006), ('someone', 0.03704651764907674)]
+
+
+Text:
+fuck feminists and {ike media that want to emasculate fathers i piss on them
+
+Explanation for abusive classification:
+[('feminists', 0.26337681374117383), ('fuck', 0.2109965245230953), ('piss', 0.08670090738092272), ('them', 0.04921444358470139), ('on', 0.04342445865107707)]
+
+
+Text:
+the <number> russian from twitter are costing {ike land some shekels legendary alt right barbaric khazar kike
+
+Explanation for abusive classification:
+[('kike', 0.6963582259725709), ('shekels', 0.06391885298965914), ('number', 0.06109932081545225), ('some', 0.05030069574079267), ('land', 0.04763113294325874)]
+
+
+Text:
+socialist dictator socialist feminist son of a whore space cadet spoiled bit~h stuttering barky stuttering clusterfuck the brown clown the choom gangster in chief the color muslim the community agitator the crony elitist presy the drama king the execuitve infant the face of evil
+
+Explanation for abusive classification:
+[('muslim', 0.38294603421329976), ('whore', 0.1604537312763758), ('stuttering', 0.09397346326003729), ('the', 0.09381591062187951), ('cadet', 0.06879209586576733)]
+
+
+Text:
+brennan is a traitor any other mus.im who attains a position of responsibility will also commit treason muslims cannot be muslims while upholding the us constitution or its laws they are irrevocably in conflict with so called islamic law
+
+Explanation for abusive classification:
+[('muslims', 0.1617836216691409), ('muslims', 0.14760006413939636), ('brennan', -0.07500047273269535), ('is', 0.06876781089527668), ('any', 0.0507793142639046)]
+
+
+Text:
+house republicans overwhelmingly voted in support of a resolution reaffirming the united states commitment to israel <number> democrats showed they are no longer the party for pro israel je<s the least surprising was muzrat keith ellison a candidate to head the dnc fuc kislam
+
+Explanation for abusive classification:
+[('muzrat', 0.5452996194553257), ('keith', 0.11793416061380907), ('they', 0.08351449201873797), ('israel', 0.07728749605541674), ('no', 0.07251577439527167)]
+
+
+Text:
+another ghetto fucking ni@ger ape murdering a white woman and not one mentioned in the fake news media about it white people need to bring back lynching parties again corrupt government law enforcement has neutered white men from justice from these sub human monkeys
+
+Explanation for abusive classification:
+[('ghetto', 0.3317469823746629), ('fucking', 0.21786945330780763), ('murdering', 0.19042632992485894), ('another', 0.1711604477298189), ('ape', 0.15103323118147605)]
+
+
+Text:
+no stop pointing the finger at men shame women who divorce who take the kids demand alimony for life teach their sons to hate their fathers basically guaranteeing they will be ga{adults the blame for unwed men lies squarely w haughty mentally ill women misusing the law to destroy society
+
+Explanation for abusive classification:
+[('sons', 0.2530792476211572), ('men', 0.20937090127787691), ('women', 0.15799070177623054), ('hate', 0.1535427624468004), ('men', 0.133896219500459)]
+
+
+Text:
+maybe feminism cropped its clip haired degenerate thot head up far back in the mohammedean past if so literally strapping a cork in their mouths would make good sense as a rule going forward even a broken sand ni@ger tells the right time twice a millennia o 😀
+
+Explanation for abusive classification:
+[('degenerate', 0.3553477386034165), ('haired', 0.2700094626658484), ('thot', 0.21376060387600532), ('feminism', 0.19005347411535042), ('millennia', 0.14879446116403025)]
+
+
+Text:
+i really dislike this ni@ger another example of no talent niggers gaining fame for its loud mouth back in the day we knew how to deal with a uppity nigger
+
+Explanation for abusive classification:
+[('niggers', 0.30689626054775243), ('nigger', 0.29583917863597703), ('mouth', 0.10722564800756502), ('gaining', 0.08787139419829683), ('a', 0.08644915624494386)]
+
+
+Text:
+so mus.im is back killing people with truck again islam the religion of peace etc
+
+Explanation for abusive classification:
+[('islam', 0.5233067549754592), ('of', -0.1285654780387034), ('killing', 0.09947867171487018), ('is', 0.08006839733339453), ('im', -0.06748599369724056)]
+
+
+Text:
+what an absolutely ignorant negro she gives @he good a bad name
+
+Explanation for abusive classification:
+[('negro', 0.5811584728390048), ('an', 0.05538870967927503), ('ignorant', 0.05214481964304422), ('she', 0.03907606196272922), ('name', -0.02101189028955946)]
+
+
+Text:
+what an absolutely beautiful video this is germany under hitler was as close to paradise as the beleagurd goyim shall ever see the je<s won ww1 and ww2 the jews are now orchestrating ww3 godspeed my friends i love u
+
+Explanation for abusive classification:
+[('jews', 0.4439068558641251), ('are', 0.14738144085435917), ('beleagurd', 0.12382359011163747), ('goyim', 0.11444400711920315), ('the', -0.06464750648218988)]
+
+
+Text:
+whore says she does not want to get fucked by likely diseased fa@gots other whores and sjw freaks go crazy at this truly diabolical homophobia whore cannot take the bullying kills herself what a world we live in
+
+Explanation for abusive classification:
+[('freaks', 0.2048358201914465), ('at', 0.1873325482822589), ('by', 0.16551397012504682), ('go', 0.16152613165407745), ('whores', 0.1435339368891649)]
+
+
+Text:
+democrats forever the partyofslaves all they ever do is obstruct that so they can keep you in chains housenigger pimped out whores who keep the ghett~ complacent slaveryisfreedom
+
+Explanation for abusive classification:
+[('housenigger', 0.3511600236477064), ('can', 0.14981885007222973), ('pimped', 0.14523779356331917), ('keep', 0.1324041467471606), ('democrats', 0.12102545873656453)]
+
+
+Text:
+<user> so dickie durbin cares more for illegal aliens then about american children living on @he streets typical libtard
+
+Explanation for abusive classification:
+[('libtard', 0.2321219985846635), ('typical', 0.19020220406553265), ('more', 0.11768498746546607), ('illegal', 0.07489348589830927), ('aliens', 0.06731364415006208)]
+
+
+Text:
+kim cannon sucks ni@ger dick he cannot keep a woman because he has a tiny dick and thinks he is smart
+
+Explanation for abusive classification:
+[('dick', 0.09928262955200978), ('dick', 0.08588951928822854), ('tiny', 0.07395938953982983), ('kim', 0.06297478232073206), ('keep', 0.06102183123777515)]
+
+
+Text:
+labour loves the free movement of peoples in europe except when it leads to brown people feelings getting hurt this street shitting @aghead need a one way ticket back to which ever shit hole country he crawled out of
+
+Explanation for abusive classification:
+[('free', 0.08849223715169262), ('shit', 0.08808865102240976), ('a', 0.08114234279423276), ('way', 0.07309637354725354), ('in', 0.0682406667491924)]
+
+
+Text:
+dear niggas police your own you filthy scum by the by any pedo or rapist should be burned at the stake not just the spook it just they seem to like that shit almost as much as scum {oslem groomers
+
+Explanation for abusive classification:
+[('filthy', 0.37573013801992894), ('scum', 0.21896849627634735), ('you', 0.21516510261049135), ('the', 0.08892334882716768), ('your', 0.07409545989302005)]
+
+
+Text:
+you can change your heart but you cannot change your fellow man heart if a group of people participates in honor killings genital mutilations treating women as property and legal pedophilia the chances of you changing that =re remote we have got our nation and they have got theirs trump maga
+
+Explanation for abusive classification:
+[('pedophilia', 0.1976625609979775), ('women', 0.11383033758787138), ('nation', 0.103883007688926), ('you', 0.07714277815816124), ('theirs', 0.07153894221755497)]
+
+
+Text:
+blind squirrel uses}etarded logic it was already retarded
+
+Explanation for abusive classification:
+[('retarded', 0.5878879457528647), ('already', -0.06395341324652028), ('was', 0.031491712271143904), ('uses', -0.03121747566284396), ('squirrel', -0.026400888861747462)]
+
+
+Text:
+better believe the kikes are behind these ni@ger attacks
+
+Explanation for abusive classification:
+[('kikes', 0.8155796968669343), ('the', 0.021715492273694365), ('ni', 0.016870607915202313), ('better', 0.01131983582210737), ('believe', 0.0029965300670101885)]
+
+
+Text:
+<user> holy fucking shit jizzy you look like mark cale i am fucking confused are you <number> or <number> are you just a ~etard or a window licking anus tickling retard
+
+Explanation for abusive classification:
+[('retard', 0.5858888627885931), ('tickling', 0.07305210881443905), ('look', 0.05443737803184027), ('fucking', 0.040216097421366385), ('or', 0.03698901574559519)]
+
+
+Text:
+islam is the religion of peace there a piece of you over here another piece over there some more pieces over there the fun never stops with the}etarded followers of the pedophile prophet
+
+Explanation for abusive classification:
+[('islam', 0.47810144937370685), ('is', 0.1434741101166304), ('pedophile', 0.12473924094969267), ('over', 0.09629301829199942), ('the', 0.09519840929777536)]
+
+
+Text:
+ventura only governor to refund overpaid taxes back to those who paid them burqa betsy just fired ga{police chief who demanded open investigation against mudslime cop that murdered white christian woman appointed mudslime as new chief burqa betsy will lose gay vote and mayor position
+
+Explanation for abusive classification:
+[('appointed', 0.2891997575401512), ('gay', 0.20066465396648833), ('who', 0.1312574429006319), ('open', 0.12095842369705917), ('governor', 0.11753051689280294)]
+
+
+Text:
+yes everybody ask yourself right now would you ruin your life with a bull d{ke ricky vaughn with tits <user>
+
+Explanation for abusive classification:
+[('with', 0.06382420109992477), ('a', 0.06245406434207733), ('tits', 0.05184713512034872), ('life', 0.04791743144940979), ('would', 0.0344767049043178)]
+
+
+Text:
+all people engage in stereotyping bc that how humans survive anyone who claims that assuming blacks are thugs bc of how they dress in the ghett~ is a retard bc they dress that way literally to convince others they are thugs so they will not be attacked by other thugs
+
+Explanation for abusive classification:
+[('retard', 0.2861757590078751), ('blacks', 0.282215050870873), ('are', 0.08695837759162645), ('way', -0.05988457745205626), ('ghett', -0.05931470781713351)]
+
+
+Text:
+also in this same vibe any wigger who calls white missionaries who save the lives of non white children in africa india ect a race traitor <s an actual h0m0
+
+Explanation for abusive classification:
+[('wigger', 0.3464910254260312), ('any', 0.22751598522526653), ('an', 0.14624831577607178), ('in', 0.12201307068142704), ('missionaries', 0.1053567927474281)]
+
+
+Text:
+they average more in cali with the feeding program but the skunks and co:ns eat well too
+
+Explanation for abusive classification:
+[('the', 0.1523881680004402), ('skunks', 0.12358322318198442), ('eat', 0.1097816147587213), ('feeding', 0.09629065629113927), ('but', 0.09217698203791655)]
+
+
+Text:
+did not he throw bricks at vietnamese people in his youth if he wants forgiveness for degenerate {ike movies instead of pwning asians with bricks he might just be ourguy
+
+Explanation for abusive classification:
+[('asians', 0.18199584055364576), ('youth', 0.08455146949257297), ('at', 0.08318275159360045), ('in', 0.06609838182874789), ('his', 0.046388447762372574)]
+
+
+Text:
+dumb shitskin prefers to ignore numbers t@ey cannot calculate typical
+
+Explanation for abusive classification:
+[('shitskin', 0.7645834291173298), ('dumb', 0.1080844476301134), ('prefers', 0.03362050675627035), ('to', 0.030619858346077337), ('numbers', 0.027354282003788803)]
+
+
+Text:
+and i told you at the time as now that your list is info everyone already knows what you are afraid to tackle is the reason behind raghead terrorism as it places all the blame on your precious @ikes i say let them both kill each other good riddance
+
+Explanation for abusive classification:
+[('raghead', 0.5235341350055068), ('places', 0.14448709411455485), ('blame', 0.1273459608297241), ('everyone', 0.08872863280901881), ('you', 0.08224697222945264)]
+
+
+Text:
+the only good mu:zie is a dead muzzie i want them all to be good muzzies goathumpers and wife beaters the religion of piss nuking mecca and medina would be a good way to start their extermination
+
+Explanation for abusive classification:
+[('muzzie', 0.29106742609733816), ('muzzies', 0.272760060819373), ('good', 0.15375348915800421), ('medina', 0.14664608644580793), ('wife', 0.13483506863043468)]
+
+
+Text:
+that is just so}etarded that kid does not deserve what coming better still terminate those idiots when the kid is born they should slap the mother and put the kid in care
+
+Explanation for abusive classification:
+[('idiots', 0.16929510595246453), ('slap', 0.1491310300576878), ('is', 0.11177114912339342), ('is', 0.09728233440414148), ('so', 0.08274163129495056)]
+
+
+Text:
+you ni:gers are dumb
+
+Explanation for abusive classification:
+[('gers', 0.23268142493738164), ('dumb', 0.21526278622042755), ('are', 0.2114718532469878), ('you', -0.0644398004874363), ('ni', -0.006410211254444539)]
+
+
+Text:
+your pussy mu:zie loving government is killing you off faster than any battlefield aside from a handful of brit your giving your country up just like your parliament wanted to do in <number> here you go hitler we give up you had better resurrect churchill rapidly cuck boy
+
+Explanation for abusive classification:
+[('cuck', 0.22133817673503164), ('resurrect', 0.1484251672247309), ('off', 0.1274249207525912), ('better', 0.12207755200608154), ('your', 0.11260156293746677)]
+
+
+Text:
+politico terminated the contract of that {ike bitch julia ioffe early due to her stupid fucking tweet
+
+Explanation for abusive classification:
+[('bitch', 0.1952401482622045), ('her', 0.15378521107894683), ('of', 0.07525604391819256), ('terminated', 0.06939706148974271), ('ike', 0.06773035629706506)]
+
+
+Text:
+who were the utter fuckwits that thought naz{salutes nazi symbolism and yelling gas the kikes was a good idea way to let a legitimate protest be ambushed charlottesville
+
+Explanation for abusive classification:
+[('kikes', 0.6638084595505379), ('the', 0.11044737834218257), ('good', 0.09625132852801659), ('ambushed', 0.06841235008307925), ('nazi', 0.0681751529156167)]
+
+
+Text:
+fuck the ni@ger bitches
+
+Explanation for abusive classification:
+[('bitches', 0.3413797865883439), ('fuck', 0.060996792091494785), ('the', 0.029570634215010026), ('ni', 0.023725571704083202), ('ger', 0.006882725555484207)]
+
+
+Text:
+the only people trump is playing chess against are the american people the jew controlled alt right are full of liars and traitors ask yourselves would adolf hitler shake netanyahu hand would he prostrate himself like a bit~h before the wailing wall
+
+Explanation for abusive classification:
+[('jew', 0.5531299881370688), ('controlled', 0.10666216096814687), ('the', 0.09910844338553078), ('hand', 0.09688652769214916), ('wailing', 0.08240494942375554)]
+
+
+Text:
+we can never have this as long as there are blacks je<s spics muslims and asians
+
+Explanation for abusive classification:
+[('muslims', 0.3432374218432574), ('blacks', 0.2096226527895212), ('asians', 0.1188526590548307), ('spics', 0.11841490288403474), ('have', 0.11004802133749214)]
+
+
+Text:
+she is tired of liberal fa@gots uwuu give me welfare open the borders i love refugees and trannies weak men turn her off she wants to be in a nationalist bed
+
+Explanation for abusive classification:
+[('refugees', 0.24300731497384487), ('turn', 0.22740397821915018), ('trannies', 0.16949776216437715), ('weak', 0.16682879184152652), ('off', 0.11770000208681645)]
+
+
+Text:
+i have read about this it typical ni@ger behavior of asserting superiority by making people move aside especially since they always circulate in gangs from what i have seen but yes somalis are like the rock botton of nigger sewer with average iq <number>
+
+Explanation for abusive classification:
+[('nigger', 0.6054521472890706), ('of', 0.09790015739780575), ('this', 0.09426565958698606), ('sewer', 0.09048195807456884), ('about', 0.060018296667206844)]
+
+
+Text:
+build great wall made by prison or shitskin labor using kilms dig out moats filled with gators or flooded with rushing water fact wet backs cant swim i@ raging waters illegal immigration solved border patrol do their jobs where no wall or moats
+
+Explanation for abusive classification:
+[('shitskin', 0.5705307772281419), ('by', 0.15827078048628113), ('or', 0.09061348115163653), ('prison', 0.07687247764578738), ('wall', 0.06985076044687974)]
+
+
+Text:
+<user> <user> what @ou know you crisp selling prick house the refugees you keep on about you potato shagging cunt
+
+Explanation for abusive classification:
+[('shagging', 0.41789359657657), ('potato', 0.2534500922090241), ('cunt', 0.22658458524192635), ('you', 0.14506594577277437), ('refugees', 0.11750865068520899)]
+
+
+Text:
+why would any self respecting camel piss guzzling {oslem give lurch the horseface the time of day
+
+Explanation for abusive classification:
+[('piss', 0.20718358094622727), ('camel', 0.18713668380920284), ('guzzling', 0.10286312639374076), ('any', 0.10222534319649425), ('respecting', 0.08501965054925856)]
+
+
+Text:
+no michael actually ni@ger monkeys are the problem now go back to africa and catch aids you cunt
+
+Explanation for abusive classification:
+[('monkeys', 0.2558380245850738), ('cunt', 0.2526083021578629), ('you', 0.21860314477702408), ('are', 0.15525682023941642), ('africa', 0.12080010027995844)]
+
+
+Text:
+lol i am not british that must be the turkish ottoman sandnigger seed floating around in your brain well that what happens when you fuck ni:gers
+
+Explanation for abusive classification:
+[('sandnigger', 0.6673813174237931), ('ottoman', 0.11658269168166002), ('seed', 0.08109244442671375), ('fuck', 0.060956694162954364), ('lol', 0.044942299721344274)]
+
+
+Text:
+no one did it to the niggers you lying {ike whore
+
+Explanation for abusive classification:
+[('niggers', 0.5600588327659012), ('whore', 0.152162618987158), ('the', 0.07314135745409221), ('ike', -0.030446217928701974), ('to', 0.022896768949659897)]
+
+
+Text:
+do not worry negress q speaks and we will show the ni@ger rigging a marcus garvey boat ticket is in your future
+
+Explanation for abusive classification:
+[('negress', 0.6757920646926109), ('worry', 0.09908611087417071), ('do', 0.09422510648792212), ('your', 0.040503011071202834), ('not', 0.035309407255418625)]
+
+
+Text:
+trudeau is a muzzie loving fa@got he loves the goathumpers at the expense of canadians yet the canadians elected him what is wrong with canada
+
+Explanation for abusive classification:
+[('muzzie', 0.514907213351351), ('goathumpers', 0.2372727382842759), ('got', 0.07142857406295432), ('the', 0.0573363068444482), ('expense', -0.044818673513500475)]
+
+
+Text:
+im anti racism but pro normalizing words like faggot and ni@ger and kike and so on theyre just words lmao
+
+Explanation for abusive classification:
+[('kike', 0.4620866501653385), ('faggot', 0.0972689738178627), ('like', -0.08297078793566195), ('and', -0.05549684609400099), ('words', -0.054133244135935385)]
+
+
+Text:
+stupid commie cunts fuck them well actually do not fuck the bald lesbian that just nasty plus she does not like dick and do not fuck the black one or the fat one who wants to go ghett~ or hoggin the one on the left is doable though
+
+Explanation for abusive classification:
+[('cunts', 0.31647112439089586), ('them', 0.20245154483228028), ('go', 0.1939459054309185), ('lesbian', 0.15999358087520785), ('fuck', 0.1552814804261897)]
+
+
+Text:
+i will slap da shit outta white girl bitch do not tell me you want my ni@ger cock
+
+Explanation for abusive classification:
+[('bitch', 0.2799834459335741), ('white', 0.15999074534293833), ('slap', 0.12906272608769395), ('da', 0.12404805950915301), ('outta', 0.10604329751876372)]
+
+
+Text:
+he gave @ou a brillo pad that you all spend a fortune on to get rid of so you can look like white women
+
+Explanation for abusive classification:
+[('women', 0.1356718054943976), ('like', 0.12539489655053732), ('look', 0.10078266650821881), ('white', 0.06392920808631276), ('fortune', -0.027464902312247387)]
+
+
+Text:
+not only that but these people fled their country this country was founded upon fighting @he most well armed well disciplined army on the planet and freemen were victorious i see something in the shit hole refugees futures
+
+Explanation for abusive classification:
+[('their', 0.10348816598936832), ('shit', 0.09607867545419506), ('something', 0.0631927234288912), ('people', -0.06214410588660539), ('i', 0.06144741534979569)]
+
+
+Text:
+imagine trusting that rat faced faggot {ike
+
+Explanation for abusive classification:
+[('faggot', 0.48204004970121783), ('rat', 0.20463613617684356), ('that', 0.09398206942507491), ('faced', 0.09366972939370152), ('imagine', 0.06149858530305926)]
+
+
+Text:
+so if the ghett~ clans and angry dumb fems so come over with there muslum terrorist buddies that are equally great appearetly for whatever reason will this site cater to them because they do love a good upsetting it like a happening for them except is it different
+
+Explanation for abusive classification:
+[('fems', 0.39054889309931784), ('dumb', 0.19136660037009645), ('terrorist', 0.15041932534887564), ('so', 0.09819421326203841), ('muslum', 0.09291569080545432)]
+
+
+Text:
+went to chik fil e instead of normal quick line of cars things are slow instead of nice how can i serve u greeting its like can i take ur order ni@ger girl specifically asked <number> chik file a sauce get home no sauce mother fucker export all niggers
+
+Explanation for abusive classification:
+[('niggers', 0.5341836519260887), ('all', 0.10607687229172691), ('fucker', 0.06523154763493115), ('get', 0.0546658091822187), ('home', -0.025619691301501064)]
+
+
+Text:
+nobody else would find these women attractive but the m@zzies routinely fuck sheep and goats an ugly old woman is a treat to them
+
+Explanation for abusive classification:
+[('goats', 0.2168851528164615), ('an', 0.215225810278435), ('else', 0.20615352842339102), ('fuck', 0.18652559809796118), ('ugly', 0.15463891190156157)]
+
+
+Text:
+<user> your a fa@got fucker coon boy suck my horse cock
+
+Explanation for abusive classification:
+[('coon', 0.5140355932962231), ('fucker', 0.14028861160411885), ('suck', 0.1250750711392071), ('boy', 0.09610814868950163), ('your', 0.06281691712186743)]
+
+
+Text:
+<user> screw @ou you homophobic asshole
+
+Explanation for abusive classification:
+[('asshole', 0.349585016872215), ('homophobic', 0.27008104092684865), ('you', 0.18835736505400238), ('user', -0.08955203353048628), ('ou', -0.05812221170110099)]
+
+
+Text:
+blah blah blah ga{reference deep state blah blah blah lol just come out the closet already homo
+
+Explanation for abusive classification:
+[('homo', 0.36508104061641716), ('already', 0.06205233682810309), ('the', 0.043088041090764265), ('blah', 0.041905816696733704), ('closet', 0.038009999994678294)]
+
+
+Text:
+<user> eldar <s queer race imperium of man is patriarchy welcome to the new faggotry lmao
+
+Explanation for abusive classification:
+[('faggotry', 0.49182728913074636), ('race', 0.05878551594877603), ('man', 0.05699742229191426), ('to', -0.053620368820269396), ('new', 0.05062363568132103)]
+
+
+Text:
+i have a question for you <user> why do you think all these nasty dirty towel heads want to kill whites why do you think they =re in our white lands i am just curious here
+
+Explanation for abusive classification:
+[('towel', 0.4344197230677472), ('heads', 0.2527300917429595), ('dirty', 0.16077726900323974), ('want', 0.13612054907931304), ('user', -0.07491244625694593)]
+
+
+Text:
+anyone that stepped foot on desert soil and fought those sand ni:gers please tell me does it make you sick to see them taking over america
+
+Explanation for abusive classification:
+[('those', 0.14904732154962488), ('fought', 0.14150359115997133), ('ni', 0.14009633444700384), ('sand', 0.10773610971871679), ('stepped', 0.09598830454114775)]
+
+
+Text:
+hey ni@ger lover we don t care what you have to say here go back to your nigger friends
+
+Explanation for abusive classification:
+[('nigger', 0.7414344310835862), ('your', 0.05842580684065758), ('hey', 0.03764788340944399), ('to', 0.03536416551263438), ('say', -0.008411595198737219)]
+
+
+Text:
+fact whites are the only race that care about animals ni:gers eat them chinks torture them and arabs fuck them
+
+Explanation for abusive classification:
+[('arabs', 0.22898894446841822), ('chinks', 0.16624617388959434), ('gers', 0.15411606671143016), ('them', 0.10549689837691956), ('care', 0.07441729541786425)]
+
+
+Text:
+my ching chong <s so cutie
+
+Explanation for abusive classification:
+[('chong', 0.5262435245234032), ('ching', 0.2767718554075469), ('s', -0.08931514224262341), ('my', -0.029581403424102638), ('so', -0.012437052852826822)]
+
+
+Text:
+ok there white knight are you thirsty for her ni@ger cum drenched cunt
+
+Explanation for abusive classification:
+[('cunt', 0.43404842755424916), ('drenched', 0.3098093460115599), ('ok', 0.12403588593101851), ('there', 0.1031501677693765), ('cum', 0.07451299363947375)]
+
+
+Text:
+a ni@ger will never respect jesus a nigger will never respect anything if jesus was black he would respect jesus but because jesus was white even an educated nigger will never respect anyone white
+
+Explanation for abusive classification:
+[('nigger', 0.33028840549296795), ('nigger', 0.12973444971638012), ('a', 0.10012695704638228), ('educated', 0.07004222858117083), ('white', -0.06084155955549075)]
+
+
+Text:
+<user> pass the funding @ou ’ re hurting the poor illegal aliens
+
+Explanation for abusive classification:
+[('aliens', 0.3398413068977861), ('illegal', 0.15607102091684713), ('the', 0.15605333120039636), ('poor', 0.14847841140451418), ('pass', 0.08395905126829019)]
+
+
+Text:
+<user> would have pressed that bitch and beat the fa@got out of him
+
+Explanation for abusive classification:
+[('bitch', 0.21976099364513757), ('that', 0.13480284088833505), ('have', 0.06769030457699003), ('got', 0.05459474632229857), ('would', 0.04093609901145901)]
+
+
+Text:
+these h~es really be talking bout another hoe and still be in that hoe face
+
+Explanation for abusive classification:
+[('face', 0.17599068620240552), ('another', 0.13916203630827262), ('that', 0.13866100911022378), ('hoe', 0.12017801375789279), ('bout', 0.10469540702152806)]
+
+
+Text:
+whitey prevails for a change miss south africa beats out a nig two spics and a g@ok to win miss u
+
+Explanation for abusive classification:
+[('nig', 0.3418274116267179), ('spics', 0.22290498431329075), ('two', 0.22170995615159217), ('a', 0.17059668397557134), ('miss', 0.162932728473765)]
+
+
+Text:
+suicide @he camel face muscum cunt
+
+Explanation for abusive classification:
+[('cunt', 0.3483461381518659), ('muscum', 0.2304849711599251), ('camel', 0.13314224846326542), ('face', 0.10939640588709819), ('suicide', 0.09359723180938595)]
+
+
+Text:
+meh more likely it the digital version of rent seeking racist {ike slumlords son do not rent to white men white men insist that the plumbing works and do not rent to your brother he deserves better than a ghetto
+
+Explanation for abusive classification:
+[('ghetto', 0.18659680520323227), ('better', 0.09295308593319108), ('deserves', 0.08231118390143025), ('of', 0.07784818870732578), ('do', 0.07033550793321308)]
+
+
+Text:
+attention all lieberal feminazi here a cause for you put on your pussy hats and go get the toxic male responsible for actual pussy grabbing c mon lying bit.hes still waiting
+
+Explanation for abusive classification:
+[('feminazi', 0.35384331318542284), ('all', 0.2523648370602853), ('lieberal', 0.12275662385013876), ('put', 0.11484983272243955), ('here', 0.09212620919470613)]
+
+
+Text:
+oh i am a person i say you do not like challenges you turn your head when it niggers act like niggers but when a white steps to you like a ni@ger and you think you have a chance your wrd salads help not you cosmo faggot that a white american expression
+
+Explanation for abusive classification:
+[('faggot', 0.2618884545791683), ('niggers', 0.1561556128576715), ('niggers', 0.12705055156744524), ('like', 0.10292953231428055), ('not', 0.08474490560062213)]
+
+
+Text:
+msm blamed this muzrat terrorist attack on women and dropped @he story like it was a hot potato
+
+Explanation for abusive classification:
+[('muzrat', 0.7382763032190173), ('it', 0.03944171135519382), ('this', 0.03760531794619018), ('women', 0.03310506494648943), ('terrorist', 0.02769523436828992)]
+
+
+Text:
+i noticed in this sting operation video the brown third worlder who was unabashed about banning right wingers <s an indian its very embarassing for us indians in india when these dumbfucks go to usa settle there and then decide to backstab white majority by spewing venom against them kick them out
+
+Explanation for abusive classification:
+[('brown', 0.21721960916185154), ('who', 0.1802648805180087), ('worlder', 0.15630299406950712), ('by', 0.13929273495014302), ('there', 0.11465293010276625)]
+
+
+Text:
+homosexuals did @he holocaust
+
+Explanation for abusive classification:
+[('homosexuals', 0.3939277190648598), ('holocaust', 0.10034023859055036), ('did', -0.008306550045671872), ('he', 0.0035639386312710866)]
+
+
+Text:
+dying at all the hillbilly canton moms on social media like if you yell at my son i will kill you with these redneck bare hands chill out sabrina all you =re gonna do is give me the stink eye at the drive through cig place and keep it moving lmao
+
+Explanation for abusive classification:
+[('redneck', 0.317862485946908), ('moms', 0.19889243051201122), ('all', 0.13458632665241088), ('stink', 0.1112457855697609), ('at', 0.11023426561966833)]
+
+
+Text:
+<user> there are mus.im umma fuckers muslim halal facebook is not reliable we must have a website social networking far powerfrul than muslim halal facebook we can destroy the coward muslim umma fuckers very easily
+
+Explanation for abusive classification:
+[('muslim', 0.24259923900396452), ('fuckers', 0.206425724839315), ('fuckers', 0.13062594821781004), ('muslim', 0.09707078301401907), ('user', -0.09149749683647487)]
+
+
+Text:
+pro tip the ni:gers do not care if you never owned slaves granddaddy fought the natzis or great great grandad ground the confederacy into dust with the boot heel of the proto bolshevik yankee gubment force of weight and arms behind it they hate you because you are white and you exist altright
+
+Explanation for abusive classification:
+[('gers', 0.12571106547781183), ('white', 0.1174256340546683), ('you', 0.0921965402418468), ('they', 0.08117687662742502), ('you', 0.08077824859756362)]
+
+
+Text:
+they =re allowing this beaner on ellen degenerate show because no one but thots and other assorted sjw wymyn watch that shit
+
+Explanation for abusive classification:
+[('beaner', 0.7048650980428742), ('this', 0.06992928964449535), ('shit', 0.044346560229635214), ('because', 0.04388035764736102), ('and', 0.03903070764418373)]
+
+
+Text:
+ben is a dumb {ike but he sure is god at burning sjw faggots so he is a predictable winner for fag to fag confronts
+
+Explanation for abusive classification:
+[('faggots', 0.44449188522903804), ('fag', 0.15343158301980814), ('ben', 0.1178556486694159), ('fag', 0.11319069675527178), ('sjw', 0.10144221198365838)]
+
+
+Text:
+<user> we knew from the beginning it was set up for that white bit~h to win smfh 🙄 ru a coon
+
+Explanation for abusive classification:
+[('coon', 0.3790479173244793), ('a', 0.22231744050891508), ('we', 0.10749652840152879), ('up', 0.07991529070605877), ('that', 0.054542001015268286)]
+
+
+Text:
+or the construction company hired some @aghead sleeper cell asshole
+
+Explanation for abusive classification:
+[('asshole', 0.20109647332314357), ('aghead', 0.07646817569623279), ('hired', 0.06418517571618251), ('some', 0.06133586601281696), ('cell', 0.040353579300571304)]
+
+
+Text:
+jews got whites hooked on ni@ger culture
+
+Explanation for abusive classification:
+[('jews', 0.7310621784357687), ('whites', 0.0397058822531105), ('hooked', 0.020032942086697175), ('culture', -0.016503313831715258), ('on', 0.014772398447395233)]
+
+
+Text:
+i know my previous post was pretty cucked i believe in enforcing @he law but this guy was a good kid why cannot we just deport the shitskin muzzles instead that why i mainly voted for trump
+
+Explanation for abusive classification:
+[('shitskin', 0.691970733008252), ('in', 0.08566154826732521), ('enforcing', 0.07795124017254611), ('i', 0.06729078480137479), ('a', 0.06147726966206308)]
+
+
+Text:
+in time my friend in time they do already support the acid in my {oslem wife face libtards hollywood sucks
+
+Explanation for abusive classification:
+[('hollywood', 0.1240946177270435), ('libtards', 0.11149651432978022), ('wife', 0.10594049821557514), ('oslem', 0.06500017888957695), ('the', 0.061208785280383995)]
+
+
+Text:
+pretty sure he fought @he confederacy pretty sure your party uses lincolns name to endear coon black folks like <user> and <user> to your party while at the same time celebrating the people who fought him and killed him lol
+
+Explanation for abusive classification:
+[('coon', 0.20790051789483352), ('black', 0.13683989017921358), ('endear', 0.12477866445771203), ('folks', 0.08345416647957839), ('him', 0.07886918222815877)]
+
+
+Text:
+when you are fighting a war as}etarded as afghanistan all you have to keep you going are your brothers and he betrayed them i do not even want this shithead tortured i just want him dead you do not waste torture on a cockroach you step on it
+
+Explanation for abusive classification:
+[('shithead', 0.3361910951425472), ('this', 0.16378655383754753), ('keep', 0.13127385436254818), ('you', 0.1287592543196311), ('him', 0.11165484802548596)]
+
+
+Text:
+theyblove hezbollah they have admitted this id rather submit to a jew than even acknowledge a sandn:gger terrorist group is even remotely okay not saying i would obviously
+
+Explanation for abusive classification:
+[('jew', 0.4013304434404266), ('a', 0.11092612056830181), ('would', 0.08705098912365698), ('even', 0.07269456079146909), ('to', 0.07132107152448497)]
+
+
+Text:
+dont try to follow me cunts i aint blind bitch fa@got sandniggers
+
+Explanation for abusive classification:
+[('sandniggers', 0.4724568133017812), ('cunts', 0.10982219178854125), ('bitch', 0.08669373965144304), ('follow', 0.05729841235033621), ('blind', 0.052969849121430705)]
+
+
+Text:
+idk about you but i think kimjongun is perhaps}etarded no offense to retarded people northkorea
+
+Explanation for abusive classification:
+[('retarded', 0.5805010827097261), ('you', 0.07125346298070849), ('to', 0.04512092082856137), ('people', -0.035904533402877206), ('idk', -0.02305714114581629)]
+
+
+Text:
+worst mistake ever shouldve sliced off the balls of all africans killed them just like the arabs typical christ cuck pussies why the fuck would you endanger your white stable gene pool by allowing africans to breed je<s subverted your cucked religion for a reason
+
+Explanation for abusive classification:
+[('arabs', 0.24625472110756083), ('pussies', 0.17138360309318199), ('just', 0.1462823994862625), ('africans', 0.11944430312047323), ('them', 0.10975506995055777)]
+
+
+Text:
+i want roy moore to win even if it only to hear all the kikes commie fa@got scum screaming about inbred misogynistic toothless alabama hillbilly white trash
+
+Explanation for abusive classification:
+[('kikes', 0.4245957170665745), ('about', 0.1565585032258463), ('trash', 0.13513058599556696), ('if', 0.11192402120718935), ('alabama', 0.10262759065275871)]
+
+
+Text:
+snow ni@ger does not want to be blamed for slavery and the sins of past white men but wants to take credit for everything else low iq bottom feeder trailer trash
+
+Explanation for abusive classification:
+[('iq', 0.28547484730652267), ('ni', 0.19104917408484706), ('and', 0.16392910322462517), ('slavery', 0.15899555381010802), ('else', 0.14925332910225889)]
+
+
+Text:
+in two tweets a naive cuck and midwit jew perfectly illustrate white jew relations cuck sees jewish listed twice on dnc tweet hmm sumptins fishy {ike tries to shut it down anti semite cuck expects fairness and explains kike suck my dick harder goyim
+
+Explanation for abusive classification:
+[('kike', 0.48896380008405765), ('jew', 0.1404153723283779), ('goyim', 0.06894714046287186), ('jew', 0.06341903003290675), ('jewish', -0.04626242236211279)]
+
+
+Text:
+justin you fucking}etarded asshole get this through your thick skull once and for all even the globalist scumbags running the un will not pick a retard like you to be the secretary general
+
+Explanation for abusive classification:
+[('retard', 0.4063944098283412), ('asshole', 0.17599949209258087), ('get', 0.14594488886098028), ('etarded', 0.1107092363685198), ('you', 0.10673755072413106)]
+
+
+Text:
+<number> yr ago muslims shot killed whites blacks latinos asians christians je<s for the fact they were non muslim americans sanbernardino
+
+Explanation for abusive classification:
+[('muslims', 0.2075597152601191), ('number', 0.10158739625518132), ('ago', 0.0984803568763438), ('christians', -0.07844683244654883), ('shot', -0.07735962766887108)]
+
+
+Text:
+if these ghett~ trash gangsta pussies are so bad ass then why do they almost always group up in packs of <number> or more to attack a solo white person and they tend to pick weakened inebriated or incapacitated victims doh
+
+Explanation for abusive classification:
+[('pussies', 0.3426577127147699), ('trash', 0.2295783908670989), ('these', 0.1837740260587721), ('gangsta', 0.13970291516096625), ('if', 0.08844212879386464)]
+
+
+Text:
+yet another muslime ni@ger heard from
+
+Explanation for abusive classification:
+[('muslime', 0.5183770092827514), ('another', 0.27499749017656944), ('from', -0.057495860331609944), ('yet', -0.052170263211596804), ('ger', -0.03600644753912614)]
+
+
+Text:
+justin trudeau is the}etarded asshole bastard son of fidel castro
+
+Explanation for abusive classification:
+[('asshole', 0.45560598536539393), ('bastard', 0.19013192552651062), ('etarded', 0.12874131102063266), ('trudeau', 0.06507760604076743), ('is', 0.04410980942155604)]
+
+
+Text:
+couple of days ago corrupt dhimmi {oslem cock suckers in msm said <number> rohingya moslems gone to bangladesh earlier 2 day skynews said <number> now channel 4 news say <number> me thinks fake news by moslem funded whores quite frankly who gives a shit as long as moslems fo to moslem shit holes
+
+Explanation for abusive classification:
+[('moslems', 0.2022454002281887), ('moslem', 0.17409333353218126), ('shit', 0.1679120989042441), ('corrupt', 0.10283199242173102), ('gone', 0.09810854435029473)]
+
+
+Text:
+<user> of course a fat white bit~h is pro another fat white bitch
+
+Explanation for abusive classification:
+[('bitch', 0.351959653492163), ('white', 0.2414841774484585), ('fat', 0.2336986104871624), ('of', 0.0753820765231265), ('user', 0.06416943782292267)]
+
+
+Text:
+the left just got caught in their own trap they promote {slam and inter racial marriage mudsharks etc now they want to eliminate freedom of association and not mix it up you cannot fix stupid
+
+Explanation for abusive classification:
+[('marriage', 0.17327399673871022), ('etc', 0.16816178726999015), ('and', 0.16019523898516194), ('own', 0.13926225963241692), ('want', 0.1124168377586118)]
+
+
+Text:
+do the democrats feel white privilege or white racists =re the problem these retards are retarted
+
+Explanation for abusive classification:
+[('retards', 0.23427695429589185), ('retarted', 0.20005631291338158), ('democrats', 0.07155864822095201), ('or', 0.04819003347458398), ('are', 0.04246437892071486)]
+
+
+Text:
+we can either all gang up on the {ike or the kike can get everyone to gang up on us
+
+Explanation for abusive classification:
+[('kike', 0.8235113405080001), ('get', 0.032982007319477376), ('the', 0.02893776290421702), ('the', 0.010179026594935898), ('gang', 0.0029742665479113436)]
+
+
+Text:
+i said that ghett~ trash like emminem is in at the moment and my acct got blocked i signed in an deleted my account tired of being lectured and censored while ghetto trash is allowed <number> speak freely
+
+Explanation for abusive classification:
+[('ghetto', 0.33992844627840735), ('trash', 0.24489932158990743), ('trash', 0.13683829203741157), ('while', 0.12172152638138123), ('of', 0.11285235707987029)]
+
+
+Text:
+two of the people i am really getting sick and tired of seeing as guests on these evening news programs are that wild eyed gook malkin and the physically}etarded jew krauthammer i change the channel when they come on there are others the list is growing
+
+Explanation for abusive classification:
+[('jew', 0.297835453012688), ('eyed', 0.14740468139336044), ('gook', 0.10063950906525852), ('etarded', 0.08867595692357459), ('on', 0.08570205194697725)]
+
+
+Text:
+make up your}etarded mind did hitler or did he not kill <number> jews
+
+Explanation for abusive classification:
+[('jews', 0.47055119807835655), ('did', 0.1073915973636132), ('number', -0.07775721828529648), ('not', -0.07534040602125627), ('hitler', -0.03499866952628862)]
+
+
+Text:
+lol oh yeah ok you wanna fight lets go queer anyone who jojns the military withour being drafted is a fa@got too
+
+Explanation for abusive classification:
+[('queer', 0.19777623395380525), ('the', 0.11311666141483866), ('who', 0.07902789075009128), ('military', 0.07471542305646293), ('drafted', 0.07446160687054043)]
+
+
+Text:
+what the fuck coca cola not a joke multicultural commercial featuring song america just had mus.im immams and head bags and lyric god shed his grace on thee in arabic they really want us fucking dead
+
+Explanation for abusive classification:
+[('arabic', 0.18461473628445857), ('dead', 0.13308571007486197), ('and', 0.10389196615576037), ('mus', 0.10148264573072377), ('want', 0.09908534498216458)]
+
+
+Text:
+we hate islam and we will mock your paedophile prophet mohammed as much as we want no we dont care what you think or how offended you are we are americans and we are free to say what we want bit~h banislam
+
+Explanation for abusive classification:
+[('islam', 0.3660083565221237), ('paedophile', 0.24217070618790273), ('we', 0.1504112706369934), ('your', 0.13186843982940452), ('think', 0.08260043202012537)]
+
+
+Text:
+plenty of e celebs have covered israid sending africans from israel to europe patrick little promotes zionism as the solution to the jq he wants to reward jews with their own ethno state in response to them ruining ours this is the type of {ike you are supporting m8
+
+Explanation for abusive classification:
+[('jews', 0.16744008984709707), ('their', 0.07639935063192281), ('the', 0.04760524819805249), ('have', 0.045998824162080704), ('of', 0.04515612376649328)]
+
+
+Text:
+yeah @ got to about just over <number> followers and got shoahed for criticizing amy schumer being cast as barbie and just never bothered to return and surprise surprise i was correct and they nixed that kikey plan but whatevs <happy>
+
+Explanation for abusive classification:
+[('kikey', 0.551551590705291), ('that', 0.2132871634403603), ('schumer', 0.16187785317547917), ('about', 0.1471721152190925), ('got', 0.10465672512424992)]
+
+
+Attack success rate: 516/951 = 0.5426

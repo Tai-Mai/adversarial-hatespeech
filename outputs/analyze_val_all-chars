@@ -1,0 +1,14 @@
+Saving substitution dictionary to data/substitutions_val_all-chars.json
+Number of posts (correctly classified as abusive): 934
+Number vulnerable posts: 649
+Number resistant posts: 285
+Mean text length: 126.7291 +- 75.6292
+Mean number of attacks: 12672.9122 +- 7562.9156
+Mean number of successful attacks: 342.9165 +- 868.8039
+Mean vulnerable text length: 114.3436 +- 73.2852
+Mean resistant text length: 154.9333 +- 73.2791
+Mean number of successful attacks: 342.9165 +- 868.8039
+Mean number of successful attacks (normalized for text length): 4.2301 +- 8.1457
+Mean number of successful attacks (in top 5): 3.3073 +- 2.3088
+Mean success rate: 0.0423 +- 0.0815
+Mean success rate (normalized for text length): 0.0008 +- 0.0024

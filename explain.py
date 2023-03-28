@@ -9,7 +9,7 @@ from tqdm import tqdm
 import gc
 
 
-def lime_explain(model, tokenizer, attacks_file, top_k=5, num_features=5):
+def lime_explain(text, model, tokenizer, top_k=5, num_features=5):
     """
     Reads the file containing the attacks, gets rationale explanations using 
     LIME, and adds them to the file in-place.
@@ -39,51 +39,16 @@ def lime_explain(model, tokenizer, attacks_file, top_k=5, num_features=5):
             class_names=["normal", "abusive"],
             bow=False
     )
+
+    text_explained = explainer.explain_instance(
+            text, 
+            lambda txt: predict(txt, model, tokenizer, return_tensor=True),
+            num_features=num_features,
+            num_samples=100
+    )
+
+    return text_explained.as_list()
     
-    with open(attacks_file, "r") as f:
-        attacks = json.load(f)
-
-    with torch.no_grad():
-        for post_id, results in tqdm(attacks.items(), total=len(attacks)):
-            original = results["original"]["text"]
-
-            # text_list = [original]
-            # for k in range(top_k):
-            #     text_list.append(results["attacks"][k]["text"])
-
-            # exp = explainer.explain_instance(
-            #         text_list, 
-            #         lambda text: predict(text, model, tokenizer,
-            #                               return_tensor=True),
-            #         num_features=num_features
-            # )
-
-
-            exp_original = explainer.explain_instance(
-                    original, 
-                    lambda text: predict(text, model, tokenizer,
-                                         return_tensor=True),
-                    num_features=num_features,
-                    num_samples=100
-            )
-            # print(torch.cuda.memory_summary(device=0))
-            # print("\nExplanation of original text:\n", exp_original.as_list())
-            attacks[post_id]["original"]["explanation"] = exp_original.as_list()
-
-            for k, attack in enumerate(results["top_k_attacks"][:top_k]):
-                exp_attack = explainer.explain_instance(
-                        attack["text"],
-                        lambda text: predict(text, model, tokenizer,
-                                             return_tensor=True),
-                        num_features=num_features,
-                        num_samples=100
-                )
-                # print(torch.cuda.memory_summary(device=0))
-                # print("Explanation of attacked text:\n", exp_attack.as_list())
-                attacks[post_id]["top_k_attacks"][k]["explanation"] = exp_attack.as_list()
-
-            with open(attacks_file, "w") as f:
-                json.dump(attacks, f, indent=4)
 
 
 def main():
@@ -103,7 +68,40 @@ def main():
 
     target_file = "data/adversarial_examples_all-chars.json"
 
-    lime_explain(model, tokenizer, target_file)
+
+    with open(attacks_file, "r") as f:
+        attacks = json.load(f)
+
+    with torch.no_grad():
+        for post_id, results in tqdm(attacks.items(), total=len(attacks)):
+            original = results["original"]["text"]
+
+            # exp_original = explainer.explain_instance(
+            #         original, 
+            #         lambda text: predict(text, model, tokenizer,
+            #                              return_tensor=True),
+            #         num_features=num_features,
+            #         num_samples=100
+            # )
+
+            exp_original = lime_explain(original, model, tokenizer)
+            # attacks[post_id]["original"]["explanation"] = exp_original.as_list()
+            attacks[post_id]["original"]["explanation"] = exp_original
+
+            for k, attack in enumerate(results["top_k_attacks"][:top_k]):
+                # exp_attack = explainer.explain_instance(
+                #         attack["text"],
+                #         lambda text: predict(text, model, tokenizer,
+                #                              return_tensor=True),
+                #         num_features=num_features,
+                #         num_samples=100
+                # )
+                exp_attack = lime_explain(attack["text"], model, tokenizer)
+                # attacks[post_id]["top_k_attacks"][k]["explanation"] = exp_attack.as_list()
+                attacks[post_id]["top_k_attacks"][k]["explanation"] = exp_attack
+
+            with open(attacks_file, "w") as f:
+                json.dump(attacks, f, indent=4)
 
 
 if __name__ == "__main__":
