@@ -27,6 +27,7 @@ $ git clone https://huggingface.co/Hate-speech-CNERG/bert-base-uncased-hatexplai
 * Run `batchscripts/attack.sh`
 * Resulting adversarial examples are saved in `data/attacks_val_no-letters.json`
     (already done in this repo)
+* Remove `--lime` to use brute force attacks
 
 ### 2. Analyze adversarial examples for stats
 * Run `batchscripts/analyze.sh`
