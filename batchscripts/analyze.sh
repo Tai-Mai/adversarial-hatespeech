@@ -1,6 +1,6 @@
 #!/bin/bash
-#SBATCH --job-name=analyze_val_no-letters
-#SBATCH --output=outputs/analyze_val_no-letters.txt
+#SBATCH --job-name=analyze_val_no-letters_lime
+#SBATCH --output=outputs/analyze_val_no-letters_lime.txt
 #SBATCH --mail-user=mai@cl.uni-heidelberg.de
 #SBATCH --mail-type=ALL
 #SBATCH --partition=compute
@@ -24,4 +24,4 @@
 # export PYTHONPATH=${PYTHONPATH}:${PAPER_REPO}
 # PYTHONPATH=${PAPER_REPO}
 
-python3 analyze.py --attacks_file "data/attacks_val_no-letters.json"
+python3 analyze.py --attacks_file "data/attacks_val_no-letters_lime.json"

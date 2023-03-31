@@ -138,13 +138,12 @@ def main():
     attacks_file = args.attacks_file
     folder = os.path.split(attacks_file)[0]
     filename = os.path.split(attacks_file)[1]
+    filename = "_".join(filename.split("_")[1:])
     # attacks_file = f"data/attacks_{split}_no-letters.json"
     # substitution_dict = f"data/substitutions_{split}_no-letters.json"
-    split = filename.split("_")[1]
-    permissible_subs = filename.split("_")[2]
     substitution_file = os.path.join(
             folder, 
-            f"substitutions_{split}_{permissible_subs}"
+            f"substitutions_{filename}"
     )
     print(f"Saving substitution dictionary to {str(substitution_file)}")
     analyze(attacks_file, substitution_file)

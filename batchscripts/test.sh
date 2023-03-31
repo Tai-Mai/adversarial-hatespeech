@@ -1,6 +1,6 @@
 #!/bin/bash
-#SBATCH --job-name=test_val_no-letters
-#SBATCH --output=outputs/test_val_no-letters.txt
+#SBATCH --job-name=test_val_no-letters_lime
+#SBATCH --output=outputs/test_val_no-letters_lime.txt
 #SBATCH --mail-user=mai@cl.uni-heidelberg.de
 #SBATCH --mail-type=ALL
 #SBATCH --partition=students
@@ -26,4 +26,4 @@
 
 python3 attack_dataset.py \
     --split "test" \
-    --substitution_file data/substitutions_val_no-letters.json
+    --substitution_file data/substitutions_val_no-letters_lime.json

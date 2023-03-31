@@ -9,6 +9,7 @@ from utils.attack import attack
 from utils.data import (format_dataset_file, load_data, fast_forward, 
                         save_adversarial_examples, prediction_to_dataset_file)
 from tqdm import tqdm
+import sys
 import string
 import os
 from explain import lime_explain
@@ -50,7 +51,14 @@ def main():
             help="Substitution dictionary that's generated after running main.py and analyze.py",
             default=None
     )
+    parser.add_argument(
+            "--lime", 
+            help="Bool, whether to use LIME to choose victim token. {True, False}. Default: False",
+            default=False
+    )
     args = parser.parse_args()
+
+    lime = bool(args.lime)
 
     device = "cuda" if torch.cuda.is_available() else "cpu"
     print(f"Device: {device}\n")
@@ -92,7 +100,10 @@ def main():
     dataset = load_data(dataset_file, split=split)
 
     # JSON file that will contain the found adversarial examples
-    target_file = f"data/attacks_{split}_{args.permissible_subs}.json"
+    if lime: 
+        target_file = f"data/attacks_{split}_{args.permissible_subs}_lime.json"
+    else:
+        target_file = f"data/attacks_{split}_{args.permissible_subs}.json"
 
     # Fast-forward the dataset to the last attacked datapoint in case target_file 
     # exists. 
@@ -107,12 +118,15 @@ def main():
 
     print("Attacking dataset...")
     if args.substitution_file is None:
-        for post in tqdm(dataset, total=num_datapoints-num_skipped):    
+        # for post in tqdm(dataset, total=num_datapoints-num_skipped, file=sys.stdout):
+        for post in tqdm(dataset, total=num_datapoints-num_skipped):
+        # for post in dataset:
             # 1142 is number of abusive datapoints in the test set
 
             original_text = TreebankWordDetokenizer().detokenize(post["post_tokens"])
 
-            results = attack(original_text, model, tokenizer, permissible_substitutions)
+            results = attack(original_text, model, tokenizer,
+                             permissible_substitutions, lime=lime)
 
             save_adversarial_examples(post["post_id"], results, target_file)
     else:
@@ -127,7 +141,8 @@ def main():
 
         successful = 0
         abusive_scores = []
-        for post in tqdm(dataset, total=num_datapoints):    
+        # for post in tqdm(dataset, total=num_datapoints, file=sys.stdout):
+        for post in tqdm(dataset, total=num_datapoints):
         # for post in dataset:
             text = post["post_tokens"]
             # Find the token in the current post that was attacked the most.  
@@ -157,7 +172,11 @@ def main():
                     successful += 1
                 else:
                     text_explained = lime_explain(text, model, tokenizer)
-                    with open(f"data/{split}_{source_split}_{permissible_substitutions}_unsuccessful.txt", "a") as f:
+                    if lime:
+                        fname = f"data/{split}_{source_split}_{permissible_substitutions}_lime_unsuccessful.txt"
+                    else: 
+                        fname = f"data/{split}_{source_split}_{permissible_substitutions}_unsuccessful.txt"
+                    with open(fname, "a" ) as f:
                         f.write("Text:\n")
                         f.write(text)
                         f.write("\n\nExplanation for abusive classification:\n")

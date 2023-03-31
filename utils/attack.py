@@ -3,8 +3,10 @@ import transformers
 import string
 import torch
 from utils.eval import predict
+from explain import lime_explain
 
-def attack(original_text, model, tokenizer, permissible_substitutions, top_k=5):
+def attack(original_text, model, tokenizer, permissible_substitutions,
+           lime=False, top_k=5):
     """
     Return adversarial examples
 
@@ -18,6 +20,9 @@ def attack(original_text, model, tokenizer, permissible_substitutions, top_k=5):
         Tokenizer from trained HateXplain model
     permissible_substitutions : str
         String containing all permissible substitution characters
+    lime : bool
+        Whether to use lime for choosing a victim token. If True, limits the
+        attack area to that token.
     top_k : int
         Return this many of the best candidates. Best is determined by how much
         they influence the probabilities
@@ -59,10 +64,22 @@ def attack(original_text, model, tokenizer, permissible_substitutions, top_k=5):
                                          tokenizer)[1]
     # Generate attacks
     candidate_probabilities = {}
-    for i, char in enumerate(original_text):
+
+    if lime:
+        text_explained = lime_explain(original_text, model, tokenizer)
+        print(text_explained)
+        victim_token = text_explained[0][0]
+        print(victim_token, '\n')
+        start_index = original_text.index(victim_token)
+        end_index = start_index + len(victim_token)
+    else: 
+        start_index = 0
+        end_index = len(original_text)
+
+    for i, char in enumerate(original_text[start_index:end_index]):
         if char in string.whitespace: 
             continue
-        for candidate in generate_candidates(original_text, i, permissible_substitutions):
+        for candidate in generate_candidates(original_text, i+start_index, permissible_substitutions):
             candidate_probability = predict(candidate, model,
                                              tokenizer)[1]
             

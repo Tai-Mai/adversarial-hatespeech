@@ -1,0 +1,14 @@
+Saving substitution dictionary to data/substitutions_val_no-letters_lime.json
+Number of posts (correctly classified as abusive): 934
+Number vulnerable posts: 614
+Number resistant posts: 320
+Mean text length: 126.7291 +- 75.6292
+Mean number of attacks: 5322.6231 +- 3176.4246
+Mean number of successful attacks: 81.6135 +- 89.9920
+Mean vulnerable text length: 111.7752 +- 72.1156
+Mean resistant text length: 155.4219 +- 73.9153
+Mean number of successful attacks: 81.6135 +- 89.9920
+Mean number of successful attacks (normalized for text length): 1.2075 +- 1.8607
+Mean number of successful attacks (in top 5): 3.1263 +- 2.3693
+Mean success rate: 0.0288 +- 0.0443
+Mean success rate (normalized for text length): 0.0007 +- 0.0018
