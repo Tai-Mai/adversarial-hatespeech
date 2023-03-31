@@ -4,14 +4,24 @@
 ```bash
 $ pip install transformers nltk lime pipreqs
 $ pip install --no-cache-dir torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
-$ git clone https://huggingface.co/Hate-speech-CNERG/bert-base-uncased-hatexplain-rationale-two
 ```
 * `nltk` for detokenizing
 * `lime` for explaining
 * `pipreqs` for creating `requirements.txt`
 
+Alternatively: (not tested)
+```bash
+$ pip install -r requirements.txt
+```
+
 ## Usage
 * All important functions are documented with docstrings
+```bash
+$ git clone https://huggingface.co/Hate-speech-CNERG/bert-base-uncased-hatexplain-rationale-two
+```
+
+### Preparation
+* Clone the huggingface repo of the HateXplain model
 
 ### 1. Find adversarial examples
 * Run `batchscripts/attack.sh`
