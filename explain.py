@@ -52,6 +52,15 @@ def lime_explain(text, model, tokenizer, top_k=5, num_features=5):
 
 
 def main():
+    parser = argparse.ArgumentParser(
+            description="Explain adversarial attacks with LIME"
+    )
+    parser.add_argument(
+            "--attacks_file", 
+            help="JSON file containing the generated adversarial attacks",
+            default=None
+    )
+    args = parser.parse_args()
     device = "cuda" if torch.cuda.is_available() else "cpu"
     print(f"Device: {device}\n")
 
@@ -66,7 +75,8 @@ def main():
     model = model.to(device)
     model.eval()
 
-    target_file = "data/adversarial_examples_all-chars.json"
+    # target_file = "data/adversarial_examples_all-chars.json"
+    target_file = args.attacks_file
 
 
     with open(attacks_file, "r") as f:
