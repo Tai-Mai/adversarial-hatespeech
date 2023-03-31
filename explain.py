@@ -7,6 +7,7 @@ from lime.lime_text import LimeTextExplainer
 import json
 from tqdm import tqdm
 import gc
+import argparse
 
 
 def lime_explain(text, model, tokenizer, top_k=5, num_features=5):
@@ -60,7 +61,16 @@ def main():
             help="JSON file containing the generated adversarial attacks",
             default=None
     )
+    parser.add_argument(
+            "--top_n", 
+            help="How many of the top attacks to explain. Must be not above top_k. Default: k=5, n=3",
+            default=5
+    )
     args = parser.parse_args()
+    # target_file = "data/adversarial_examples_all-chars.json"
+    attacks_file = args.attacks_file
+    top_n = int(args.top_n)
+
     device = "cuda" if torch.cuda.is_available() else "cpu"
     print(f"Device: {device}\n")
 
@@ -74,9 +84,6 @@ def main():
     )
     model = model.to(device)
     model.eval()
-
-    # target_file = "data/adversarial_examples_all-chars.json"
-    target_file = args.attacks_file
 
 
     with open(attacks_file, "r") as f:
@@ -98,7 +105,7 @@ def main():
             # attacks[post_id]["original"]["explanation"] = exp_original.as_list()
             attacks[post_id]["original"]["explanation"] = exp_original
 
-            for k, attack in enumerate(results["top_k_attacks"][:top_k]):
+            for n, attack in enumerate(results["top_k_attacks"][:top_n]):
                 # exp_attack = explainer.explain_instance(
                 #         attack["text"],
                 #         lambda text: predict(text, model, tokenizer,
@@ -108,7 +115,7 @@ def main():
                 # )
                 exp_attack = lime_explain(attack["text"], model, tokenizer)
                 # attacks[post_id]["top_k_attacks"][k]["explanation"] = exp_attack.as_list()
-                attacks[post_id]["top_k_attacks"][k]["explanation"] = exp_attack
+                attacks[post_id]["top_k_attacks"][n]["explanation"] = exp_attack
 
             with open(attacks_file, "w") as f:
                 json.dump(attacks, f, indent=4)
