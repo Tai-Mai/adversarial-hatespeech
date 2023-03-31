@@ -126,6 +126,7 @@ def main():
             subs_dict = json.load(f)
 
         successful = 0
+        abusive_scores = []
         for post in tqdm(dataset, total=num_datapoints):    
         # for post in dataset:
             text = post["post_tokens"]
@@ -151,6 +152,7 @@ def main():
                 text[victim_index] = substitute_token
                 text = TreebankWordDetokenizer().detokenize(text)
                 probabilities = predict(text, model, tokenizer)
+                abusive_scores.append(probabilities[1])
                 if probabilities[1] < 0.5:  # if abusive score is below 0.5
                     successful += 1
                 else:
@@ -163,11 +165,13 @@ def main():
                         f.write("\n\n\n")
 
         success_rate = successful / num_datapoints
+        average_abusive_score = sum(abusive_scores)/len(abusive_scores)
         
         with open(f"data/{split}_{source_split}_{permissible_substitutions}_unsuccessful.txt", "a") as f:
             f.write("Attack success rate: {}/{} = {:.4f}".format(successful, 
                                                            num_datapoints, 
                                                            success_rate))
+            f.write("\nAverage abusive score of successful attacks: {:.4f}".format(average_abusive_score))
 
 
     print("Done.")
