@@ -1,5 +1,9 @@
 # adversarial-hatespeech
 
+> [!WARNING]  
+> Content warning: Hateful language.
+> Due to the nature of the task tackled in this project, the report and the accompanying code and data contain hateful words and phrases that may be upsetting. To avoid confusion with adversarial text produced through methods introduced in this project, I opted not to censor these hateful terms. Reader discretion is advised.
+
 ## Installation
 ```bash
 $ pip install transformers nltk lime pipreqs
